@@ -255,6 +255,9 @@ def extract_metadata_pmc(html: str) -> dict:
     journal = first_nonempty(*meta_get_all(soup, ["citation_journal_title"]))
     doi = first_nonempty(*meta_get_all(soup, ["citation_doi"]))
 
+    # Authors from meta tags
+    authors = meta_get_all(soup, ["citation_author"])
+
     # Fallback: look for a year in prominent header/front matter.
     if year is None:
         front = soup.find(id="front") or soup.find("header")
@@ -267,6 +270,7 @@ def extract_metadata_pmc(html: str) -> dict:
         "year": year,
         "journal": journal,
         "doi": doi,
+        "authors": authors
     }
 
 
