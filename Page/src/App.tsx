@@ -1,35 +1,67 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import SplitPane from './Components/SplitPane';
+import TitleBox from './Components/TitleBox';
+import JournalBox from './Components/JournalBox';
+import { papers } from './data/papers';
+import Timeline from './Components/Timeline';
+import JournalFilter from './Components/JournalFilter';
+import type { PaperBoxProps } from './Components/JournalBox';
+
+// ✅ LeftPanel now takes a papers prop
+const LeftPanel: React.FC<{ papers: PaperBoxProps[] }> = ({ papers }) => {
+  return (
+    <div>
+      <TitleBox title="Navigation" className="navigation" />
+      {papers.map((paper, index) => (
+        <JournalBox
+          key={index}
+          title={paper.title}
+          authors={paper.authors}
+          keywords={paper.keywords}
+          abstractSnippet={paper.abstractSnippet}
+        />
+      ))}
+    </div>
+  );
+};
+
+// ✅ CenterPanel only handles the search bar
+const CenterPanel: React.FC<{
+  searchQuery: string;
+  setSearchQuery: (q: string) => void;
+}> = ({ searchQuery, setSearchQuery }) => (
+  <div>
+    <TitleBox title="Search" className="sidebar" />
+    <JournalFilter searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+  </div>
+);
+
+const RightPanel = () => (
+  <div>
+    <TitleBox title="AI Timeline/Up-next" className="sidebar" />
+    <Timeline />
+  </div>
+);
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // ✅ Filtering logic lives here (shared between panels)
+  const filteredPapers = papers.filter((paper) =>
+    paper.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <SplitPane>
+      {/* LeftPanel receives filtered papers */}
+      <LeftPanel papers={filteredPapers} />
+
+      {/* CenterPanel controls search input */}
+      <CenterPanel searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+
+      <RightPanel />
+    </SplitPane>
+  );
 }
 
-export default App
+export default App;
