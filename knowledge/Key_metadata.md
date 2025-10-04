@@ -1,0 +1,20 @@
+# Information Important for Metadata and Citation
+- Title
+- Author
+  - Authors
+- Editor
+- Date (DD/MMM/YYYY)
+- Journal
+- Volume Number
+- Issue Number
+  - Issue
+- Pages
+- DOI
+- PMID
+- PMCID
+- Keywords
+  - Key terms
+  - Key-words
+  - Key-terms
+  - Keyterms
+- Total Citations
