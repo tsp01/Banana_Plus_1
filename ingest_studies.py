@@ -9,7 +9,8 @@ Schema:
         journal TEXT,
         doi TEXT,
         hash TEXT NOT NULL UNIQUE,
-        author TEXT
+        author TEXT,
+        PMID TEXT
     )
 """
 
@@ -85,7 +86,9 @@ def ensure_schema(conn):
             journal TEXT,
             doi TEXT,
             hash TEXT NOT NULL UNIQUE,
-            authors TEXT NOT NULL
+            authors TEXT NOT NULL,
+            PMID INTEGER NOT NULL,
+            citation_count INTEGER
         );
     """)
     cur.execute("CREATE INDEX IF NOT EXISTS idx_studies_year ON studies(date);")
@@ -125,8 +128,24 @@ def first_nonempty(*vals):
             return v.strip()
     return None
 
+def get_citation_count(pmid: int, timeout: float, user_agent: str, sleep_secs: float) -> int:
+    try:
+        status, html = fetch_html("https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=" + str(pmid[0]), timeout=timeout, user_agent=user_agent)
+        if status != 200:
+            print(f"Code: {status} for URL: yes")
+        soup = soup_or_none(html)
+        if sleep_secs > 0:
+            time.sleep(sleep_secs)
+        #a = soup.find_all(".results-amount .value")
+        a = int(soup.find("div", {"class": "results-amount"}).contents[1].contents[1].contents[0])
+        return a
+    except Exception as e:
+        print("definitiely not my problem")
+        return 0
+    
+    
 
-def extract_metadata_pmc(html: str) -> dict:
+def extract_metadata_pmc(html: str, timeout: float, user_agent: str, sleep_secs: float) -> dict:
     soup = soup_or_none(html)
 
     raw_date = first_nonempty(*meta_get_all(soup, ["citation_publication_date", "citation_date", "dc.date"]))
@@ -136,6 +155,15 @@ def extract_metadata_pmc(html: str) -> dict:
 
     # Authors from meta tags
     authors = meta_get_all(soup, ["citation_author"])
+
+    # PMID
+    PMId = meta_get_all(soup, ["citation_pmid"])
+
+    # Citation count
+    citationCount = get_citation_count(PMId, timeout=timeout, user_agent=user_agent, sleep_secs=sleep_secs)
+    print("Citation Count is " + str(citationCount))
+    if (citationCount == -1):
+        citationCount = 1
 
     # Fallback: look for a year in prominent header/front matter.
     if year is None:
@@ -149,7 +177,9 @@ def extract_metadata_pmc(html: str) -> dict:
         "year": year,
         "journal": journal,
         "doi": doi,
-        "authors": authors
+        "authors": authors,
+        "PMID": PMId,
+        "citation_count": citationCount
     }
 
 
@@ -157,22 +187,22 @@ def get_or_fetch_metadata(url: str, timeout: float, user_agent: str, sleep_secs:
 
     try:
         status, html = fetch_html(url, timeout=timeout, user_agent=user_agent)
-        meta = extract_metadata_pmc(html)
+        meta = extract_metadata_pmc(html, timeout, user_agent, sleep_secs)
         if status != 200:
             print(f"Code: {status} for URL: {url}")
         if sleep_secs > 0:
             time.sleep(sleep_secs)
         return meta
     except Exception as e:
-        print("definitiely not my prblem")
+        print("definitiely not my prblem" + str(e))
         return {"raw_date": None, "year": None, "journal": None, "doi": None}
 
 def upsert_row(conn: sqlite3.Connection, row: dict) -> bool:
     cur = conn.cursor()
     cur.execute(
         """
-        INSERT OR IGNORE INTO studies (title, link, date, journal, doi, hash)
-        VALUES (:title, :link, :date, :journal, :doi, :hash)
+        INSERT OR IGNORE INTO studies (title, link, date, journal, doi, hash, authors, PMID, citation_count)
+        VALUES (:title, :link, :date, :journal, :doi, :hash, :authors, :PMID, :citation_count)
         """,
         row,
     )
@@ -219,7 +249,9 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
                         "journal": meta.get("journal"),
                         "doi": meta.get("doi"),
                         "hash": hash_val,
-                        "authors": meta.get("authors")
+                        "authors": " ".join(meta.get("authors")),
+                        "PMID": meta.get("PMID")[0],
+                        "citation_count": meta.get("citation_count")
                     },
                 )
                 if success:
