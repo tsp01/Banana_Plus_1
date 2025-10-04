@@ -7,8 +7,9 @@ Schema:
         date TEXT,             
         created_at TEXT DEFAULT CURRENT_TIMESTAMP,
         journal TEXT,
-        doi TEXT
-        hash TEXT NOT NULL UNIQUE
+        doi TEXT,
+        hash TEXT NOT NULL UNIQUE,
+        author TEXT
     )
 """
 
@@ -83,7 +84,8 @@ def ensure_schema(conn):
             created_at TEXT DEFAULT CURRENT_TIMESTAMP,
             journal TEXT,
             doi TEXT,
-            hash TEXT NOT NULL UNIQUE
+            hash TEXT NOT NULL UNIQUE,
+            authors TEXT NOT NULL
         );
     """)
     cur.execute("CREATE INDEX IF NOT EXISTS idx_studies_year ON studies(date);")
@@ -196,6 +198,7 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
                 link = (raw.get(link_key) or "").strip()
                 if not title and not link:
                     skipped += 1
+                    print("Failed to ingest " + str(title))
                     continue
                 if not title:
                     title = link
@@ -212,14 +215,14 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
                         "date": meta.get("date"),
                         "journal": meta.get("journal"),
                         "doi": meta.get("doi"),
-                        "hash": hash_val
+                        "hash": hash_val,
+                        "authors": meta.get("authors")
                     },
                 )
                 if success:
                     inserted += 1
                 else:
                     skipped += 1
-                    print("Failed to ingest " + str(title))
 
         # this seems to be wrong? I don't really know or care why
         cur = conn.cursor()
