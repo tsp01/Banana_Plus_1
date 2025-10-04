@@ -45,6 +45,10 @@
 
 - Acknowledgements
   - Conflicts of Interest
+  - Conflict of Interest
+  - Funding Statement
+
+- Abbreviations
 
 - Appendix
   - Supplemental
