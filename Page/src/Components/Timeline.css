@@ -3,14 +3,14 @@
   width: 90%;
   height: 120px;
   padding: 16px;
-  margin-top: 30em;
+  padding-top: 30em;
   margin-left: auto;
   margin-right: auto;
 }
 
 .timeline-line {
   position: absolute;
-  top: 25%;
+  top: 78%; /* center line vertically */
   left: 0;
   right: 0;
   height: 4px;
@@ -20,26 +20,33 @@
 }
 
 .timeline-node {
-  position: absolute; /* necessary for proportional placement */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: absolute;
   text-align: center;
   z-index: 2;
 }
 
+/* Circle centered on timeline */
 .timeline-node .circle {
+  width: 40px;
+  height: 40px;
   background-color: #007bff;
   color: white;
   font-weight: bold;
   border-radius: 50%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  position: relative;
+  top: 50%; /* center circle vertically on the timeline */
+  transform: translateY(-50%);
 }
 
+/* Label below the circle */
 .timeline-node a {
-  margin-top: 8px;
+  display: block;
+  margin-top: 0px; /* distance from the circle */
   text-decoration: none;
   color: rgb(124, 124, 124);
   font-size: 12px;

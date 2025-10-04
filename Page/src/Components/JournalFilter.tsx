@@ -8,7 +8,7 @@ interface JournalFilterProps {
 const JournalFilter: React.FC<JournalFilterProps> = ({ searchQuery, onSearchChange }) => (
   <input
     type="text"
-    placeholder="Search by title..."
+    placeholder="Search by title and natural language search"
     value={searchQuery}
     onChange={(e) => onSearchChange(e.target.value)}
     style={{ padding: '8px', marginBottom: '16px', width: '100%' }}

@@ -9,7 +9,7 @@ const Timeline: React.FC = () => {
   const maxYear = sortedData[sortedData.length - 1].year;
   const yearRange = maxYear - minYear || 1;
 
-  const getNodeSize = (count: number) => Math.min(50, 20 + count * 2);
+  const getNodeSize = (count: number) => Math.min(75, 20 + count * 2);
 
   // Convert years to initial proportional positions
   const rawPositions = sortedData.map(item => ((item.year - minYear) / yearRange) * 100);
