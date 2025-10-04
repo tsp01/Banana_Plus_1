@@ -96,6 +96,9 @@ def fetch_html(url: str, timeout: float, user_agent: str) -> tuple[int, str]:
 
     headers = {"User-Agent": user_agent}
     resp = requests.get(url, headers=headers, timeout=timeout)
+    if resp.status_code != 200:
+        time.sleep(5)
+        resp = requests.get(url, headers=headers, timeout=timeout)
     return resp.status_code, resp.text
 
 def soup_or_none(html: str):
