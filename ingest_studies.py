@@ -161,7 +161,7 @@ def upsert_row(conn: sqlite3.Connection, row: dict) -> bool:
     cur = conn.cursor()
     cur.execute(
         """
-        INSERT INTO studies (title, link, date, journal, doi, hash)
+        INSERT OR IGNORE INTO studies (title, link, date, journal, doi, hash)
         VALUES (:title, :link, :date, :journal, :doi, :hash)
         """,
         row,
