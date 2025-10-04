@@ -1,5 +1,7 @@
 # Important Headers Found In Research Papers
 - Abstract
+  - Author summary
+  - Summary
 
 - Intro:
   - Background
@@ -12,7 +14,9 @@
 
 - Keywords
   - Key-terms
-  - Keyterms    
+  - Keyterms
+  - Subject-terms
+  - Subject terms
  
 - Methods
   - Procedure
@@ -47,6 +51,12 @@
   - Conflicts of Interest
   - Conflict of Interest
   - Funding Statement
+  - Funding
+  - Footnote
+  - Footnotes
+  - Competing interests
+  - Competing interest
+  - Contributor Information
 
 - Abbreviations
 
