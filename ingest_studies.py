@@ -402,6 +402,7 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
                     inserted += 1
                 else:
                     skipped += 1
+                    print("Failed to ingest " + str(title))
 
         # Sanity check / final tally from the database.
         cur = conn.cursor()
