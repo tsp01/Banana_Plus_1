@@ -129,6 +129,10 @@ def extract_metadata_pmc(html: str) -> dict:
     journal = first_nonempty(*meta_get_all(soup, ["citation_journal_title"]))
     doi = first_nonempty(*meta_get_all(soup, ["citation_doi"]))
 
+    # Authors from meta tags
+    authors = meta_get_all(soup, ["citation_author"])
+
+    # Fallback: look for a year in prominent header/front matter.
     if year is None:
         front = soup.find(id="front") or soup.find("header")
         if front:
@@ -140,6 +144,7 @@ def extract_metadata_pmc(html: str) -> dict:
         "year": year,
         "journal": journal,
         "doi": doi,
+        "authors": authors
     }
 
 
@@ -214,6 +219,7 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
                     inserted += 1
                 else:
                     skipped += 1
+                    print("Failed to ingest " + str(title))
 
         # this seems to be wrong? I don't really know or care why
         cur = conn.cursor()
