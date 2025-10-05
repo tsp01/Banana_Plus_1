@@ -27,8 +27,8 @@ def do_search(req: SearchRequest):
     results = search(req.searchQuery, k=req.k, threshold=req.threshold)
     titles = [r.get("title") for r in results]
     if not titles:
-        return {"papers": ["No relevant papers found."]}
-    return {"papers": titles}
+        return ["No results found."]
+    return titles
 
 
 if __name__ == "__main__":
