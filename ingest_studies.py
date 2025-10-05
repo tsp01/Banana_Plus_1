@@ -130,17 +130,25 @@ def first_nonempty(*vals):
 
 def get_citation_count(pmid: int, timeout: float, user_agent: str, sleep_secs: float) -> int:
     try:
-        status, html = fetch_html("https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=" + str(pmid[0]), timeout=timeout, user_agent=user_agent)
-        if status != 200:
-            print(f"Code: {status} for URL: yes")
-        soup = soup_or_none(html)
-        if sleep_secs > 0:
-            time.sleep(sleep_secs)
-        #a = soup.find_all(".results-amount .value")
-        a = int(soup.find("div", {"class": "results-amount"}).contents[1].contents[1].contents[0])
-        return a
+        success = False;
+        while (not success):
+            url = "https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=" + str(pmid[0])
+            status, html = fetch_html(url, timeout=timeout, user_agent=user_agent)
+            if status == 429:
+                time.sleep(sleep_secs)
+                continue
+            elif status != 200:
+                print(f"Code: {status} for URL: {url}")
+            else: # Status = 200
+                success = not success
+            soup = soup_or_none(html)
+            if sleep_secs > 0:
+                time.sleep(sleep_secs)
+            #a = soup.find_all(".results-amount .value")
+            a = int(soup.find("div", {"class": "results-amount"}).contents[1].contents[1].contents[0])
+            return a
     except Exception as e:
-        print("definitiely not my problem")
+        print("An error occurred: " + str(e))
         return 0
     
     
@@ -162,8 +170,6 @@ def extract_metadata_pmc(html: str, timeout: float, user_agent: str, sleep_secs:
     # Citation count
     citationCount = get_citation_count(PMId, timeout=timeout, user_agent=user_agent, sleep_secs=sleep_secs)
     print("Citation Count is " + str(citationCount))
-    if (citationCount == -1):
-        citationCount = 1
 
     # Fallback: look for a year in prominent header/front matter.
     if year is None:
@@ -267,7 +273,7 @@ def ingest(csv_path: str, db_path: str, timeout: float, user_agent: str, sleep_s
     finally:
         conn.close()
 
-def run_ingest(csv_path="SB_publication_PMC.csv", db_path="studies.db", timeout=12.0, user_agent="Mozilla/5.0", sleep_secs=0.0):
+def run_ingest(csv_path="SB_publication_PMC.csv", db_path="studies.db", timeout=12.0, user_agent="Mozilla/5.0", sleep_secs=12.0):
     try:
         stats = ingest(
             csv_path=csv_path,
@@ -283,7 +289,6 @@ def run_ingest(csv_path="SB_publication_PMC.csv", db_path="studies.db", timeout=
         sys.exit(1)
 
 if __name__ == "__main__":
-    from time import time
-    start = time()
+    start = time.time()
     run_ingest()
-    print(f"Done in {time() - start:.2f} seconds.")
+    print(f"Done in {time.time() - start:.2f} seconds.")
