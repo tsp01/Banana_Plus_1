@@ -37,9 +37,12 @@ const LeftPanel: React.FC<{ papers: PaperBoxProps[] }> = ({ papers }) => (
   </div>
 );
 
-//
-// CenterPanel — contains the search and filter controls
-//
+// -----------------------------------------------------------
+// CenterPanel — displays filters and sends them to a backend
+// -----------------------------------------------------------
+
+// We’re using React.FC (React Functional Component) with a TypeScript type definition.
+// This describes what "props" (inputs) the component accepts.
 const CenterPanel: React.FC<{
   searchQuery: string;
   setSearchQuery: (q: string) => void;
@@ -58,28 +61,88 @@ const CenterPanel: React.FC<{
   setSelectedAuthors,
   allKeywords,
   allAuthors,
-}) => (
-  <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-    <TitleBox title="Filters" className="main" />
+}) => {
+  // -----------------------------------------------------------
+  // 🆕 Step 1. Define a function to send the filters to the backend
+  // -----------------------------------------------------------
+  //
+  // `async` means this function can use "await" to pause until things (like fetch) finish.
+  async function sendFiltersToServer() {
+    // Create a simple JavaScript object containing all filters.
+    const filters = {
+      searchQuery,       // text from the search box
+    };
 
-    {/* Free text search bar (title-based) */}
-    <JournalFilter searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+    console.log("Hello - Kulraj: " + JSON.stringify(filters));
 
-    {/* Keyword selector (single-choice) */}
-    <KeywordFilter
-      keywords={allKeywords}
-      selectedKeyword={selectedKeyword}
-      onSelectKeyword={setSelectedKeyword}
-    />
+    // Send the filters to the backend as JSON using fetch()
+    const response = await fetch("http://localhost:8453/query", {
+      method: "POST", // Use POST when sending data
+      headers: {
+        "Content-Type": "application/json", // Tell server the body is JSON
+      },
+      body: JSON.stringify(filters), // Convert object → JSON string
+    });
 
-    {/* Author selector (multi-choice) */}
-    <AuthorFilter
-      authors={allAuthors}
-      selectedAuthors={selectedAuthors}
-      onChange={setSelectedAuthors}
-    />
-  </div>
-);
+    // Check if the response is OK (HTTP 200–299)
+    if (!response.ok) {
+      console.error("❌ Failed to send filters to server");
+      return;
+    }
+
+    // Convert response JSON back into a JavaScript object
+    const data = await response.json();
+
+    // Log what the server sent back (usually search results)
+    console.log("✅ Received data from server:", data);
+  }
+
+  // -----------------------------------------------------------
+  // 🧩 Step 2. Return the component layout
+  // -----------------------------------------------------------
+  //
+  // This is the visual structure — same as before,
+  // but now with a new "Send Filters" button at the bottom.
+  return (
+    <div style={{ padding: "16px", display: "flex", flexDirection: "column", gap: "12px" }}>
+      {/* Section title */}
+      <TitleBox title="Filters" className="main" />
+
+      {/* Free text search bar (title-based) */}
+      <JournalFilter searchQuery={searchQuery} onSearchChange={setSearchQuery} />
+
+      {/* Keyword selector (single-choice) */}
+      <KeywordFilter
+        keywords={allKeywords}
+        selectedKeyword={selectedKeyword}
+        onSelectKeyword={setSelectedKeyword}
+      />
+
+      {/* Author selector (multi-choice) */}
+      <AuthorFilter
+        authors={allAuthors}
+        selectedAuthors={selectedAuthors}
+        onChange={setSelectedAuthors}
+      />
+
+      {/* 🆕 Step 3. Add a button that calls sendFiltersToServer() */}
+      <button
+        onClick={sendFiltersToServer} // Call the function when clicked
+        style={{
+          marginTop: "8px",
+          padding: "8px 12px",
+          backgroundColor: "#007bff",
+          color: "white",
+          border: "none",
+          borderRadius: "4px",
+          cursor: "pointer",
+        }}
+      >
+        Send Filters
+      </button>
+    </div>
+  );
+};
 
 //
 // RightPanel — shows the AI research timeline visualization
