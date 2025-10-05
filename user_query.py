@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 
@@ -6,15 +7,26 @@ from sim_search import search
 
 app = FastAPI()
 
+#uncomment for local 
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
+
+app = FastAPI()
+
 class SearchRequest(BaseModel):
-    query: str
+    searchQuery: str
     k: Optional[int] = None
     threshold: Optional[float] = 0.4
 
 
 @app.post("/search", response_model=List[str])
 def do_search(req: SearchRequest):
-    results = search(req.query, k=req.k, threshold=req.threshold)
+    results = search(req.searchQuery, k=req.k, threshold=req.threshold)
     titles = [r.get("title") for r in results]
     return {"papers": titles}
 
