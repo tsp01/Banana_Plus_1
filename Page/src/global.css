@@ -1,0 +1,53 @@
+/* global.css (or wherever .app is defined) */
+
+/* The main container */
+/* 1. Global Background (App or Body) */
+/* This element holds the *sharp* background image */
+.app {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Apply the image to the main container */
+  background-image: url("../image/Untitled-1@2x.png"); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  overflow: hidden;
+  /* NO filter here */
+}
+
+/* 2. The Pane (The semi-transparent, blurred element) */
+.pane-wrapper {
+  /* This class wraps your LeftPanel, CenterPanel, etc. */
+  /* You will need to apply this to the outer container of your SplitPane children. */
+  position: relative;
+  z-index: 10; /* Make sure it's above everything */
+}
+
+/* The element that is visually a "pane" */
+.pane {
+  /* Ensure element has some background transparency for backdrop-filter to work */
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+  
+  /* CRITICAL: Apply the blur/darken to the area *behind* this pane */
+  backdrop-filter: blur(20px) brightness(0.5); 
+  
+  /* Ensure content (text/buttons) is still legible */
+  color: white; 
+  
+  /* Add any size/positioning styles here */
+  /* e.g., height, width, padding */
+}
+
+/* global.css */
+.panel-content {
+    /* The inline styles you had before, moved to CSS for better practice: */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    /* CRITICAL: Ensures content is above the background */
+    position: relative;
+    z-index: 2; /* or 3, as long as it's > 1 */
+}

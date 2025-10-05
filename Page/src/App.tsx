@@ -11,10 +11,12 @@ import AuthorFilter from './Components/AuthorFilter';
 import type { PaperBoxProps } from './Components/JournalBox';
 import VerticalTimeline from './Components/VerticalTimeline';
 import type { TimelineEvent } from './Components/VerticalTimeline';
+import './global.css';
 
 // ------------------ LEFT PANEL ------------------
 const LeftPanel: React.FC<{ papers: PaperBoxProps[] }> = ({ papers }) => (
-  <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+  // ADDED className="panel-content"
+  <div className="panel-content">
     <TitleBox title="Navigation" className="navigation" />
     {papers.map((paper, index) => (
       <JournalBox
@@ -67,7 +69,8 @@ const CenterPanel: React.FC<{
   };
 
   return (
-    <div style={{ padding: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+    // ADDED className="panel-content"
+    <div className="panel-content">
       <TitleBox title="Filters" className="main" />
       <JournalFilter searchQuery={searchQuery} onSearchChange={setSearchQuery} />
       <KeywordFilter
@@ -100,7 +103,8 @@ const CenterPanel: React.FC<{
 
 // ------------------ RIGHT PANEL ------------------
 const RightPanel: React.FC<{ events: TimelineEvent[] }> = ({ events }) => (
-  <div style={{ padding: '16px', height: '100%', position: 'relative' }}>
+  // ADDED className="panel-content" (removed inline style to be managed by CSS)
+  <div className="panel-content" style={{ height: '100%', position: 'relative' }}>
     <TitleBox title="AI Timeline" className="sidebar" />
     <VerticalTimeline events={events} />
   </div>
@@ -132,6 +136,7 @@ function App() {
     }));
 
   return (
+    <div className="app">
     <SplitPane>
       <LeftPanel papers={filteredPapers} />
       <CenterPanel
@@ -146,6 +151,7 @@ function App() {
       />
       <RightPanel events={timelineEvents} />
     </SplitPane>
+    </div>
   );
 }
 

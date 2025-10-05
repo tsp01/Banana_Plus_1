@@ -12,6 +12,8 @@
   letter-spacing: 0.5px;
   box-shadow: inset 0 -1px 0 rgba(255,255,255,1);
   border-radius: 10px;
+  text-align: center;
+  
 }
 
 /* ===========================
@@ -20,16 +22,15 @@
 
 /* Navigation Pane: standard blue — same as default */
 .pane-title.navigation {
-  background-color: #007acc;
+  background-color: #507838;
 }
 
 /* Main Pane: green — visually emphasizes primary content area */
 .pane-title.main {
-  background-color: #28a745;
+  background-color: #784A38;
 }
 
 /* Sidebar Pane: yellow — distinct and attention-catching, with dark text for contrast */
 .pane-title.sidebar {
-  background-color: #ffc107;
-  color: #000; /* Ensures high readability on a light background */
+  background-color: #383F78;
 }
