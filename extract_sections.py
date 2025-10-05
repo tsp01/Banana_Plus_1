@@ -82,75 +82,50 @@ HEADING_VARIANTS = {
         ]
     }
 
-def _build_compiled_variants(heading_variants: Dict[str, List[str]]):
-    """Compile anchored regex per variant for line-by-line heading detection."""
-    compiled = []
-    for section, variants in heading_variants.items():
-        for v in variants:
-            pat = re.compile(
-                rf"^\s*"
-                rf"(?:\d+\s*[\.\)]\s*|[ivxlcdm]+\s*[\.\)]\s*)?"  # optional numbering
-                rf"(?:#+\s*)?"                                   # optional markdown hashes
-                rf"(?:{v})"
-                rf"(?:\s*[:\-–—])?\s*$",                         # optional trailing colon/dash
-                re.IGNORECASE,
-            )
-            compiled.append((section, v, pat))
-    # Prefer more specific (longer) variants first (e.g., 'results and discussion' before 'results')
-    compiled.sort(key=lambda t: len(t[1]), reverse=True)
-    return compiled
+def extract_sections(text: str) -> dict:
+    """
+    Splits a full article text into sections based on heading variants.
 
-def extract_sections(article_text: str, heading_variants=HEADING_VARIANTS) -> Dict[str, str]:
-    """Return {section_key: text} for all keys in heading_variants (empty string if missing)."""
-    lines = article_text.splitlines(keepends=True)
+    Args:
+        text (str): The full article text (plain).
+        heading_variants (dict): Mapping of normalized section names to regex heading variants.
 
-    # Precompute char offsets for each line start to slice original text later
-    starts = []
-    pos = 0
-    for ln in lines:
-        starts.append(pos)
-        pos += len(ln)
+    Returns:
+        dict: {section_name: text_content}
+    """
+    # Flatten all variants into a single regex mapping
+    compiled_patterns = {
+        key: [re.compile(rf"^\s*(?:#{{1,6}}\s*)?({variant})\s*$", re.I) for variant in variants]
+        for key, variants in HEADING_VARIANTS.items()
+    }
 
-    compiled = _build_compiled_variants(heading_variants)
+    sections = {}
+    current_section = "title"
+    sections[current_section] = []
 
-    # Find heading lines; take the most specific match per line
-    headings = []
-    for i, raw_line in enumerate(lines):
-        line = raw_line.rstrip("\n")
-        for section, variant, pat in compiled:
-            if pat.fullmatch(line.strip()):
-                headings.append((i, section))
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        matched_section = None
+        for sec_name, regexes in compiled_patterns.items():
+            if any(r.match(stripped) for r in regexes):
+                matched_section = sec_name
                 break
 
-    # Prepare output dict with all keys present
-    out: Dict[str, str] = {k: "" for k in heading_variants.keys()}
+        if matched_section:
+            current_section = matched_section
+            if current_section not in sections:
+                sections[current_section] = []
+        else:
+            sections[current_section].append(stripped)
 
-    def is_delim(l: str) -> bool:
-        s = l.strip()
-        return len(s) >= 3 and all(ch in "-=_~*" for ch in s)
+    # Join content and clean up
+    for sec, content in sections.items():
+        sections[sec] = re.sub(r"[-=]{3,}", "", "\n".join(content)).strip()
 
-    # Slice content between headings
-    for idx, (line_no, section) in enumerate(headings):
-        # start after heading (skip any immediate underline like "-----")
-        start_line = line_no + 1
-        while start_line < len(lines) and is_delim(lines[start_line]):
-            start_line += 1
-        start = starts[start_line] if start_line < len(starts) else len(article_text)
+    # Remove empty sections
+    sections = {k: v for k, v in sections.items() if v}
 
-        end = starts[headings[idx + 1][0]] if idx + 1 < len(headings) else len(article_text)
-        chunk = article_text[start:end].strip()
-        if not chunk:
-            continue
-        out[section] = (out[section] + ("\n\n" if out[section] else "") + chunk)
-
-    return out
-
-# Example usage:
-if __name__ == "__main__":
-    with open("tst.txt", "r", encoding="utf-8") as f:
-        article_text = f.read()
-
-    sections = extract_sections(article_text, HEADING_VARIANTS)
-
-    for key, value in sections.items():
-        print(f"\n--- {key.upper()} ---\n{value[:500]}...\n")
+    return sections
