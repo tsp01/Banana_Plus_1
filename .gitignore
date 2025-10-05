@@ -6,7 +6,8 @@ studies.db
 # C extensions
 *.so
 *.db
-
+*.pkl
+*.index
 # Distribution / packaging
 .Python
 build/
