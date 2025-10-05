@@ -14,22 +14,28 @@ import type { TimelineEvent } from './Components/VerticalTimeline';
 import './global.css';
 
 // ------------------ LEFT PANEL ------------------
-const LeftPanel: React.FC<{ papers: PaperBoxProps[] }> = ({ papers }) => (
-  // ADDED className="panel-content"
-  <div className="panel-content">
-    <TitleBox title="Navigation" className="navigation" />
-    {papers.map((paper, index) => (
-      <JournalBox
-        key={index}
-        title={paper.title}
-        authors={paper.authors}
-        keywords={paper.keywords}
-        abstractSnippet={paper.abstractSnippet}
-        year={paper.year}
-      />
-    ))}
-  </div>
-);
+const LeftPanel: React.FC<{ papers: PaperBoxProps[] }> = ({ papers }) => {
+  // hooks can go here safely if needed in future
+  return (
+    <div className="panel-content">
+      <TitleBox title="Navigation" className="navigation" />
+      {papers.length === 0 ? (
+        <div>No papers available</div>
+      ) : (
+        papers.map((paper, index) => (
+          <JournalBox
+            key={index}
+            title={paper.title}
+            authors={paper.authors}
+            keywords={paper.keywords}
+            abstractSnippet={paper.abstractSnippet}
+            year={paper.year}
+          />
+        ))
+      )}
+    </div>
+  );
+};
 
 // ------------------ CENTER PANEL ------------------
 const CenterPanel: React.FC<{
@@ -51,6 +57,7 @@ const CenterPanel: React.FC<{
   allKeywords,
   allAuthors,
 }) => {
+  // hooks safe here
   const sendFiltersToServer = async () => {
     const filters = { searchQuery };
     console.log('Sending filters:', filters);
@@ -69,7 +76,6 @@ const CenterPanel: React.FC<{
   };
 
   return (
-    // ADDED className="panel-content"
     <div className="panel-content">
       <TitleBox title="Filters" className="main" />
       <JournalFilter searchQuery={searchQuery} onSearchChange={setSearchQuery} />
@@ -102,13 +108,22 @@ const CenterPanel: React.FC<{
 };
 
 // ------------------ RIGHT PANEL ------------------
-const RightPanel: React.FC<{ events: TimelineEvent[] }> = ({ events }) => (
-  // ADDED className="panel-content" (removed inline style to be managed by CSS)
-  <div className="panel-content" style={{ height: '100%', position: 'relative' }}>
-    <TitleBox title="AI Timeline" className="sidebar" />
-    <VerticalTimeline events={events} />
-  </div>
-);
+const RightPanel: React.FC<{ events: TimelineEvent[]; timelineTitles: string[] }> = ({
+  events,
+  timelineTitles,
+}) => {
+  // hooks safe here
+  return (
+    <div className="panel-content" style={{ height: '100%', position: 'relative' }}>
+      <TitleBox title="AI Timeline" className="sidebar" />
+      {events.length === 0 ? (
+        <div>No events to display</div>
+      ) : (
+        <VerticalTimeline events={events} timelineTitles={timelineTitles} />
+      )}
+    </div>
+  );
+};
 
 // ------------------ MAIN APP ------------------
 function App() {
@@ -117,7 +132,9 @@ function App() {
   const [selectedAuthors, setSelectedAuthors] = useState<string[]>([]);
 
   const allKeywords = Array.from(new Set(papers.flatMap((p) => p.keywords)));
-  const allAuthors = Array.from(new Set(papers.flatMap((p) => p.authors.split(',').map((a) => a.trim()))));
+  const allAuthors = Array.from(
+    new Set(papers.flatMap((p) => p.authors.split(',').map((a) => a.trim())))
+  );
 
   const filteredPapers = papers.filter((paper) => {
     const matchesTitle = paper.title.toLowerCase().includes(searchQuery.toLowerCase());
@@ -129,7 +146,7 @@ function App() {
   });
 
   const timelineEvents: TimelineEvent[] = filteredPapers
-    .filter((paper) => timelineTitles.includes(paper.title))
+    .filter((paper) => timelineTitles().includes(paper.title))
     .map((paper, index) => ({
       ...paper,
       date: paper.year ? new Date(paper.year, 0, 1) : new Date(2023, index, 1),
@@ -137,20 +154,20 @@ function App() {
 
   return (
     <div className="app">
-    <SplitPane>
-      <LeftPanel papers={filteredPapers} />
-      <CenterPanel
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        selectedKeyword={selectedKeyword}
-        setSelectedKeyword={setSelectedKeyword}
-        selectedAuthors={selectedAuthors}
-        setSelectedAuthors={setSelectedAuthors}
-        allKeywords={allKeywords}
-        allAuthors={allAuthors}
-      />
-      <RightPanel events={timelineEvents} />
-    </SplitPane>
+      <SplitPane>
+        <LeftPanel papers={filteredPapers} />
+        <CenterPanel
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          selectedKeyword={selectedKeyword}
+          setSelectedKeyword={setSelectedKeyword}
+          selectedAuthors={selectedAuthors}
+          setSelectedAuthors={setSelectedAuthors}
+          allKeywords={allKeywords}
+          allAuthors={allAuthors}
+        />
+        <RightPanel events={timelineEvents} timelineTitles={timelineTitles()} />
+      </SplitPane>
     </div>
   );
 }
