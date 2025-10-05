@@ -4,7 +4,7 @@ import SplitPane from './Components/SplitPane';
 import TitleBox from './Components/TitleBox';
 import JournalBox from './Components/JournalBox';
 import { papers } from './data/papers';
-import { timelineTitles } from './data/TimelineData';
+import { useTimelineTitles } from './data/TimelineData';
 import JournalFilter from './Components/JournalFilter';
 import KeywordFilter from './Components/KeywordFilter';
 import AuthorFilter from './Components/AuthorFilter';
@@ -127,9 +127,9 @@ function App() {
       selectedAuthors.length === 0 || selectedAuthors.every((a) => paperAuthors.includes(a));
     return matchesTitle && matchesKeyword && matchesAuthors;
   });
-  //const liveTimelineTitles = useTimelineTitles();
+  const liveTimelineTitles = useTimelineTitles();
   const timelineEvents: TimelineEvent[] = filteredPapers
-    .filter((paper) => timelineTitles().includes(paper.title))
+    .filter((paper) => liveTimelineTitles.includes(paper.title))
     .map((paper, index) => ({
       ...paper,
       date: paper.year ? new Date(paper.year, 0, 1) : new Date(2023, index, 1),
