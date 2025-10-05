@@ -29,6 +29,7 @@ html, body, #root {
   background-color: black; /* Default pane background */
   padding: 10px;         /* Inner spacing for content */
   box-sizing: border-box; /* Include padding in width calculations */
+  min-width: 50px;            /* Prevent collapsing */
 }
 
 /* ================================
@@ -37,13 +38,16 @@ html, body, #root {
 .splitter {
   width: 15px;           /* Width of the draggable area */
   cursor: col-resize;    /* Cursor indicates horizontal resizing */
-  background-color: #ccc; /* Light gray for visibility */
+  background-color: #2c2c2c; /* Light gray for visibility */
   height: 100%;          /* Full height of container */
   flex-shrink: 0;        /* Prevent shrinking when resizing */
   position: relative;    /* Needed for absolute positioning of label */
   display: flex;         /* Center the optional label */
   justify-content: center;
   align-items: center;
+  &:hover {
+    background-color: #555;     /* Highlight on hover */
+  }
 }
 
 /* ================================
@@ -53,16 +57,16 @@ html, body, #root {
   writing-mode: horizontal-tb;  /* Keep text horizontal */
   font-size: 20px;              /* Larger text for readability */
   font-weight: bold;            /* Make the label prominent */
-  color: #555;                  /* Dark gray text color */
+  color: #a0a0a0;                  /* Dark gray text color */
   pointer-events: none;         /* Prevent label from interfering with dragging */
   user-select: none;            /* Prevent text selection */
 
   position: absolute;           /* Positioned relative to splitter */
   top: 50%;                     /* Center vertically */
   left: 50%;                    /* Center horizontally */
-  transform: translate(-60%, -900%) rotate(-90deg); /* Rotate vertically and adjust positioning */
+  transform: translate(-62%, -900%) rotate(-90deg); /* Rotate vertically and adjust positioning */
   white-space: nowrap;           /* Prevent line breaks */
-  background-color: #ccc;        /* Slightly opaque background for readability */
+  background-color: #2c2c2c;        /* Slightly opaque background for readability */
   padding: 2px 15px;             /* Inner spacing for label */
   border-radius: 2px;            /* Rounded corners for aesthetics */
 }
