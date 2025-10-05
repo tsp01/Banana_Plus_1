@@ -1,0 +1,24 @@
+from fastapi import FastAPI
+from pydantic import BaseModel
+from typing import List, Optional
+
+from sim_search import search
+
+app = FastAPI()
+
+class SearchRequest(BaseModel):
+    query: str
+    k: Optional[int] = None
+    threshold: Optional[float] = 0.4
+
+
+@app.post("/search", response_model=List[str])
+def do_search(req: SearchRequest):
+    results = search(req.query, k=req.k, threshold=req.threshold)
+    titles = [r.get("title") for r in results]
+    return {"papers": titles}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8453)
