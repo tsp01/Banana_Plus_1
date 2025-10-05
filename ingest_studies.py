@@ -135,7 +135,7 @@ def get_citation_count(pmid: int, timeout: float, user_agent: str, sleep_secs: f
             url = "https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=" + str(pmid[0])
             status, html = fetch_html(url, timeout=timeout, user_agent=user_agent)
             if status == 429:
-                time.sleep(sleep_secs)
+                time.sleep(5)
                 continue
             elif status != 200:
                 print(f"Code: {status} for URL: {url}")
