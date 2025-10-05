@@ -56,7 +56,7 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
     <div className="vertical-timeline-container" ref={containerRef}>
       {events.length === 0 ? null : sortedEvents.map((event, index) => {
         const top = topPositions[index] ?? 0;
-        const nodeSize = 12 + (event.citations ?? 1) * 2;
+        const nodeSize = 12 + (event.citations ?? 1) * .5;
 
         return (
           <div
@@ -77,7 +77,7 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
               }}
             />
             <div className="timeline-label">
-              {event.title} ({event.date.getFullYear()})
+              ({event.date.getFullYear()}) {event.title}
             </div>
           </div>
         );
