@@ -77,7 +77,7 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
               }}
             />
             <div className="timeline-label">
-              {event.authors} ({event.date.getFullYear()})
+              {event.title} ({event.date.getFullYear()})
             </div>
           </div>
         );
