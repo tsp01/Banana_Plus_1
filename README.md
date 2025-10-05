@@ -179,8 +179,4 @@ Edge cases to watch:
 - No need, we are always perfect the first time
 
 ## License
-
-No license specified. Add a LICENSE file if you want to open-source this.
-
-# Nplus1_Change_name_later
-
+eh
