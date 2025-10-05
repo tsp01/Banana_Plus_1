@@ -12,7 +12,6 @@ A small toolset for ingesting study metadata (from CSV + web pages / PMC), extra
 
 ## Requirements
 
-- macOS (tested environment)
 - Python 3.11.x+ 
 - Node.js + npm (for the frontend in `Page/`)
 - Recommended: a virtual environment (venv/conda)
