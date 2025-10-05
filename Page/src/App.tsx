@@ -4,7 +4,7 @@ import SplitPane from './Components/SplitPane';
 import TitleBox from './Components/TitleBox';
 import JournalBox from './Components/JournalBox';
 import { papers } from './data/papers';
-import { useTimelineTitles } from './data/TimelineData';
+import { useTimelineTitles, setTimelineTitles } from './data/TimelineData';
 import JournalFilter from './Components/JournalFilter';
 import KeywordFilter from './Components/KeywordFilter';
 import AuthorFilter from './Components/AuthorFilter';
@@ -63,6 +63,7 @@ const CenterPanel: React.FC<{
       if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
       console.log('Server response:', data);
+      setTimelineTitles(data);
     } catch (err) {
       console.error(err);
     }
