@@ -142,8 +142,6 @@ def get_citation_count(pmid: int, timeout: float, user_agent: str, sleep_secs: f
             else: # Status = 200
                 success = not success
             soup = soup_or_none(html)
-            if sleep_secs > 0:
-                time.sleep(sleep_secs)
             #a = soup.find_all(".results-amount .value")
             a = int(soup.find("div", {"class": "results-amount"}).contents[1].contents[1].contents[0])
             return a
