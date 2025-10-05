@@ -6,9 +6,11 @@
   color: #fff;               /* White text for clear contrast on darker backgrounds */
   padding: 6px 12px;         /* Horizontal and vertical spacing for balanced layout */
   font-weight: bold;         /* Makes titles stand out visually */
-  font-size: 14px;           /* Compact but readable font size */
+  font-size: 16px;           /* Compact but readable font size */
   border-bottom: 1px solid #ccc; /* Subtle separator to distinguish title from panel content */
   user-select: none;         /* Prevents accidental text selection when clicking or dragging */
+  letter-spacing: 0.5px;
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,1);
 }
 
 /* ===========================
