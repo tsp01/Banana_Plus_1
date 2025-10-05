@@ -2,13 +2,20 @@
    Container for a single paper
    ================================ */
 .paper-box {
-  background-color: #3b3b3b;        /* Dark gray background for contrast */
+  background-color: #2e2e2e;      /* Dark gray background for contrast */
   border: 1px solid #ccc;           /* Light border for separation from other boxes */
-  border-radius: 4px;               /* Slightly rounded corners for aesthetics */
+  border-radius: 10px;               /* Slightly rounded corners for aesthetics */
   padding: 12px;                     /* Inner spacing around content */
   margin-top: 6px;                   /* Vertical spacing between boxes */
   margin-bottom: 6px;
+  margin: 8px 0;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.paper-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 /* ================================
@@ -16,16 +23,21 @@
    ================================ */
 .paper-title {
   margin: 0 0 6px 0;               /* Remove top margin, small bottom margin for spacing */
-  font-size: 16px;                 /* Slightly larger font for prominence */
+  font-size: 17px;                 /* Slightly larger font for prominence */
   font-weight: bold;                /* Bold to emphasize title */
+  color: #fff;
 }
 
 /* ================================
    Authors, Keywords, Abstract
    ================================ */
-.paper-authors,
-.paper-keywords,
+.paper-authors, .paper-keywords, .paper-year { 
+    color: #ddd; 
+    font-size: 14px; 
+}
+
 .paper-abstract {
   margin: 2px 0;                   /* Minimal vertical spacing between elements */
   font-size: 14px;                 /* Slightly smaller than title for hierarchy */
+  width:100%;
 }

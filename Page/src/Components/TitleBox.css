@@ -11,6 +11,7 @@
   user-select: none;         /* Prevents accidental text selection when clicking or dragging */
   letter-spacing: 0.5px;
   box-shadow: inset 0 -1px 0 rgba(255,255,255,1);
+  border-radius: 10px;
 }
 
 /* ===========================
