@@ -1,23 +1,17 @@
-// =============================================
-// TimelineData.ts
-// =============================================
-
-// This file defines a list of paper titles that should appear
-// on the vertical timeline within the application.
-//
-// The main App component uses this array to determine which
-// papers from the dataset (`papers`) should be converted into
-// `TimelineEvent` objects and visualized in the timeline view.
-
+// data/TimelineData.ts
 import * as React from 'react';
 
-const listeners = new Set<React.Dispatch<React.SetStateAction<string[]>>>();
+// Module-scoped state
 let titles: string[] = [];
+
+// Keep a list of hook setState listeners to fan out updates
+const listeners = new Set<React.Dispatch<React.SetStateAction<string[]>>>();
+
 /**
  * React hook — components call this to get live timeline titles.
  * Any call to setTimelineTitles() will notify all subscribers.
  */
-export function timelineTitles(): string[] {
+export function useTimelineTitles(): string[] {
   const [state, setState] = React.useState<string[]>(titles);
 
   React.useEffect(() => {
