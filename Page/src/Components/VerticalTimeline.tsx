@@ -1,5 +1,4 @@
-// src/Components/VerticalTimeline.tsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import JournalBox from './JournalBox';
 import type { PaperBoxProps } from './JournalBox';
 import './VerticalTimeline.css';
@@ -15,28 +14,23 @@ interface VerticalTimelineProps {
 
 const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
   const [hoveredEvent, setHoveredEvent] = useState<TimelineEvent | null>(null);
-  const [topPositions, setTopPositions] = useState<number[]>([]);
-  const [containerHeight, setContainerHeight] = useState(400);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [topPositions, setTopPositions] = useState<number[]>([]);
 
-  // Always run hooks first
+  // ❌ Remove this early return
+  // if (events.length === 0) return null;
+
+  const sortedEvents = [...events].sort((a, b) => a.date.getTime() - b.date.getTime());
+  const firstDate = sortedEvents[0]?.date.getTime() ?? 0;
+  const lastDate = sortedEvents[sortedEvents.length - 1]?.date.getTime() ?? 1;
+  const totalRange = lastDate - firstDate || 1;
+
+  const MIN_SPACING = 40; // pixels
+  const BASE_HEIGHT = 400; // minimum container height
+  const EXTRA_HEIGHT_PER_NODE = 20; // extra per node if many
+
   useEffect(() => {
-    if (!events.length) {
-      setTopPositions([]);
-      setContainerHeight(400);
-      return;
-    }
-
-    const sortedEvents = [...events].sort(
-      (a, b) => a.date.getTime() - b.date.getTime()
-    );
-    const firstDate = sortedEvents[0].date.getTime();
-    const lastDate = sortedEvents[sortedEvents.length - 1].date.getTime();
-    const totalRange = lastDate - firstDate || 1;
-
-    const MIN_SPACING = 40;
-    const BASE_HEIGHT = 400;
-    const EXTRA_HEIGHT_PER_NODE = 20;
+    if (!containerRef.current || events.length === 0) return;
 
     const idealHeight = Math.max(
       BASE_HEIGHT,
@@ -54,28 +48,15 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
     });
 
     setTopPositions(positions);
-    setContainerHeight(idealHeight);
+    containerRef.current.style.height = `${idealHeight}px`;
+
   }, [events]);
 
-  if (!events.length) return (
-    <div className="vertical-timeline-container empty" style={{ height: containerHeight }}>
-      No timeline events
-    </div>
-  );
-
-  const sortedEvents = [...events].sort(
-    (a, b) => a.date.getTime() - b.date.getTime()
-  );
-
   return (
-    <div
-      className="vertical-timeline-container"
-      ref={containerRef}
-      style={{ height: containerHeight }}
-    >
-      {sortedEvents.map((event, index) => {
+    <div className="vertical-timeline-container" ref={containerRef}>
+      {events.length === 0 ? null : sortedEvents.map((event, index) => {
         const top = topPositions[index] ?? 0;
-        const nodeSize = Math.min(12 + (event.citations ?? 1) * 2, 40);
+        const nodeSize = 12 + (event.citations ?? 1) * 2;
 
         return (
           <div
@@ -90,12 +71,12 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
               style={{
                 width: `${nodeSize}px`,
                 height: `${nodeSize}px`,
+                position: 'absolute',
+                left: '50%',
+                transform: 'translateX(-50%)',
               }}
             />
-            <div
-              className="timeline-label"
-              style={{ marginTop: `${nodeSize / 2 + 4}px` }}
-            >
+            <div className="timeline-label">
               {event.authors} ({event.date.getFullYear()})
             </div>
           </div>
