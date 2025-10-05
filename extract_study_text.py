@@ -264,7 +264,7 @@ def extract_text(entry: str, email: str, api_key: str):
     m = PMCID_RE.search(s)
     ident = m.group(1)  # Extract numeric part of PMC ID
     xml = fetch_pmc_xml(ident, email, api_key)
-    return "pmc-fulltext", jats_to_text(xml)
+    return jats_to_text(xml)
 
 
 def get_text(url: str, email: str, api_key: str):
@@ -280,9 +280,7 @@ def get_text(url: str, email: str, api_key: str):
         str: Extracted article text.
     """
     try:
-        source, text = extract_text(url, email, api_key)
-        print(f"[source={source}]")
-        print(text)
+        text = extract_text(url, email, api_key)
         return text
     except Exception as e:
         print(f"ERROR: {e}")
