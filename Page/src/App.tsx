@@ -127,7 +127,7 @@ function App() {
       selectedAuthors.length === 0 || selectedAuthors.every((a) => paperAuthors.includes(a));
     return matchesTitle && matchesKeyword && matchesAuthors;
   });
-
+  //const liveTimelineTitles = useTimelineTitles();
   const timelineEvents: TimelineEvent[] = filteredPapers
     .filter((paper) => timelineTitles.includes(paper.title))
     .map((paper, index) => ({

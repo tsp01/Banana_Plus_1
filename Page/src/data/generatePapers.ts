@@ -39,7 +39,7 @@ function rowToPaper(study: any, abstract: any): Paper {
 
   return {
     title: study.title || abstract?.title || "Unknown Title",
-    authors: study.author || "Unknown Author",
+    authors: study.authors || "Unknown Author",
     year,
     keywords: [],
     citations: study.citations || undefined,
@@ -83,6 +83,8 @@ async function generateFile() {
   const outputFile = path.join(__dirname, "papers.ts");
   const fileContent =
     "// This file is auto-generated. Do not edit manually.\n\n" +
+
+    "import { setTimelineTitles } from \"./TimelineData\";\n\n" +
     "export interface Paper {\n" +
     "  title: string;\n" +
     "  authors: string;\n" +
@@ -93,7 +95,10 @@ async function generateFile() {
     "}\n\n" +
     "export const papers: Paper[] = " +
     JSON.stringify(allPapers, null, 2) +
-    ";\n";
+    ";\n\n" +
+    "export const timelineTitles: string[] = " +
+  JSON.stringify(allPapers.map(paper => paper.title)) +
+  ";\n";;
 
   fs.writeFileSync(outputFile, fileContent, "utf-8");
   console.log(`✅ Generated papers.ts with ${allPapers.length} papers`);
