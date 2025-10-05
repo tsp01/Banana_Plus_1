@@ -17,6 +17,7 @@ export const papers: Paper[] = [
     "authors": "Alexander Andreev-Andrievskiy Anfisa Popova Richard Boyle Jeffrey Alberts Boris Shenkman Olga Vinogradova Oleg Dolgov Konstantin Anokhin Darya Tsvirkun Pavel Soldatov Tatyana Nemirovskaya Eugeniy Ilyin Vladimir Sychev",
     "year": 2014,
     "keywords": [],
+    "citations": 44,
     "abstractSnippet": "After a 16-year hiatus, Russia has resumed its program of biomedical research in space, with the successful 30-day flight of the Bion-M 1 biosatellite (April 19–May 19, 2013). The principal species fo..."
   },
   {
@@ -24,6 +25,7 @@ export const papers: Paper[] = [
     "authors": "Elizabeth A Blaber Natalya Dvorochkin Chialing Lee Joshua S Alwood Rukhsana Yousuf Piero Pianetta Ruth K Globus Brendan P Burns Eduardo A C Almeida",
     "year": 2013,
     "keywords": [],
+    "citations": 91,
     "abstractSnippet": "Bone is a dynamically remodeled tissue that requires gravity-mediated mechanical stimulation for maintenance of mineral content and structure. Homeostasis in bone occurs through a balance in the activ..."
   },
   {
@@ -31,6 +33,7 @@ export const papers: Paper[] = [
     "authors": "Nelson Adolfo López Garzón María Virginia Pinzón-Fernández Jhan S Saavedra T Humberto A Nati-Castillo Marlon Arias-Intriago Camila Salazar-Santoliva Juan S Izquierdo-Condoy",
     "year": 2025,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Microgravity, defined by minimal gravitational forces, represents a unique environment that profoundly influences biological systems, including human cells. This review examines the effects of microgr..."
   },
   {
@@ -38,6 +41,7 @@ export const papers: Paper[] = [
     "authors": "Takanobu Mashiko Koji Kanayama Natsumi Saito Takako Shirado Rintaro Asahi Masanori Mori Kotaro Yoshimura",
     "year": 2021,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Therapeutic effects of adult stem-cell transplantations are limited by poor cell-retention in target organs, and a reduced potential for optimal cell differentiation compared to embryonic stem cells. ..."
   },
   {
@@ -45,6 +49,7 @@ export const papers: Paper[] = [
     "authors": "Macarena Parra Jimmy Jung Travis D Boone Luan Tran Elizabeth A Blaber Mark Brown Matthew Chin Tori Chinn Jacob Cohen Robert Doebler Dzung Hoang Elizabeth Hyde Matthew Lera Louie T Luzod Mark Mallinson Oana Marcu Youssef Mohamedaly Antonio J Ricco Kathleen Rubins Gregory D Sgarlato Rafael O Talavera Peter Tong Eddie Uribe Jeffrey Williams Diana Wu Rukhsana Yousuf Charles S Richey Julie Schonfeld Eduardo A C Almeida",
     "year": 2017,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "The International Space Station (ISS) National Laboratory is dedicated to studying the effects of space on life and physical systems, and to developing new science and technologies for space explorati..."
   },
   {
@@ -52,6 +57,7 @@ export const papers: Paper[] = [
     "authors": "Akhilesh Kumar Candice G T Tahimic Eduardo A C Almeida Ruth K Globus",
     "year": 2021,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Spaceflight causes cardiovascular changes due to microgravity-induced redistribution of body fluids and musculoskeletal unloading. Cardiac deconditioning and atrophy on Earth are associated with alter..."
   },
   {
@@ -59,6 +65,7 @@ export const papers: Paper[] = [
     "authors": "Joshua S Alwood Luan H Tran Ann-Sofie Schreurs Yasaman Shirazi-Fard Akhilesh Kumar Diane Hilton Candice G T Tahimic Ruth K Globus",
     "year": 2017,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "Space radiation may pose a risk to skeletal health during subsequent aging. Irradiation acutely stimulates bone remodeling in mice, although the long-term influence of space radiation on bone-forming ..."
   },
   {
@@ -66,6 +73,7 @@ export const papers: Paper[] = [
     "authors": "Joshua S Alwood April E Ronca Richard C Mains Mark J Shelhamer Jeffrey D Smith Thomas J Goodwin",
     "year": 2017,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "NASA’s Space Biology and Human Research Program entities have recently spearheaded communications both internally and externally to coordinate the agency’s translational research efforts. In this pape..."
   },
   {
@@ -73,6 +81,7 @@ export const papers: Paper[] = [
     "authors": "Megan M Pendleton Saghi Sadoughi Alfred Li Grace D O'Connell Joshua S Alwood Tony M Keaveny",
     "year": 2018,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "One potentially important bone quality characteristic is the response of bone to cyclic (repetitive) mechanical loading. In small animals, such as in rats and mice, cyclic loading experiments are part..."
   },
   {
@@ -80,6 +89,7 @@ export const papers: Paper[] = [
     "authors": "Megan M Pendleton Shannon R Emerzian Jennifer Liu Simon Y Tang Grace D O’Connell Joshua S Alwood Tony M Keaveny",
     "year": 2019,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Bone can become brittle when exposed to ionizing radiation across a wide range of clinically relevant doses that span from radiotherapy (accumulative 50 Gy) to sterilization (~35,000 Gy). While irradi..."
   },
   {
@@ -87,6 +97,7 @@ export const papers: Paper[] = [
     "authors": "Catherine Moorwood Anastassios Philippou Janelle Spinazzola Benjamin Keyser Edward J Macarak Elisabeth R Barton",
     "year": 2014,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "**Background**\nThe dystrophin glycoprotein complex (DGC) is located at the sarcolemma of muscle fibers, providing structural integrity. Mutations in and loss of DGC proteins cause a spectrum of muscul..."
   },
   {
@@ -94,6 +105,7 @@ export const papers: Paper[] = [
     "authors": "Jianling Peng Hilal Ilarslan Eve Syrkin Wurtele Diane C Bassham",
     "year": 2011,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "**Background**\nRab GTPases are important regulators of endomembrane trafficking, regulating exocytosis, endocytosis and membrane recycling. Many Rab-like proteins exist in plants, but only a subset ha..."
   },
   {
@@ -101,6 +113,7 @@ export const papers: Paper[] = [
     "authors": "Sang-Jin Kim Diane C Bassham",
     "year": 2011,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "The Arabidopsis ( Arabidopsis thaliana ) soluble N -ethylmaleimide-sensitive factor attachment protein receptor SYP41 is involved in vesicle fusion at the trans-Golgi network (TGN) and interacts with ..."
   },
   {
@@ -115,6 +128,7 @@ export const papers: Paper[] = [
     "authors": "Rahul Roy Diane C Bassham",
     "year": 2017,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "**Background**\nThe movement of plant roots within the soil is key to their ability to interact with the environment and maximize anchorage and nutrient acquisition. Directional growth of roots occurs ..."
   },
   {
@@ -122,6 +136,7 @@ export const papers: Paper[] = [
     "authors": "Rahul Roy Diane C Bassham",
     "year": 2015,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The trans -Golgi network (TGN) is a dynamic organelle that functions as a relay station for receiving endocytosed cargo, directing secretory cargo, and trafficking to the vacuole. TGN-localized SYP41-..."
   },
   {
@@ -129,6 +144,7 @@ export const papers: Paper[] = [
     "authors": "Rahul Roy Diane C Bassham",
     "year": 2017,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "**Background**\nThe movement of plant roots within the soil is key to their ability to interact with the environment and maximize anchorage and nutrient acquisition. Directional growth of roots occurs ..."
   },
   {
@@ -136,6 +152,7 @@ export const papers: Paper[] = [
     "authors": "Martin P Kracklauer Heather M Wiora William J Deery Xin Chen Benjamin Bolival, Jr Dwight Romanowicz Rebecca A Simonette Margaret T Fuller Janice A Fischer Kathleen M Beckingham",
     "year": 2010,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "Maintaining the proximity of centrosomes to nuclei is important in several cellular contexts, and LINC complexes formed by SUN and KASH proteins are crucial in this process. Here, we characterize the ..."
   },
   {
@@ -143,6 +160,7 @@ export const papers: Paper[] = [
     "authors": "Katherine Taylor Kurt Kleinhesselink Michael D George Rachel Morgan Tangi Smallwood Ann S Hammonds Patrick M Fuller Perot Saelao Jeff Alley Allen G Gibbs Deborah K Hoshizaki Laurence von Kalm Charles A Fuller Kathleen M Beckingham Deborah A Kimbrell",
     "year": 2014,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Space travel presents unlimited opportunities for exploration and discovery, but requires better understanding of the biological consequences of long-term exposure to spaceflight. Immune function in p..."
   },
   {
@@ -157,6 +175,7 @@ export const papers: Paper[] = [
     "authors": "Afshin Beheshti J Tyson McDonald Jack Miller Peter Grabham Sylvain V Costes",
     "year": 2019,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Space radiation has recently been considered a risk factor for astronauts’ cardiac health. As an example, for the case of how to query and identify datasets within NASA’s GeneLab database and demonstr..."
   },
   {
@@ -164,6 +183,7 @@ export const papers: Paper[] = [
     "authors": "Daniel C Berrios Afshin Beheshti Sylvain V Costes",
     "year": 2018,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "Omics data sharing is crucial to the biological research community, and the last decade or two has seen a huge rise in collaborative analysis systems, databases, and knowledge bases for omics and othe..."
   },
   {
@@ -171,6 +191,7 @@ export const papers: Paper[] = [
     "authors": "J Tyson McDonald Robert Stainforth Jack Miller Thomas Cahill Willian A da Silveira Komal S Rathi Gary Hardiman Deanne Taylor Sylvain V Costes Vinita Chauhan Robert Meller Afshin Beheshti",
     "year": 2020,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Background: Ionizing radiation from galactic cosmic rays (GCR) is one of the major risk factors that will impact the health of astronauts on extended missions outside the protective effects of the Ear..."
   },
   {
@@ -178,6 +199,7 @@ export const papers: Paper[] = [
     "authors": "Sherina Malkani Christopher R Chin Egle Cekanaviciute Marie Mortreux Hazeem Okinula Marcel Tarbier Ann-Sofie Schreurs Yasaman Shirazi-Fard Candice GT Tahimic Deyra N Rodriguez Brittany S Sexton Daniel Butler Akanksha Verma Daniela Bezdan Ceyda Durmaz Matthew MacKay Ari Melnick Cem Meydan Sheng Li Francine Garrett-Bakelman Bastian Fromm Ebrahim Afshinnekoo Brad W Langhorst Eileen T Dimalanta Margareth Cheng-Campbell Elizabeth Blaber Jonathan C Schisler Charles Vanderburg Marc R Friedländer J Tyson McDonald Sylvain V Costes Seward Rutkove Peter Grabham Christopher E Mason Afshin Beheshti",
     "year": 2020,
     "keywords": [],
+    "citations": 33,
     "abstractSnippet": "We have identified and validated a spaceflight-associated microRNA (miRNA) signature that is shared by rodents and humans in response to simulated, short-duration and long-duration spaceflight. Previo..."
   },
   {
@@ -185,6 +207,7 @@ export const papers: Paper[] = [
     "authors": "Pedro Madrigal Nitin K Singh Jason M Wood Elena Gaudioso Félix Hernández-del-Olmo Christopher E Mason Kasthuri Venkateswaran Afshin Beheshti",
     "year": 2022,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Background**\nAntimicrobial resistance (AMR) has a detrimental impact on human health on Earth and it is equally concerning in other environments such as space habitat due to microgravity, radiation ..."
   },
   {
@@ -192,6 +215,7 @@ export const papers: Paper[] = [
     "authors": "Rosa Drago-Ferrante Riccardo Di Fiore Fathi Karouia Yashwanth Subbannayya Saswati Das Begum Aydogan Mathyk Shehbeel Arif Ana Paula Guevara-Cerdán Allen Seylani Aman Singh Galsinh Weronika Kukulska Joseph Borg Sherif Suleiman David Marshall Porterfield Andrea Camera Lane K Christenson April Elizabeth Ronca Jonathan G Steller Afshin Beheshti Jean Calleja-Agius",
     "year": 2022,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Outer space is an extremely hostile environment for human life, with ionizing radiation from galactic cosmic rays and microgravity posing the most significant hazards to the health of astronauts. Spac..."
   },
   {
@@ -199,6 +223,7 @@ export const papers: Paper[] = [
     "authors": "Geraldine Vitry Rebecca Finch Gavin Mcstay Afshin Behesti Sébastien Déjean Tricia Larose Virginia Wotring Willian Abraham da Silveira",
     "year": 2022,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Human expansion in space is hampered by the physiological risks of spaceflight. The muscle and the liver are among the most affected tissues during spaceflight and their relationships in response to s..."
   },
   {
@@ -206,6 +231,7 @@ export const papers: Paper[] = [
     "authors": "Adrian Perdyan Marcin Jąkalski Monika Horbacz Afshin Beheshti Jakub Mieczkowski",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Despite surging interest in space travel in recent decades, the impacts of prolonged, elevated exposure to galactic cosmic radiation (GCR) on human health remain poorly understood. This form of ionizi..."
   },
   {
@@ -213,6 +239,7 @@ export const papers: Paper[] = [
     "authors": "S Anand Narayanan David A Jamison, Jr Joseph W Guarnieri Victoria Zaksas Michael Topper Andrew P Koutnik Jiwoon Park Kevin B Clark Francisco J Enguita Ana Lúcia Leitão Saswati Das Pedro M Moraes-Vieira Diego Galeano Christopher E Mason Nídia S Trovão Robert E Schwartz Jonathan C Schisler Jordana G A Coelho-dos-Reis Eve Syrkin Wurtele Afshin Beheshti",
     "year": 2023,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "COVID-19, the disease caused by SARS-CoV-2, has caused significant morbidity and mortality worldwide. The betacoronavirus continues to evolve with global health implications as we race to learn more t..."
   },
   {
@@ -220,6 +247,7 @@ export const papers: Paper[] = [
     "authors": "Andrea Camera Marshall Tabetah Veronica Castañeda JangKeun Kim Aman Singh Galsinh Alissen Haro-Vinueza Ivonne Salinas Allen Seylani Shehbeel Arif Saswati Das Marcelo A Mori Anthony Carano Lorraine Christine de Oliveira Masafumi Muratani Richard Barker Victoria Zaksas Chirag Goel Eleni Dimokidis Deanne M Taylor Jisu Jeong Eliah Overbey Cem Meydan D Marshall Porterfield Juan Esteban Díaz Andrés Caicedo Jonathan C Schisler Evagelia C Laiakis Christopher E Mason Man S Kim Fathi Karouia Nathaniel J Szewczyk Afshin Beheshti",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Human space exploration poses inherent risks to astronauts’ health, leading to molecular changes that can significantly impact their well-being. These alterations encompass genomic instability, mitoch..."
   },
   {
@@ -227,6 +255,7 @@ export const papers: Paper[] = [
     "authors": "J Tyson McDonald JangKeun Kim Lily Farmerie Meghan L Johnson Nidia S Trovao Shehbeel Arif Keith Siew Sergey Tsoy Yaron Bram Jiwoon Park Eliah Overbey Krista Ryon Jeffrey Haltom Urminder Singh Francisco J Enguita Victoria Zaksas Joseph W Guarnieri Michael Topper Douglas C Wallace Cem Meydan Stephen Baylin Robert Meller Masafumi Muratani D Marshall Porterfield Brett Kaufman Marcelo A Mori Stephen B Walsh Dominique Sigaudo-Roussel Saida Mebarek Massimo Bottini Christophe A Marquette Eve Syrkin Wurtele Robert E Schwartz Diego Galeano Christopher E Mason Peter Grabham Afshin Beheshti",
     "year": 2024,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Our previous research revealed a key microRNA signature that is associated with spaceflight that can be used as a biomarker and to develop countermeasure treatments to mitigate the damage caused by sp..."
   },
   {
@@ -234,6 +263,7 @@ export const papers: Paper[] = [
     "authors": "Allen Seylani Aman Singh Galsinh Alexia Tasoula Anu R I Andrea Camera Jean Calleja-Agius Joseph Borg Chirag Goel JangKeun Kim Kevin B Clark Saswati Das Shehbeel Arif Michael Boerrigter Caroline Coffey Nathaniel Szewczyk Christopher E Mason Maria Manoli Fathi Karouia Hansjörg Schwertz Afshin Beheshti Dana Tulodziecki",
     "year": 2024,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Mounting ambitions and capabilities for public and private, non-government sector crewed space exploration bring with them an increasingly diverse set of space travelers, raising new and nontrivial et..."
   },
   {
@@ -241,6 +271,7 @@ export const papers: Paper[] = [
     "authors": "Rachel Gilbert Medaya Torres Rachel Clemens Shannon Hateley Ravikumar Hosamani William Wade Sharmila Bhattacharya",
     "year": 2020,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the imm..."
   },
   {
@@ -248,6 +279,7 @@ export const papers: Paper[] = [
     "authors": "Stanley Walls Soda Diop Ryan Birse Lisa Elmen Zhuohui Gan Sreehari Kalvakuri Santiago Pineda Curran Reddy Erika Taylor Bosco Trinh Georg Vogler Rachel Zarndt Andrew McCulloch Peter Lee Sharmila Bhattacharya Rolf Bodmer Karen Ocorr",
     "year": 2020,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "Understanding the effects of microgravity on human organs is crucial to exploration of low-earth orbit, the moon, and beyond. Drosophila can be sent to space in large numbers to examine the effects of..."
   },
   {
@@ -255,6 +287,7 @@ export const papers: Paper[] = [
     "authors": "Judith García-González Kasper van Gelderen",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Primary root growth is required by the plant to anchor in the soil and reach out for nutrients and water, while dealing with obstacles. Efficient root elongation and bending depends upon the coordinat..."
   },
   {
@@ -262,6 +295,7 @@ export const papers: Paper[] = [
     "authors": "J Alan Sparks Taegun Kwon Luciana Renna Fuqi Liao Federica Brandizzi Elison B Blancaflor",
     "year": 2016,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "A forward-genetic screen for Arabidopsis mutants hypersensitive to latrunculin B identifies HLB1 as a plant-specific protein that functions in post-Golgi traffic.\nThe endomembrane system plays essenti..."
   },
   {
@@ -269,6 +303,7 @@ export const papers: Paper[] = [
     "authors": "Taegun Kwon J Alan Sparks Fuqi Liao Elison B Blancaflor",
     "year": 2018,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": ""
   },
   {
@@ -276,6 +311,7 @@ export const papers: Paper[] = [
     "authors": "Louise de Bang Ana Paez-Garcia Ashley E Cannon Sabrina Chin Jaydeep Kolape Fuqi Liao J Alan Sparks Qingzhen Jiang Elison B Blancaflor",
     "year": 2020,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "When positioned horizontally, roots grow down toward the direction of gravity. This phenomenon, called gravitropism, is influenced by most of the major plant hormones including brassinosteroids. Epi-b..."
   },
   {
@@ -283,6 +319,7 @@ export const papers: Paper[] = [
     "authors": "William Krogman J Alan Sparks Elison B Blancaflor",
     "year": 2020,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Cytoplasmic calcium ([Ca 2+ ] cyt ) is a well-characterized second messenger in eukaryotic cells. An elevation in [Ca 2+ ] cyt levels is one of the earliest responses in plant cells after exposure to ..."
   },
   {
@@ -290,6 +327,7 @@ export const papers: Paper[] = [
     "authors": "Sabrina Chin Taegun Kwon Bibi Rafeiza Khan J Alan Sparks Eileen L Mallery Daniel B Szymanski Elison B Blancaflor",
     "year": 2021,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Root hairs are single-cell protrusions that enable roots to optimize nutrient and water acquisition. These structures attain their tubular shapes by confining growth to the cell apex, a process called..."
   },
   {
@@ -297,6 +335,7 @@ export const papers: Paper[] = [
     "authors": "Yui Okamura Kei Gochi Tatsuya Ishikawa Takuto Hayashi Sayaka Fuseya Riku Suzuki Maho Kanai Yuri Inoue Yuka Murakami Shunya Sadaki Hyojung Jeon Mio Hayama Hiroto Ishii Yuki Tsunakawa Hiroki Ochi Shingo Sato Michito Hamada Chikara Abe Hironobu Morita Risa Okada Dai Shiba Masafumi Muratani Masahiro Shinohara Taishin Akiyama Takashi Kudo Satoru Takahashi",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Long-duration spaceflight creates a variety of stresses due to the unique environment, which can lead to compromised functioning of the skeletal and immune systems. However, the mechanisms by which or..."
   },
   {
@@ -304,6 +343,7 @@ export const papers: Paper[] = [
     "authors": "Michael R Dorwart Robin Wray Chad A Brautigam Youxing Jiang Paul Blount",
     "year": 2010,
     "keywords": [],
+    "citations": 39,
     "abstractSnippet": "Detergent-induced rearrangements of membrane-protein subunits explain why two MscL channel stoichiometries have been resolved by X-ray crystallography - but S. aureus MscL is truly a pentamer in vivo...."
   },
   {
@@ -311,6 +351,7 @@ export const papers: Paper[] = [
     "authors": "Li-Min Yang Paul Blount",
     "year": 2011,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "MscL is a bacterial mechanosensor that serves as a biological emergency release valve, releasing cytoplasmic solutes to the environment on osmotic downshock. Previous studies have recognized that this..."
   },
   {
@@ -318,6 +359,7 @@ export const papers: Paper[] = [
     "authors": "Irene Iscla Robin Wray Paul Blount",
     "year": 2011,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "The mechanosensitive channel of large conductance (MscL) from E. coli serves as an emergency release valve allowing the cell to survive acute osmotic downshock. It is one of the best studied mechanose..."
   },
   {
@@ -325,6 +367,7 @@ export const papers: Paper[] = [
     "authors": "Li-Min Yang Robin Wray Juandell Parker Danyell Wilson Randolph S Duran Paul Blount",
     "year": 2012,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "MscL is a bacterial mechanosensitive channel that protects cells from lysis upon acute decrease in external osmotic environment. It is one of the best characterized mechanosensors known, thus serving ..."
   },
   {
@@ -332,6 +375,7 @@ export const papers: Paper[] = [
     "authors": "Irene Iscla Robin Wray Paul Blount",
     "year": 2012,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "The bacterial mechanosensitive channel of large conductance, MscL, is one of the best characterized mechanosensitive channels serving as a paradigm for how proteins can sense and transduce mechanical ..."
   },
   {
@@ -339,6 +383,7 @@ export const papers: Paper[] = [
     "authors": "Ian R Booth Paul Blount",
     "year": 2012,
     "keywords": [],
+    "citations": 106,
     "abstractSnippet": "Single-celled organisms must survive exposure to environmental extremes. Perhaps one of the most variable and potentially life-threatening changes that can occur is that of a rapid and acute decrease ..."
   },
   {
@@ -346,6 +391,7 @@ export const papers: Paper[] = [
     "authors": "Li-Min Yang Dalian Zhong Paul Blount",
     "year": 2013,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "MscL, the highly conserved bacterial mechanosensitive channel of large conductance, functionally serves as an osmotic “emergency release valve”, is among the best studied mechanosensors and a paradigm..."
   },
   {
@@ -353,6 +399,7 @@ export const papers: Paper[] = [
     "authors": "Unknown Author",
     "year": 2016,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": ""
   },
   {
@@ -360,6 +407,7 @@ export const papers: Paper[] = [
     "authors": "Thomas C Boothby Bob Goldstein",
     "year": 2016,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": ""
   },
   {
@@ -367,6 +415,7 @@ export const papers: Paper[] = [
     "authors": "Samuel Lim Charles B Reilly Zeina Barghouti Benedetto Marelli Jeffrey C Way Pamela A Silver",
     "year": 2024,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Tardigrades, microscopic animals that survive a broad range of environmental stresses, express a unique set of proteins termed tardigrade-specific intrinsically disordered proteins (TDPs). TDPs are of..."
   },
   {
@@ -381,6 +430,7 @@ export const papers: Paper[] = [
     "authors": "Takahiro Bino Yuhei Goto Gembu Maryu Kazuharu Arakawa Kazuhiro Aoki",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Anhydrobiosis, a phenomenon in which organisms survive extreme dehydration by entering a reversible ametabolic state, is a remarkable example of survival strategies. This study focuses on anhydrobiosi..."
   },
   {
@@ -388,6 +438,7 @@ export const papers: Paper[] = [
     "authors": "Ilaria Giovannini Thomas C Boothby Michele Cesari Bob Goldstein Roberto Guidetti Lorena Rebecchi",
     "year": 2022,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Water unavailability is an abiotic stress causing unfavourable conditions for life. Nevertheless, some animals evolved anhydrobiosis, a strategy allowing for the reversible organism dehydration and su..."
   },
   {
@@ -395,6 +446,7 @@ export const papers: Paper[] = [
     "authors": "Erika B Wagner Nicholas P Granzella Hiroaki Saito Dava J Newman Laurence R Young Mary L Bouxsein",
     "year": 2010,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "We developed a new model of hypodynamic loading to support mice in chronic conditions of partial weight bearing, enabling simulations of reduced gravity environments and related clinical conditions. T..."
   },
   {
@@ -402,6 +454,7 @@ export const papers: Paper[] = [
     "authors": "Rachel Ellman Jordan Spatz Alison Cloutier Rupert Palme Blaine A Christiansen Mary L Bouxsein",
     "year": 2013,
     "keywords": [],
+    "citations": 43,
     "abstractSnippet": "Although the musculoskeletal system is known to be sensitive to changes in its mechanical environment, the relationship between functional adaptation and below-normal mechanical stimuli is not well de..."
   },
   {
@@ -409,6 +462,7 @@ export const papers: Paper[] = [
     "authors": "M Sung J Li AJ Spieker J Spatz R Ellman VL Ferguson TA Bateman GD Rosen M Bouxsein SB Rutkove",
     "year": 2013,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "**Objective**\nTo assess the potential of electrical impedance myography (EIM) to serve as a marker of muscle fiber atrophy and secondarily as an indicator of bone deterioration by assessing the effect..."
   },
   {
@@ -416,6 +470,7 @@ export const papers: Paper[] = [
     "authors": "Afshin Beheshti Kaushik Chakravarty Homer Fogle Hossein Fazelinia Willian A da Silveira Valery Boyko San-Huei Lai Polo Amanda M Saravia-Butler Gary Hardiman Deanne Taylor Jonathan M Galazka Sylvain V Costes",
     "year": 2019,
     "keywords": [],
+    "citations": 42,
     "abstractSnippet": "Spaceflight has several detrimental effects on the physiology of astronauts, many of which are recapitulated in rodent models. Mouse studies performed on the Space Shuttle showed disruption of lipid m..."
   },
   {
@@ -423,6 +478,7 @@ export const papers: Paper[] = [
     "authors": "Frank C Ko Miranda Van Vliet Rachel Ellman Daniel Grasso Daniel J Brooks Jordan M Spatz Chrissy Conlon J Ignacio Aguirre Thomas J Wronski Mary L Bouxsein",
     "year": 2017,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Previous work has shown that the soluble murine BMPR1A–fusion protein (mBMPR1A‐mFc) binds to BMP2 and BMP4 with high affinity, preventing downstream signaling. Further, treatment of intact and ovariec..."
   },
   {
@@ -430,6 +486,7 @@ export const papers: Paper[] = [
     "authors": "Jordan M Spatz Frank C Ko Ugur M Ayturk Matthew L Warman Mary L Bouxsein",
     "year": 2021,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Disuse-induced bone loss is seen following spinal cord injury, prolonged bed rest, and exposure to microgravity. We performed whole transcriptomic profiling of cortical bone using RNA sequencing (RNAs..."
   },
   {
@@ -437,6 +494,7 @@ export const papers: Paper[] = [
     "authors": "Yared H Kidane Franklin H Lee Matthew F Smith Chunbo Wang Jacqueline Barbera Mirza Saachi Sharma Alejandro A Lobo Krish C Dewan Jengwei Chen Thomas E Diaz Michelle Mendiola Pla Matthew W Foster Dawn E Bowles",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Introduction: It may take decades to develop cardiovascular dysfunction following exposure to high doses of ionizing radiation from medical therapy or from nuclear accidents. Since astronauts may be e..."
   },
   {
@@ -444,6 +502,7 @@ export const papers: Paper[] = [
     "authors": "Nikolay Aseyev Alia Kh Vinarskaya Matvey Roshchin Tatiana A Korshunova Aleksey Yu Malyshev Alena B Zuzina Victor N Ierusalimsky Maria S Lemak Igor S Zakharov Ivan A Novikov Peter Kolosov Ekaterina Chesnokova Svetlana Volkova Artem Kasianov Leonid Uroshlev Yekaterina Popova Richard D Boyle Pavel M Balaban",
     "year": 2017,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The vestibular system receives a permanent influence from gravity and reflexively controls equilibrium. If we assume gravity has remained constant during the species' evolution, will its sensory syste..."
   },
   {
@@ -451,6 +510,7 @@ export const papers: Paper[] = [
     "authors": "Richard Boyle Reza Ehsanian Alireza Mofrad Yekaterina Popova Joseph Varelas",
     "year": 2018,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The utricle provides the vestibular reflex pathways with the sensory codes of inertial acceleration of self motion and head orientation with respect to gravity to control balance and equilibrium. Here..."
   },
   {
@@ -458,6 +518,7 @@ export const papers: Paper[] = [
     "authors": "Richard Boyle Yekaterina Popova Joseph Varelas",
     "year": 2018,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Gravity has remained constant during animal evolution and the neural sensory systems detecting acceleration forces have remained remarkably conserved among vertebrates. The utricular organ senses the ..."
   },
   {
@@ -465,6 +526,7 @@ export const papers: Paper[] = [
     "authors": "Federica Brandizzi Charles Barlowe",
     "year": 2013,
     "keywords": [],
+    "citations": 259,
     "abstractSnippet": "Coat protein complex I (COPI) and COPII are required for bidirectional membrane trafficking between the endoplasmic reticulum (ER) and the Golgi. While these core coat machineries and other transport ..."
   },
   {
@@ -472,6 +534,7 @@ export const papers: Paper[] = [
     "authors": "Yani Chen Federica Brandizzi",
     "year": 2013,
     "keywords": [],
+    "citations": 309,
     "abstractSnippet": "Cells operate a signaling network termed unfolded protein response (UPR) to monitor protein-folding capacity in the endoplasmic reticulum (ER). IRE1 is an ER transmembrane sensor that activates UPR to..."
   },
   {
@@ -479,6 +542,7 @@ export const papers: Paper[] = [
     "authors": "Yani Chen Kyaw Aung Jakub Rolčík Kathryn Walicki Jiří Friml Federica Brandizzi",
     "year": 2013,
     "keywords": [],
+    "citations": 26,
     "abstractSnippet": "The unfolded protein response (UPR) is a signaling network triggered by overload of protein-folding demand in the endoplasmic reticulum (ER), a condition termed ER stress. The UPR is critical for grow..."
   },
   {
@@ -486,6 +550,7 @@ export const papers: Paper[] = [
     "authors": "Federica Brandizzi Lorenzo Frigerio Stephen H Howell Patrick Schäfer",
     "year": 2014,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": ""
   },
   {
@@ -493,6 +558,7 @@ export const papers: Paper[] = [
     "authors": "Yingzhen Kong Maria J Peña Luciana Renna Utku Avci Sivakumar Pattathil Sami T Tuomivaara Xuemei Li Wolf-Dieter Reiter Federica Brandizzi Michael G Hahn Alan G Darvill William S York Malcolm A O’Neill",
     "year": 2015,
     "keywords": [],
+    "citations": 44,
     "abstractSnippet": "Depleting galactose from the cell wall polysaccharide xyloglucan leads to a disruption of diverse cellular and physiological processes involved in normal plant growth.\nXyloglucan is a polysaccharide t..."
   },
   {
@@ -500,6 +566,7 @@ export const papers: Paper[] = [
     "authors": "Cristina Ruberti Sang-Jin Kim Giovanni Stefano Federica Brandizzi",
     "year": 2015,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "To overcome endoplasmic reticulum (ER) stress, ER-localized stress sensors actuate distinct downstream organelle-nucleus signaling pathways to invoke a cytoprotective response, known as the unfolded p..."
   },
   {
@@ -507,6 +574,7 @@ export const papers: Paper[] = [
     "authors": "David G Robinson Federica Brandizzi Chris Hawes Akihiko Nakano",
     "year": 2015,
     "keywords": [],
+    "citations": 42,
     "abstractSnippet": "Four leading cell biologists reflect on the controversial nature of the vector for transport between the ER and Golgi apparatus in higher plants.\nThe endoplasmic reticulum (ER) is the gateway to the s..."
   },
   {
@@ -514,6 +582,7 @@ export const papers: Paper[] = [
     "authors": "Sarathi M Weraduwage Sang-Jin Kim Luciana Renna Fransisca C Anozie Thomas D Sharkey Federica Brandizzi",
     "year": 2016,
     "keywords": [],
+    "citations": 22,
     "abstractSnippet": "High levels of methylesterification of pectin allow for enhanced cell expansion, partitioning of resources to leaf growth, and increased leaf area for photosynthesis, which in turn enhance plant growt..."
   },
   {
@@ -521,6 +590,7 @@ export const papers: Paper[] = [
     "authors": "Robert M Larkin Giovanni Stefano Michael E Ruckle Andrea K Stavoe Christopher A Sinkler Federica Brandizzi Carolyn M Malmstrom Katherine W Osteryoung",
     "year": 2016,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": ""
   },
   {
@@ -528,6 +598,7 @@ export const papers: Paper[] = [
     "authors": "Evan Angelos Cristina Ruberti Sang-Jin Kim Federica Brandizzi",
     "year": 2017,
     "keywords": [],
+    "citations": 40,
     "abstractSnippet": "Much like a factory, the endoplasmic reticulum assembles simple cellular building blocks into complex molecular machines known as proteins. In order to protect the delicate protein folding process and..."
   },
   {
@@ -535,6 +606,7 @@ export const papers: Paper[] = [
     "authors": "Evan Angelos Federica Brandizzi",
     "year": 2018,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "In all eukaryotes, the unfolded protein response (UPR) relieves endoplasmic reticulum (ER) stress, which is a potentially lethal condition caused by the accumulation of misfolded proteins in the ER. I..."
   },
   {
@@ -542,6 +614,7 @@ export const papers: Paper[] = [
     "authors": "Evan Angelos Dae Kwan Ko Starla Zemelis-Durfee Federica Brandizzi",
     "year": 2021,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Plants are primary producers of food and oxygen on Earth and will likewise be indispensable to the establishment of large-scale sustainable ecosystems and human survival in space. To contribute to the..."
   },
   {
@@ -549,6 +622,7 @@ export const papers: Paper[] = [
     "authors": "NJB Brereton FE Pitre E Gonzalez",
     "year": 2021,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Maintaining astronaut health throughout long-duration spaceflight is essential to the feasibility of a manned mission to Mars. The ground-based Mars500 experiment investigated long-duration health by ..."
   },
   {
@@ -563,6 +637,7 @@ export const papers: Paper[] = [
     "authors": "Neil D Huefner Kaoru Yoshiyama Joanna D Friesner Phillip A Conklin Anne B Britt",
     "year": 2014,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Low linear energy transfer (LET) gamma rays and high LET HZE (high atomic weight, high energy) particles act as powerful mutagens in both plants and animals. DNA damage generated by HZE particles is m..."
   },
   {
@@ -570,6 +645,7 @@ export const papers: Paper[] = [
     "authors": "Christopher E Carr Noelle C Bryan Kendall N Saboda Srinivasa A Bhattaru Gary Ruvkun Maria T Zuber",
     "year": 2018,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Parabolic flights provide cost-effective, time-limited access to “weightless” or reduced gravity conditions, facilitating research and validation activities that complement infrequent and costly acces..."
   },
   {
@@ -577,6 +653,7 @@ export const papers: Paper[] = [
     "authors": "Irina V Ogneva Sergey S Loktev Vladimir N Sychev",
     "year": 2018,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "The purpose of this work was to evaluate the protein and mRNA expression levels of multiple cytoskeletal proteins in the cardiac and lung tissue of mice that were euthanized onboard the United States ..."
   },
   {
@@ -584,6 +661,7 @@ export const papers: Paper[] = [
     "authors": "Ryan W Baranowski Jessica L Braun Briana L Hockey Jenalyn L Yumol Mia S Geromella Colton JF Watson Nigel Kurgan Holt N Messner Kennedy C Whitley Adam J MacNeil Guillemette Gauquelin-Koch Fabrice Bertile William Gittings Rene Vandenboom Wendy E Ward Val A Fajardo",
     "year": 2023,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "We examined the effects of ∼30 days of spaceflight on glycogen synthase kinase 3 (GSK3) content and inhibitory serine phosphorylation in murine muscle and bone samples from four separate missions (BIO..."
   },
   {
@@ -598,6 +676,7 @@ export const papers: Paper[] = [
     "authors": "Jonathan Baio Aida F Martinez Ivan Silva Carla V Hoehn Stephanie Countryman Leonard Bailey Nahidh Hasaniya Michael J Pecaut Mary Kearns-Jonker",
     "year": 2018,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "The heart and its cellular components are profoundly altered by missions to space and injury on Earth. Further research, however, is needed to characterize and address the molecular substrates of such..."
   },
   {
@@ -605,6 +684,7 @@ export const papers: Paper[] = [
     "authors": "Andrea L DiCarlo Lisa S Carnell Carmen I Rios Pataje G Prasanna",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Over the past 20+ years, the U.S. Government has made significant strides in establishing research funding and initiating a portfolio consisting of subject matter experts on radiation-induced biologic..."
   },
   {
@@ -612,6 +692,7 @@ export const papers: Paper[] = [
     "authors": "Noelle C Bryan Francois Lebreton Michael Gilmore Gary Ruvkun Maria T Zuber Christopher E Carr",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Enterococcus faecalis is a multidrug resistant, opportunistic human pathogen and a leading cause of hospital acquired infections. Recently, isolates have been recovered from the air and surfaces onboa..."
   },
   {
@@ -619,6 +700,7 @@ export const papers: Paper[] = [
     "authors": "M Teresa Ortega Nanyan Lu Stephen K Chapes",
     "year": 2012,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "We differentiated mouse bone marrow cells in the presence of recombinant macrophage colony stimulating (rM-CSF) factor for 14 days during the flight of space shuttle Space Transportation System (STS)-..."
   },
   {
@@ -626,6 +708,7 @@ export const papers: Paper[] = [
     "authors": "Tonia Von Ohlen Alison Luce-Fedrow M Teresa Ortega Roman R Ganta Stephen K Chapes",
     "year": 2012,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Ehrlichia chaffeensis is an obligate intracellular bacterium that causes human monocytic ehrlichiosis (HME). To determine what host components are important for bacterial replication, we performed mic..."
   },
   {
@@ -633,6 +716,7 @@ export const papers: Paper[] = [
     "authors": "Rishi Drolia Tonia Von Ohlen Stephen K Chapes",
     "year": 2013,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Ehrlichia chaffeensis is a Gram-negative, obligate intracellular bacterium which causes the tick-borne disease human monocytic ehrlichiosis. In vertebrates, E. chaffeensis replicates in monocytes and ..."
   },
   {
@@ -640,6 +724,7 @@ export const papers: Paper[] = [
     "authors": "Joshua A Jackman Astghik Hakobyan Rafayela Grigoryan Roza Izmailyan Charles C Elrod Hovakim Zakaryan",
     "year": 2024,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "**Background**\nAfrican swine fever virus (ASFV) is a major threat to pig production and the lack of effective vaccines underscores the need to develop robust antiviral countermeasures. Pathologically,..."
   },
   {
@@ -647,6 +732,7 @@ export const papers: Paper[] = [
     "authors": "Stephen K Chapes M Teresa Ortega",
     "year": 2013,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "In preparation for a space flight on STS-126, two in vitro culture systems were used to investigate macrophage colony stimulating factor-dependent macrophage differentiation from mouse primary bone ma..."
   },
   {
@@ -654,6 +740,7 @@ export const papers: Paper[] = [
     "authors": "Lea H Dib M Teresa Ortega Sherry D Fleming Stephen K Chapes Tonatiuh Melgarejo",
     "year": 2013,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "Obesity is characterized by an increased recruitment of proinflammatory macrophages to the adipose tissue (AT), leading to systemic inflammation and metabolic disease. The pathogenesis of this AT infl..."
   },
   {
@@ -661,6 +748,7 @@ export const papers: Paper[] = [
     "authors": "Lea H Dib M Teresa Ortega Tonatiuh Melgarejo Stephen K Chapes",
     "year": 2015,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Metabolic and immune mediators activate many of the same signal transduction pathways. Therefore, molecules that regulate metabolism often affect immune responses. Leptin is an adipokine that exemplif..."
   },
   {
@@ -668,6 +756,7 @@ export const papers: Paper[] = [
     "authors": "Trisha A Rettig Claire Ward Michael J Pecaut Stephen K Chapes",
     "year": 2017,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Spaceflight is known to affect immune cell populations. In particular, splenic B cell numbers decrease during spaceflight and in ground-based physiological models. Although antibody isotype changes ha..."
   },
   {
@@ -675,6 +764,7 @@ export const papers: Paper[] = [
     "authors": "Trisha A Rettig Claire Ward Bailey A Bye Michael J Pecaut Stephen K Chapes",
     "year": 2018,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": "Antibody specificity and diversity are generated through the enzymatic splicing of genomic gene segments within each B cell. Antibodies are heterodimers of heavy- and light-chains encoded on separate ..."
   },
   {
@@ -682,6 +772,7 @@ export const papers: Paper[] = [
     "authors": "Claire Ward Trisha A Rettig Savannah Hlavacek Bailey A Bye Michael J Pecaut Stephen K Chapes",
     "year": 2017,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Spaceflight has been shown to suppress the adaptive immune response, altering the distribution and function of lymphocyte populations. B lymphocytes express highly specific and highly diversified rece..."
   },
   {
@@ -710,6 +801,7 @@ export const papers: Paper[] = [
     "authors": "Trisha A Rettig John C Tan Nina C Nishiyama Stephen K Chapes Michael J Pecaut",
     "year": 2021,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Ab repertoire diversity plays a critical role in the host’s ability to fight pathogens. CDR3 is partially responsible for Ab–Ag binding and is a significant source of diversity in the repertoire. CDR3..."
   },
   {
@@ -717,6 +809,7 @@ export const papers: Paper[] = [
     "authors": "Xiaoman Hong Anamika Ratri Sungshin Y Choi Joseph S Tash April E Ronca Joshua S Alwood Lane K Christenson",
     "year": 2021,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "Ovarian steroids dramatically impact normal homeostatic and metabolic processes of most tissues within the body, including muscle, bone, neural, immune, cardiovascular, and reproductive systems. Deter..."
   },
   {
@@ -724,6 +817,7 @@ export const papers: Paper[] = [
     "authors": "Wooseong Kim Farah K Tengra Jasmine Shong Nicholas Marchand Hon Kit Chan Zachary Young Ravindra C Pangule Macarena Parra Jonathan S Dordick Joel L Plawsky Cynthia H Collins",
     "year": 2013,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "**Background**\nAbundant populations of bacteria have been observed on Mir and the International Space Station. While some experiments have shown that bacteria cultured during spaceflight exhibit a ran..."
   },
   {
@@ -731,6 +825,7 @@ export const papers: Paper[] = [
     "authors": "Wooseong Kim Farah K Tengra Zachary Young Jasmine Shong Nicholas Marchand Hon Kit Chan Ravindra C Pangule Macarena Parra Jonathan S Dordick Joel L Plawsky Cynthia H Collins",
     "year": 2013,
     "keywords": [],
+    "citations": 86,
     "abstractSnippet": "Understanding the effects of spaceflight on microbial communities is crucial for the success of long-term, manned space missions. Surface-associated bacterial communities, known as biofilms, were abun..."
   },
   {
@@ -738,6 +833,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Amanda M Saravia-Butler Zhe Zhang Komal S Rathi Homer Fogle Willian A da Silveira Richard J Barker Joseph J Bass Afshin Beheshti Daniel C Berrios Elizabeth A Blaber Egle Cekanaviciute Helio A Costa Laurence B Davin Kathleen M Fisch Samrawit G Gebre Matthew Geniza Rachel Gilbert Simon Gilroy Gary Hardiman Raúl Herranz Yared H Kidane Colin PS Kruse Michael D Lee Ted Liefeld Norman G Lewis J Tyson McDonald Robert Meller Tejaswini Mishra Imara Y Perera Shayoni Ray Sigrid S Reinsch Sara Brin Rosenthal Michael Strong Nathaniel J Szewczyk Candice GT Tahimic Deanne M Taylor Joshua P Vandenbrink Alicia Villacampa Silvio Weging Chris Wolverton Sarah E Wyatt Luis Zea Sylvain V Costes Jonathan M Galazka",
     "year": 2021,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "With the development of transcriptomic technologies, we are able to quantify precise changes in gene expression profiles from astronauts and other organisms exposed to spaceflight. Members of NASA Gen..."
   },
   {
@@ -745,6 +841,7 @@ export const papers: Paper[] = [
     "authors": "Daniel C Berrios Jonathan Galazka Kirill Grigorev Samrawit Gebre Sylvain V Costes",
     "year": 2020,
     "keywords": [],
+    "citations": 59,
     "abstractSnippet": "The mission of NASA’s GeneLab database ( https://genelab.nasa.gov/ ) is to collect, curate, and provide access to the genomic, transcriptomic, proteomic and metabolomic (so-called ‘omics’) data from b..."
   },
   {
@@ -752,6 +849,7 @@ export const papers: Paper[] = [
     "authors": "Willian A da Silveira Hossein Fazelinia Sara Brin Rosenthal Evagelia C Laiakis Man S Kim Cem Meydan Yared Kidane Komal S Rathi Scott M Smith Benjamin Stear Yue Ying Yuanchao Zhang Jonathan Foox Susana Zanello Brian Crucian Dong Wang Adrienne Nugent Helio A Costa Sara R Zwart Sonja Schrepfer R A Leo Elworth Nicolae Sapoval Todd Treangen Matthew MacKay Nandan S Gokhale Stacy M Horner Larry N Singh Douglas C Wallace Jeffrey S Willey Jonathan C Schisler Robert Meller J Tyson McDonald Kathleen M Fisch Gary Hardiman Deanne Taylor Christopher E Mason Sylvain V Costes Afshin Beheshti",
     "year": 2020,
     "keywords": [],
+    "citations": 173,
     "abstractSnippet": "Spaceflight is known to impose changes on human physiology with unknown molecular etiologies. To reveal these causes, we used a multi-omics, systems biology analytical approach using biomedical profil..."
   },
   {
@@ -759,6 +857,7 @@ export const papers: Paper[] = [
     "authors": "Lindsay Rutter Richard Barker Daniela Bezdan Henry Cope Sylvain V Costes Lovorka Degoricija Kathleen M Fisch Mariano I Gabitto Samrawit Gebre Stefania Giacomello Simon Gilroy Stefan J Green Christopher E Mason Sigrid S Reinsch Nathaniel J Szewczyk Deanne M Taylor Jonathan M Galazka Raul Herranz Masafumi Muratani",
     "year": 2020,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "Space agencies have announced plans for human missions to the Moon to prepare for Mars. However, the space environment presents stressors that include radiation, microgravity, and isolation. Understan..."
   },
   {
@@ -766,6 +865,7 @@ export const papers: Paper[] = [
     "authors": "Charlotte A Nelson Ana Uriarte Acuna Amber M Paul Ryan T Scott Atul J Butte Egle Cekanaviciute Sergio E Baranzini Sylvain V Costes",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "There has long been an interest in understanding how the hazards from spaceflight may trigger or exacerbate human diseases. With the goal of advancing our knowledge on physiological changes during spa..."
   },
   {
@@ -773,6 +873,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Amanda M Saravia-Butler Zhe Zhang Komal S Rathi Homer Fogle Willian A da Silveira Richard J Barker Joseph J Bass Afshin Beheshti Daniel C Berrios Elizabeth A Blaber Egle Cekanaviciute Helio A Costa Laurence B Davin Kathleen M Fisch Samrawit G Gebre Matthew Geniza Rachel Gilbert Simon Gilroy Gary Hardiman Raúl Herranz Yared H Kidane Colin PS Kruse Michael D Lee Ted Liefeld Norman G Lewis J Tyson McDonald Robert Meller Tejaswini Mishra Imara Y Perera Shayoni Ray Sigrid S Reinsch Sara Brin Rosenthal Michael Strong Nathaniel J Szewczyk Candice GT Tahimic Deanne M Taylor Joshua P Vandenbrink Alicia Villacampa Silvio Weging Chris Wolverton Sarah E Wyatt Luis Zea Sylvain V Costes Jonathan M Galazka",
     "year": 2021,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "With the development of transcriptomic technologies, we are able to quantify precise changes in gene expression profiles from astronauts and other organisms exposed to spaceflight. Members of NASA Gen..."
   },
   {
@@ -780,6 +881,7 @@ export const papers: Paper[] = [
     "authors": "Yuvarani Masarapu Egle Cekanaviciute Zaneta Andrusivova Jakub O Westholm Åsa Björklund Robin Fallegger Pau Badia-i-Mompel Valery Boyko Shubha Vasisht Amanda Saravia-Butler Samrawit Gebre Enikő Lázár Marta Graziano Solène Frapard Robert G Hinshaw Olaf Bergmann Deanne M Taylor Douglas C Wallace Christer Sylvén Konstantinos Meletis Julio Saez-Rodriguez Jonathan M Galazka Sylvain V Costes Stefania Giacomello",
     "year": 2024,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Impairment of the central nervous system (CNS) poses a significant health risk for astronauts during long-duration space missions. In this study, we employed an innovative approach by integrating sing..."
   },
   {
@@ -787,6 +889,7 @@ export const papers: Paper[] = [
     "authors": "Sylvain V Costes Chelle L Gentemann Steven H Platts Lisa A Carnell",
     "year": 2024,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": ""
   },
   {
@@ -794,6 +897,7 @@ export const papers: Paper[] = [
     "authors": "Lauren M Sanders Kirill A Grigorev Ryan T Scott Amanda M Saravia-Butler San-huei Lai Polo Rachel Gilbert Eliah G Overbey JangKeun Kim Christopher E Mason Sylvain V Costes",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The increasing accessibility of commercial and private space travel necessitates a profound understanding of its impact on human health. The NASA Open Science Data Repository (OSDR) provides transpare..."
   },
   {
@@ -801,6 +905,7 @@ export const papers: Paper[] = [
     "authors": "Konstantinos I Adamopoulos Lauren M Sanders Sylvain V Costes",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "One of the greatest challenges of humanity for deep space exploration is to fully understand how altered gravitational conditions affect human physiology. It is evident that the spaceflight environmen..."
   },
   {
@@ -808,6 +913,7 @@ export const papers: Paper[] = [
     "authors": "Lauren M Sanders Danielle K Lopez Alan E Wood Ryan T Scott Samrawit G Gebre Amanda M Saravia-Butler Sylvain V Costes",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "NASA’s space life sciences research programs established a decades-long legacy of enhancing our ability to safely explore the cosmos. From Skylab and the Space Shuttle Program to the NASA Balloon Prog..."
   },
   {
@@ -815,6 +921,7 @@ export const papers: Paper[] = [
     "authors": "Gaurav Baranwal Heidi A Creed Walter E Cromer Wei Wang Bradley D Upchurch Matt C Smithhart Suman S Vadlamani Mary-Catherine C Clark Napoleon C Busbuso Stephanie N Blais Andrea J Reyna Ranjeet M Dongaonkar David C Zawieja Joseph M Rutkowski",
     "year": 2021,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "**Aim:**\nFluid and macromolecule transport from the interstitium into and through lymphatic vessels is necessary for tissue homeostasis. While lymphatic capillary structure suggests that passive, para..."
   },
   {
@@ -822,6 +929,7 @@ export const papers: Paper[] = [
     "authors": "Nicholas Nastasi Sarah R Haines Ashleigh Bope Marit E Meyer John M Horack Karen C Dannemiller",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Human occupied built environments are no longer confined to Earth. In fact, there have been humans living and working in low-Earth orbit on the International Space Station (ISS) since November 2000. W..."
   },
   {
@@ -829,6 +937,7 @@ export const papers: Paper[] = [
     "authors": "Nicholas Nastasi Ashleigh Bope Marit E Meyer John M Horack Karen C Dannemiller",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "**Background**\nThe commercialization of space travel will soon lead to many more people living and working in unique built environments similar to the International Space Station, which is a specializ..."
   },
   {
@@ -836,6 +945,7 @@ export const papers: Paper[] = [
     "authors": "Rhonda D Prisby James M Dominguez, II Judy Muller-Delp Matthew R Allen Michael D Delp",
     "year": 2012,
     "keywords": [],
+    "citations": 22,
     "abstractSnippet": "Bone loss with aging and menopause may be linked to vascular endothelial dysfunction. The purpose of the study was to determine whether putative modifications in endothelium-dependent vasodilation of ..."
   },
   {
@@ -843,6 +953,7 @@ export const papers: Paper[] = [
     "authors": "John N Stabley Rhonda D Prisby Bradley J Behnke Michael D Delp",
     "year": 2013,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "Chronic skeletal unloading diminishes hindlimb bone blood flow. The purpose of the present investigation was to determine 1) whether 7 and 14 days of skeletal unloading alters femoral bone and marrow ..."
   },
   {
@@ -850,6 +961,7 @@ export const papers: Paper[] = [
     "authors": "Robert T Davis, III John N Stabley James M Dominguez, II Michael W Ramsey Danielle J McCullough Lisa A Lesniewski Michael D Delp Brad J Behnke",
     "year": 2013,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Adipose tissue (AT), which typically comprises an increased percentage of body mass with advancing age, receives a large proportion of resting cardiac output. During exercise, an old age-associated in..."
   },
   {
@@ -857,6 +969,7 @@ export const papers: Paper[] = [
     "authors": "Bradley J Behnke John N Stabley Danielle J McCullough Robert T Davis, III James M Dominguez, II Judy M Muller-Delp Michael D Delp",
     "year": 2013,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Following exposure to microgravity, there is a reduced ability of astronauts to augment peripheral vascular resistance, often resulting in orthostatic hypotension. The purpose of this study was to tes..."
   },
   {
@@ -864,6 +977,7 @@ export const papers: Paper[] = [
     "authors": "Curtis R Taylor Mina Hanna Bradley J Behnke John N Stabley Danielle J McCullough Robert T Davis, III Payal Ghosh Anthony Papadopoulos Judy M Muller-Delp Michael D Delp",
     "year": 2013,
     "keywords": [],
+    "citations": 36,
     "abstractSnippet": "Evidence indicates that cerebral blood flow is both increased and diminished in astronauts on return to Earth. Data from ground-based animal models simulating the effects of microgravity have shown th..."
   },
   {
@@ -871,6 +985,7 @@ export const papers: Paper[] = [
     "authors": "John N Stabley Natasha C Moningka Bradley J Behnke Michael D Delp",
     "year": 2014,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Introduction**\nThe principal nutrient artery to the femur demonstrates an increase in nitric oxide mediated vasodilation in rats after treadmill exercise training. The present study sought to determ..."
   },
   {
@@ -878,6 +993,7 @@ export const papers: Paper[] = [
     "authors": "Rhonda D Prisby Bradley J Behnke Matthew R Allen Michael D Delp",
     "year": 2015,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Spaceflight and prolonged bed rest induce deconditioning of the cardiovascular system and bone loss. Previous research has shown declines in femoral bone and marrow perfusion during unloading and with..."
   },
   {
@@ -885,6 +1001,7 @@ export const papers: Paper[] = [
     "authors": "John N Stabley Rhonda D Prisby Bradley J Behnke Michael D Delp",
     "year": 2015,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Bone health and cardiovascular function are compromised in individuals with type 2 diabetes mellitus (T2DM). The purpose of the present study was to determine whether skeletal vascular control mechani..."
   },
   {
@@ -892,6 +1009,7 @@ export const papers: Paper[] = [
     "authors": "Svetlana I Sofronova Olga S Tarasova Dina Gaynullina Anna A Borzykh Bradley J Behnke John N Stabley Danielle J McCullough Joshua J Maraj Mina Hanna Judy M Muller-Delp Olga L Vinogradova Michael D Delp",
     "year": 2015,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "Conditions during spaceflight, such as the loss of the head-to-foot gravity vector, are thought to potentially alter cerebral blood flow and vascular resistance. The purpose of the present study was t..."
   },
   {
@@ -899,6 +1017,7 @@ export const papers: Paper[] = [
     "authors": "Michael D Delp Jacqueline M Charvat Charles L Limoli Ruth K Globus Payal Ghosh",
     "year": 2016,
     "keywords": [],
+    "citations": 82,
     "abstractSnippet": "As multiple spacefaring nations contemplate extended manned missions to Mars and the Moon, health risks could be elevated as travel goes beyond the Earth’s protective magnetosphere into the more inten..."
   },
   {
@@ -906,6 +1025,7 @@ export const papers: Paper[] = [
     "authors": "Judy M Muller-Delp Kazuki Hotta Bei Chen Bradley J Behnke Joshua J Maraj Michael D Delp Tiffani R Lucero Jeremy A Bramy David B Alarcon Hannah E Morgan Morgan R Cowan Anthony D Haynes",
     "year": 2017,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Coronary microvascular function and blood flow responses during acute exercise are impaired in the aged heart but can be restored by exercise training. Coronary microvascular resistance is directly de..."
   },
   {
@@ -913,6 +1033,7 @@ export const papers: Paper[] = [
     "authors": "Xiao W Mao Stephanie Byrum Nina C Nishiyama Michael J Pecaut Vijayalakshmi Sridharan Marjan Boerma Alan J Tackett Dai Shiba Masaki Shirakawa Satoru Takahashi Michael D Delp",
     "year": 2018,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "Astronauts are reported to have experienced some impairment in visual acuity during their mission on the International Space Station (ISS) and after they returned to Earth. There is emerging evidence ..."
   },
   {
@@ -920,6 +1041,7 @@ export const papers: Paper[] = [
     "authors": "Olga S Tarasova Vjatcheslav U Kalenchuk Anatoly S Borovik Veronika O Golubinskaya Michael D Delp Olga L Vinogradova",
     "year": 2020,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Introduction : Mechanical forces and sympathetic influences are key determinants of vascular structure and function. This study tested the hypothesis that hindlimb unloading (HU) exerts diverse effect..."
   },
   {
@@ -927,6 +1049,7 @@ export const papers: Paper[] = [
     "authors": "Zhong Chen Seta Stanbouly Nina C Nishiyama Xin Chen Michael D Delp Hongyu Qiu Xiao W Mao Charles Wang",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Astronauts exhibit an assortment of clinical abnormalities in their eyes during long-duration spaceflight. The purpose of this study was to determine whether spaceflight induces epigenomic and transcr..."
   },
   {
@@ -934,6 +1057,7 @@ export const papers: Paper[] = [
     "authors": "David Huss Rena Navaluri Kathleen F Faulkner J David Dickman",
     "year": 2010,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "The present study examined the morphological development of the otolith vestibular receptors in quail. Here we describe epithelial growth, hair cell density, stereocilia polarization, and afferent ner..."
   },
   {
@@ -941,6 +1065,7 @@ export const papers: Paper[] = [
     "authors": "Kimberly L McArthur Mridha Zakir Asim Haque J David Dickman",
     "year": 2011,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "In all species studied, afferents from semicircular canals and otolith organs converge on central neurons in the brainstem. However, the spatial and temporal relationships between converging inputs an..."
   },
   {
@@ -948,6 +1073,7 @@ export const papers: Paper[] = [
     "authors": "Chike Cao Aaron B Oswald Brian A Fabella Yinshi Ren Ramona Rodriguiz George Trainor Matthew B Greenblatt Matthew J Hilton Geoffrey S Pitt",
     "year": 2019,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Bone remodeling of the auditory ossicles and the otic capsule is highly restricted and tightly controlled by the osteoprotegerin (OPG) / receptor activator of nuclear factor kappa-B ligand (RANKL) / r..."
   },
   {
@@ -955,6 +1081,7 @@ export const papers: Paper[] = [
     "authors": "Araceli Espinosa-Jeffrey Kevin Nguyen Shalini Kumar Ochiai Toshimasa Ryuji Hirose Karen Reue Laurent Vergnes Jason Kinchen Jean de Vellis",
     "year": 2016,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "The primary energy sources of mammalian cells are proteins, fats and sugars that are processed by well-known biochemical mechanisms that have been discovered and studied in 1G (terrestrial gravity). H..."
   },
   {
@@ -962,6 +1089,7 @@ export const papers: Paper[] = [
     "authors": "Carlos Cepeda Laurent Vergnes Nicholas Carpo Matthew J Schibler Laurent A Bentolila Fathi Karouia Araceli Espinosa-Jeffrey",
     "year": 2019,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Here we demonstrate that human neural stem cells (NSCs) proliferate while in space and they express specific NSC markers after being in space. NSCs displayed both higher oxygen consumption and glycoly..."
   },
   {
@@ -976,6 +1104,7 @@ export const papers: Paper[] = [
     "authors": "Sophia Shaka Nicolas Carpo Victoria Tran Carlos Cepeda Araceli Espinosa-Jeffrey",
     "year": 2022,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Considering the imminence of long-term space travel, it is necessary to investigate the impact of space microgravity (SPC-µG) in order to determine if this environment has consequences on the astronau..."
   },
   {
@@ -983,6 +1112,7 @@ export const papers: Paper[] = [
     "authors": "Victoria Tran Nicholas Carpo Carlos Cepeda Araceli Espinosa-Jeffrey",
     "year": 2023,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Intracranial hypertension (ICP) and visual impairment intracranial pressure (VIIP) are some of the consequences of long-term space missions. Here we examined the behavior of oligodendrocyte progenitor..."
   },
   {
@@ -990,6 +1120,7 @@ export const papers: Paper[] = [
     "authors": "Laurent Vergnes Bernard Foucaud Carlos Cepeda Araceli Espinosa-Jeffrey",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Intracranial hypertension (ICP) and visual impairment intracranial pressure (VIIP) are some of the sequels of long-term space missions. Here we sought to determine how space microgravity (µG) impacts ..."
   },
   {
@@ -997,6 +1128,7 @@ export const papers: Paper[] = [
     "authors": "Juan Carlos Biancotti Araceli Espinosa-Jeffrey",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The change in gravitational force has a significant effect on biological tissues and the entire organism. As with any alteration in the environment, microgravity (µG) produces modifications in the sys..."
   },
   {
@@ -1004,6 +1136,7 @@ export const papers: Paper[] = [
     "authors": "A C Stahn D Bucher P zu Eulenburg P Denise N Smith F Pagnini O White",
     "year": 2023,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Space exploration objectives will soon move from low Earth orbit to distant destinations like Moon and Mars. The present work provides an up-to-date roadmap that identifies critical research gaps rela..."
   },
   {
@@ -1011,6 +1144,7 @@ export const papers: Paper[] = [
     "authors": "Robert J Ferl Jin Koh Fiona Denison Anna-Lisa Paul",
     "year": 2015,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Life in spaceflight demonstrates remarkable acclimation processes within the specialized habitats of vehicles subjected to the myriad of unique environmental issues associated with orbital trajectorie..."
   },
   {
@@ -1018,6 +1152,7 @@ export const papers: Paper[] = [
     "authors": "Robert J Ferl Anna-Lisa Paul",
     "year": 2016,
     "keywords": [],
+    "citations": 31,
     "abstractSnippet": "Our primary aim was to determine whether gravity has a direct role in establishing the auxin-mediated gravity-sensing system in primary roots. Major plant architectures have long been thought to be gu..."
   },
   {
@@ -1025,6 +1160,7 @@ export const papers: Paper[] = [
     "authors": "Eric R Schultz Agata K Zupanska Natasha J Sng Anna-Lisa Paul Robert J Ferl",
     "year": 2017,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "**Background**\nSkewing root patterns provide key insights into root growth strategies and mechanisms that produce root architectures. Roots exhibit skewing and waving when grown on a tilted, impenetra..."
   },
   {
@@ -1032,6 +1168,7 @@ export const papers: Paper[] = [
     "authors": "Mingqi Zhou Anna-Lisa Paul Robert J Ferl",
     "year": 2017,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "In this article we report the identification of T-DNA (transfer DNA) insertion sites within two different gene regions in the genome of an Arabidopsis mutant line, SALK_084889. The T-DNA positions are..."
   },
   {
@@ -1039,6 +1176,7 @@ export const papers: Paper[] = [
     "authors": "Anna-Lisa Paul Natasha J Sng Agata K Zupanska Aparna Krishnamurthy Eric R Schultz Robert J Ferl",
     "year": 2017,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "Experimentation on the International Space Station has reached the stage where repeated and nuanced transcriptome studies are beginning to illuminate the structural and metabolic differences between p..."
   },
   {
@@ -1053,6 +1191,7 @@ export const papers: Paper[] = [
     "authors": "Nicole S Beisel Jordan B Callaham Natasha J Sng Dylan J Taylor Anna‐Lisa Paul Robert J Ferl",
     "year": 2018,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "**Premise of the Study**\nAn imaging system was refined to monitor the health of vegetation grown in controlled conditions using spectral reflectance patterns. To measure plant health, the single‐image..."
   },
   {
@@ -1060,6 +1199,7 @@ export const papers: Paper[] = [
     "authors": "Aparna Krishnamurthy Robert J Ferl Anna‐Lisa Paul",
     "year": 2018,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "**Premise of the Study**\nThe root apex is an important region involved in environmental sensing, but comprises a very small part of the root. Obtaining root apex transcriptomes is therefore challengin..."
   },
   {
@@ -1067,6 +1207,7 @@ export const papers: Paper[] = [
     "authors": "Nicole S Beisel Jerald Noble W Brad Barbazuk Anna-Lisa Paul Robert J Ferl",
     "year": 2019,
     "keywords": [],
+    "citations": 22,
     "abstractSnippet": "Plants grown in spaceflight experience novel environmental signals, including those associated with microgravity and ionizing radiation. Spaceflight triggers a response involving transcriptional re-pr..."
   },
   {
@@ -1074,6 +1215,7 @@ export const papers: Paper[] = [
     "authors": "Paul Zabel Conrad Zeidler Vincent Vrakking Markus Dorn Daniel Schubert",
     "year": 2020,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "The EDEN ISS greenhouse is a space-analog test facility near the German Neumayer III station in Antarctica. The facility is part of the project of the same name and was designed and built starting fro..."
   },
   {
@@ -1081,6 +1223,7 @@ export const papers: Paper[] = [
     "authors": "Brandon Califar Natasha J Sng Agata Zupanska Anna-Lisa Paul Robert J Ferl",
     "year": 2020,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "The observation that plant roots skew in microgravity recently refuted the long-held conviction that skewing was a gravity-dependent phenomenon. Further, spaceflight root skewing suggests that specifi..."
   },
   {
@@ -1088,6 +1231,7 @@ export const papers: Paper[] = [
     "authors": "Jamie Fitzgerald Jamie Endicott Uwe Hansen Cathleen Janowitz",
     "year": 2019,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "The effects of spaceflight on cartilaginous structure are largely unknown. To address this deficiency, articular cartilage (AC) and sternal cartilage (SC) from mice exposed to 30 days of microgravity ..."
   },
   {
@@ -1095,6 +1239,7 @@ export const papers: Paper[] = [
     "authors": "Jamie S Foster Raymond M Wheeler Regine Pamphile",
     "year": 2014,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Spaceflight imposes several unique stresses on biological life that together can have a profound impact on the homeostasis between eukaryotes and their associated microbes. One such stressor, microgra..."
   },
   {
@@ -1102,6 +1247,7 @@ export const papers: Paper[] = [
     "authors": "Elizabeth AC Heath-Heckman Jamie Foster Michael A Apicella William E Goldman Margaret McFall-Ngai",
     "year": 2016,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Recent research has shown that the microbiota affects the biology of associated host epithelial tissues, including their circadian rhythms, although few data are available on how such influences shape..."
   },
   {
@@ -1109,6 +1255,7 @@ export const papers: Paper[] = [
     "authors": "Mahdi Belcaid Giorgio Casaburi Sarah J McAnulty Hannah Schmidbaur Andrea M Suria Silvia Moriano-Gutierrez M Sabrina Pankey Todd H Oakley Natacha Kremer Eric J Koch Andrew J Collins Hoan Nguyen Sai Lek Irina Goncharenko-Foster Patrick Minx Erica Sodergren George Weinstock Daniel S Rokhsar Margaret McFall-Ngai Oleg Simakov Jamie S Foster Spencer V Nyholm",
     "year": 2019,
     "keywords": [],
+    "citations": 77,
     "abstractSnippet": ""
   },
   {
@@ -1116,6 +1263,7 @@ export const papers: Paper[] = [
     "authors": "Madeline M Vroom Yaneli Rodriguez-Ocasio Jonathan B Lynch Edward G Ruby Jamie S Foster",
     "year": 2021,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "Reduced gravity, or microgravity, can have a pronounced impact on the physiology of animals, but the effects on their associated microbiomes are not well understood. Here, the impact of modeled microg..."
   },
   {
@@ -1123,6 +1271,7 @@ export const papers: Paper[] = [
     "authors": "Hannah Schmidbaur Akane Kawaguchi Tereza Clarence Xiao Fu Oi Pui Hoang Bob Zimmermann Elena A Ritschard Anton Weissenbacher Jamie S Foster Spencer V Nyholm Paul A Bates Caroline B Albertin Elly Tanaka Oleg Simakov",
     "year": 2022,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "Coleoid cephalopods (squid, cuttlefish, octopus) have the largest nervous system among invertebrates that together with many lineage-specific morphological traits enables complex behaviors. The genomi..."
   },
   {
@@ -1130,6 +1279,7 @@ export const papers: Paper[] = [
     "authors": "Madeline M Vroom Angel Troncoso-Garcia Alexandrea A Duscher Jamie S Foster",
     "year": 2022,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "**Background**\nSpaceflight is a novel and profoundly stressful environment for life. One aspect of spaceflight, microgravity, has been shown to perturb animal physiology thereby posing numerous health..."
   },
   {
@@ -1137,6 +1287,7 @@ export const papers: Paper[] = [
     "authors": "PK Valonen FT Moutos A Kusanagi M Moretti BO Diekman JF Welter AI Caplan F Guilak LE Freed",
     "year": 2010,
     "keywords": [],
+    "citations": 45,
     "abstractSnippet": "Three-dimensionally woven poly(ε-caprolactone)(PCL) scaffolds were combined with adult human mesenchymal stem cells (hMSC) to engineer mechanically functional cartilage constructs in vitro . The speci..."
   },
   {
@@ -1144,6 +1295,7 @@ export const papers: Paper[] = [
     "authors": "Christoffer K Abrahamsson Fan Yang Hyoungshin Park Jonathan M Brunger Piia K Valonen Robert Langer Jean F Welter Arnold I Caplan Farshid Guilak Lisa E Freed",
     "year": 2010,
     "keywords": [],
+    "citations": 34,
     "abstractSnippet": "Human mesenchymal stem cells (hMSCs) and three-dimensional (3D) woven poly(ɛ-caprolactone) (PCL) scaffolds are promising tools for skeletal tissue engineering. We hypothesized that in vitro culture du..."
   },
   {
@@ -1158,6 +1310,7 @@ export const papers: Paper[] = [
     "authors": "E Gonzalez M D Lee B T Tierney N Lipieta P Flores M Mishra L Beckett A Finkelstein A Mo P Walton F Karouia R Barker R J Jansen S J Green S Weging J Kelliher N K Singh D Bezdan J Galazska N J B Brereton",
     "year": 2024,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The ISS rodent habitat has provided crucial insights into the impact of spaceflight on mammals, inducing symptoms characteristic of liver disease, insulin resistance, osteopenia, and myopathy. Althoug..."
   },
   {
@@ -1165,6 +1318,7 @@ export const papers: Paper[] = [
     "authors": "Rachel Gilbert Nicole Tanenbaum Sharmila Bhattacharya",
     "year": 2022,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "While studies have shown an increase in pathogenicity in several microbes during spaceflight and after exposure to simulated microgravity, the mechanisms underlying these changes in phenotype are not ..."
   },
   {
@@ -1172,6 +1326,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson V V Ramprasad Eedara Nitin K Singh Namita Damle Ceth W Parker Fathi Karouia Christopher E Mason Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "A single strain from the family Paenibacillaceae was isolated from the wall behind the Waste Hygiene Compartment aboard the International Space Station (ISS) in April 2018, as part of the Microbial Tr..."
   },
   {
@@ -1179,6 +1334,7 @@ export const papers: Paper[] = [
     "authors": "Nitin K Singh Jason M Wood Jose Patane Livia Maria Silva Moura Jonathan Lombardino João Carlos Setubal Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "**Background**\nSeveral investigations on the microbial diversity and functional properties of the International Space Station (ISS) environment were carried out to understand the influence of spacefli..."
   },
   {
@@ -1186,6 +1342,7 @@ export const papers: Paper[] = [
     "authors": "Neil R Gottel Megan S Hill Maxwell J Neal Sarah M Allard Karsten Zengler Jack A Gilbert",
     "year": 2024,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The microbiome of the built environment comprises bacterial, archaeal, fungal, and viral communities associated with human-made structures. Even though most of these microbes are benign, antibiotic-re..."
   },
   {
@@ -1193,6 +1350,7 @@ export const papers: Paper[] = [
     "authors": "Adeeba Dark Vadim Demidchik Siân L Richards Sergey Shabala Julia M Davies",
     "year": 2011,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Extracellular purine nucleotides appear capable of regulating plant development, defence and stress responses by acting in part as agonists of plasma membrane calcium channels. Factors stimulating ATP..."
   },
   {
@@ -1200,6 +1358,7 @@ export const papers: Paper[] = [
     "authors": "Han-Qing Wang Xing-Yu Zhao Zhong Tang Xin-Yuan Huang Peng Wang Wenhua Zhang Yunhui Zhang Sheng Luan Fang-Jie Zhao",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Root gravitropism relies on gravity perception by the root cap and requires tightly regulated phytohormone signaling. Here, we isolate a rice mutant that displays root coiling in hydroponics but norma..."
   },
   {
@@ -1207,6 +1366,7 @@ export const papers: Paper[] = [
     "authors": "Han-Qing Wang Xing-Yu Zhao Zhong Tang Xin-Yuan Huang Peng Wang Wenhua Zhang Yunhui Zhang Sheng Luan Fang-Jie Zhao",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Root gravitropism relies on gravity perception by the root cap and requires tightly regulated phytohormone signaling. Here, we isolate a rice mutant that displays root coiling in hydroponics but norma..."
   },
   {
@@ -1214,6 +1374,7 @@ export const papers: Paper[] = [
     "authors": "Won-Gyu Choi Masatsugu Toyota Su-Hwa Kim Richard Hilleary Simon Gilroy",
     "year": 2014,
     "keywords": [],
+    "citations": 268,
     "abstractSnippet": ""
   },
   {
@@ -1221,6 +1382,7 @@ export const papers: Paper[] = [
     "authors": "Han-Qing Wang Xing-Yu Zhao Zhong Tang Xin-Yuan Huang Peng Wang Wenhua Zhang Yunhui Zhang Sheng Luan Fang-Jie Zhao",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Root gravitropism relies on gravity perception by the root cap and requires tightly regulated phytohormone signaling. Here, we isolate a rice mutant that displays root coiling in hydroponics but norma..."
   },
   {
@@ -1228,6 +1390,7 @@ export const papers: Paper[] = [
     "authors": "Ashley Ann Alvarez Sang Won Han Masatsugu Toyota Carla Brillada Jiameng Zheng Simon Gilroy Marcela Rojas-Pierce",
     "year": 2016,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Highlight\nThe highly restricted movement of amyloplasts in graviperceptive cells of zig-1 hypocotyls is overcome by wortmannin treatment, suggesting a physical association between amyloplasts and the ..."
   },
   {
@@ -1235,6 +1398,7 @@ export const papers: Paper[] = [
     "authors": "Matthew J Evans Won-Gyu Choi Simon Gilroy Richard J Morris",
     "year": 2016,
     "keywords": [],
+    "citations": 114,
     "abstractSnippet": "Mathematical modeling coupled with direct measurement of Ca 2+ and ROS dynamics suggest that ROS-assisted calcium-induced calcium release propagates stress-induced Ca 2+ waves in plants.\nPlants exhibi..."
   },
   {
@@ -1242,6 +1406,7 @@ export const papers: Paper[] = [
     "authors": "Sara I Zandalinas Yosef Fichman Ron Mittler",
     "year": 2020,
     "keywords": [],
+    "citations": 41,
     "abstractSnippet": "The reactive oxygen species wave propagates through vascular bundles during the systemic response of Arabidopsis ( Arabidopsis thaliana ) plants to excess light stress.\nSystemic signaling and systemic..."
   },
   {
@@ -1249,6 +1414,7 @@ export const papers: Paper[] = [
     "authors": "Thomas R Vincent James Canham Masatsugu Toyota Marieta Avramova Sam T Mugford Simon Gilroy Anthony J Miller Saskia Hogenhout Dale Sanders",
     "year": 2017,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Calcium ions are predicted to be key signaling entities during biotic interactions, with calcium signaling forming an established part of the plant defense response to microbial elicitors and to wound..."
   },
   {
@@ -1256,6 +1422,7 @@ export const papers: Paper[] = [
     "authors": "Won-Gyu Choi Gad Miller Ian Wallace Jeffrey Harper Ron Mittler Simon Gilroy",
     "year": 2017,
     "keywords": [],
+    "citations": 117,
     "abstractSnippet": "Plants show a rapid systemic response to a wide range of environmental stresses, where the signals from the site of stimulus perception are transmitted to distal organs to elicit plant-wide responses...."
   },
   {
@@ -1270,6 +1437,7 @@ export const papers: Paper[] = [
     "authors": "Richard Barker Jonathan Lombardino Kai Rasmussen Simon Gilroy",
     "year": 2020,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "Recent advances in the routine access to space along with increasing opportunities to perform plant growth experiments on board the International Space Station have led to an ever-increasing body of t..."
   },
   {
@@ -1277,6 +1445,7 @@ export const papers: Paper[] = [
     "authors": "Richard Hilleary Julio Paez-Valencia Cullen Vens Masatsugu Toyota Michael Palmgren Simon Gilroy",
     "year": 2020,
     "keywords": [],
+    "citations": 46,
     "abstractSnippet": ""
   },
   {
@@ -1284,6 +1453,7 @@ export const papers: Paper[] = [
     "authors": "Sarah Johns Takuma Hagihara Masatsugu Toyota Simon Gilroy",
     "year": 2021,
     "keywords": [],
+    "citations": 37,
     "abstractSnippet": ""
   },
   {
@@ -1291,6 +1461,7 @@ export const papers: Paper[] = [
     "authors": "Richard Barker Sylvain V Costes Jack Miller Samrawit G Gebre Jonathan Lombardino Simon Gilroy",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "In addition to microgravity, spaceflight simultaneously exposes biology to a suite of other stimuli. For example, in space, organisms experience ionizing radiation environments that significantly diff..."
   },
   {
@@ -1298,6 +1469,7 @@ export const papers: Paper[] = [
     "authors": "Jian Yang Iny Elizebeth Mathew Hormat Rhein Richard Barker Qi Guo Luca Brunello Elena Loreti Bronwyn J Barkla Simon Gilroy Pierdomenico Perata Kendal D Hirschi",
     "year": 2022,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "A plant’s oxygen supply can vary from normal (normoxia) to total depletion (anoxia). Tolerance to anoxia is relevant to wetland species, rice ( Oryza sativa ) cultivation, and submergence tolerance of..."
   },
   {
@@ -1305,6 +1477,7 @@ export const papers: Paper[] = [
     "authors": "Richard Barker Colin P S Kruse Christina Johnson Amanda Saravia-Butler Homer Fogle Hyun-Seok Chang Ralph Møller Trane Noah Kinscherf Alicia Villacampa Aránzazu Manzano Raúl Herranz Laurence B Davin Norman G Lewis Imara Perera Chris Wolverton Parul Gupta Pankaj Jaiswal Sigrid S Reinsch Sarah Wyatt Simon Gilroy",
     "year": 2023,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Spaceflight presents a multifaceted environment for plants, combining the effects on growth of many stressors and factors including altered gravity, the influence of experiment hardware, and increased..."
   },
   {
@@ -1312,6 +1485,7 @@ export const papers: Paper[] = [
     "authors": "Joshua S Alwood Akhilesh Kumar Luan H Tran Angela Wang Charles L Limoli Ruth K Globus",
     "year": 2012,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "Osteoporosis can profoundly affect the aged as a consequence of progressive bone loss; high-dose ionizing radiation can cause similar changes, although less is known about lower doses (≤100 cGy). We h..."
   },
   {
@@ -1319,6 +1493,7 @@ export const papers: Paper[] = [
     "authors": "Joshua S Alwood Mohammad Shahnazari Betsabel Chicana AS Schreurs Akhilesh Kumar Alana Bartolini Yasaman Shirazi-Fard Ruth K Globus",
     "year": 2015,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Exposure to ionizing radiation can cause rapid mineral loss and increase bone-resorbing osteoclasts within metabolically active, cancellous bone tissue leading to structural deficits. To better unders..."
   },
   {
@@ -1326,6 +1501,7 @@ export const papers: Paper[] = [
     "authors": "Sungshin Choi Hami E Ray San-Huei Lai Joshua S Alwood Ruth K Globus",
     "year": 2016,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "**Background**\nEven with recent scientific advancements, challenges posed by limited resources and capabilities at the time of sample dissection continue to limit the collection of high quality tissue..."
   },
   {
@@ -1340,6 +1516,7 @@ export const papers: Paper[] = [
     "authors": "Candice G T Tahimic Ruth K Globus",
     "year": 2017,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Spaceflight entails exposure to numerous environmental challenges with the potential to contribute to both musculoskeletal and vascular dysfunction. The purpose of this review is to describe current u..."
   },
   {
@@ -1347,6 +1524,7 @@ export const papers: Paper[] = [
     "authors": "Candice G T Tahimic Amber M Paul Ann-Sofie Schreurs Samantha M Torres Linda Rubinstein Sonette Steczina Moniece Lowe Sharmila Bhattacharya Joshua S Alwood April E Ronca Ruth K Globus",
     "year": 2019,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "The hindlimb unloading (HU) model has been used extensively to simulate the cephalad fluid shift and musculoskeletal disuse observed in spaceflight with its application expanding to study immune, card..."
   },
   {
@@ -1354,6 +1532,7 @@ export const papers: Paper[] = [
     "authors": "Sungshin Y Choi Amanda Saravia-Butler Yasaman Shirazi-Fard Dennis Leveson-Gower Louis S Stodieck Samuel M Cadena Janet Beegle Stephanie Solis April Ronca Ruth K Globus",
     "year": 2020,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Animal models are useful for exploring the health consequences of prolonged spaceflight. Capabilities were developed to perform experiments in low earth orbit with on-board sample recovery, thereby av..."
   },
   {
@@ -1361,6 +1540,7 @@ export const papers: Paper[] = [
     "authors": "Jessica Cannavino Lorenza Brocca Marco Sandri Bruno Grassi Roberto Bottinelli Maria Antonietta Pellegrino",
     "year": 2015,
     "keywords": [],
+    "citations": 95,
     "abstractSnippet": "The mechanisms triggering disuse muscle atrophy remain of debate. It is becoming evident that mitochondrial dysfunction may regulate pathways controlling muscle mass. We have recently shown that mitoc..."
   },
   {
@@ -1368,6 +1548,7 @@ export const papers: Paper[] = [
     "authors": "Linda Rubinstein Ann-Sofie Schreurs Samantha M Torres Sonette Steczina Moniece G Lowe Frederico Kiffer Antiño R Allen April E Ronca Marianne B Sowa Ruth K Globus Candice G T Tahimic",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Isolation on Earth can alter physiology and signaling of organs systems, including the central nervous system. Although not in complete solitude, astronauts operate in an isolated environment during s..."
   },
   {
@@ -1375,6 +1556,7 @@ export const papers: Paper[] = [
     "authors": "Ching-Jung Lin Peter Smibert Xiaoyu Zhao Jennifer F Hu Johnny Ramroop Stefanie M Kellner Matthew A Benton Shubha Govind Peter C Dedon Rolf Sternglanz Eric C Lai",
     "year": 2015,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "N 6 -threonylcarbamoyl-adenosine (t6A) is one of the few RNA modifications that is universally present in life. This modification occurs at high frequency at position 37 of most tRNAs that decode ANN ..."
   },
   {
@@ -1382,6 +1564,7 @@ export const papers: Paper[] = [
     "authors": "Mary Heavner Johnny Ramroop Gwenaelle Gueguen Girish Ramrattan Georgia Dolios Michael Scarpati Jonathan Kwiat Sharmila Bhattacharya Rong Wang Shaneen Singh Shubha Govind",
     "year": 2017,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "The evolutionary success of parasitoid wasps, a highly diverse group of\ninsects widely used in biocontrol, depends on a variety of life history\nstrategies in conflict with those of their hosts [ 1 ]. ..."
   },
   {
@@ -1389,6 +1572,7 @@ export const papers: Paper[] = [
     "authors": "Michael Scarpati Yan Qi Shubha Govind Shaneen Singh",
     "year": 2019,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "This study reports on a putative eicosanoid biosynthesis pathway in Drosophila melanogaster and challenges the currently held view that mechanistic routes to synthesize eicosanoid or eicosanoid-like b..."
   },
   {
@@ -1396,6 +1580,7 @@ export const papers: Paper[] = [
     "authors": "Brian Wey Mary Ellen Heavner Kameron T Wittmeyer Thomas Briese Keith R Hopper Shubha Govind",
     "year": 2019,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "Leptopilina heterotoma are obligate parasitoid wasps that develop in the body of their Drosophila hosts. During oviposition, female wasps introduce venom into the larval hosts’ body cavity. The venom ..."
   },
   {
@@ -1403,6 +1588,7 @@ export const papers: Paper[] = [
     "authors": "Rachel Gilbert Medaya Torres Rachel Clemens Shannon Hateley Ravikumar Hosamani William Wade Sharmila Bhattacharya",
     "year": 2020,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the imm..."
   },
   {
@@ -1410,6 +1596,7 @@ export const papers: Paper[] = [
     "authors": "Johnny R Ramroop Mary Ellen Heavner Zubaidul H Razzak Shubha Govind",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "The wasps Leptopilina heterotoma parasitize and ingest their Drosophila hosts. They produce extracellular vesicles (EVs) in the venom that are packed with proteins, some of which perform immune suppre..."
   },
   {
@@ -1417,6 +1604,7 @@ export const papers: Paper[] = [
     "authors": "Joseph Arguelles Jenny Lee Lady V Cardenas Shubha Govind Shaneen Singh",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "As generalist parasitoid wasps, Leptopilina heterotoma are highly successful on many species of fruit flies of the genus Drosophila . The parasitoids produce specialized multi-strategy extracellular v..."
   },
   {
@@ -1424,6 +1612,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Chou Johnny R Ramroop Amanda M Saravia-Butler Brian Wey Matthew P Lera Medaya L Torres Mary Ellen Heavner Janani Iyer Siddhita D Mhatre Sharmila Bhattacharya Shubha Govind",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "While fruit flies ( Drosophila melanogaster ) and humans exhibit immune system dysfunction in space, studies examining their immune systems’ interactions with natural parasites in space are lacking. D..."
   },
   {
@@ -1431,6 +1620,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Chou Johnny R Ramroop Amanda M Saravia-Butler Brian Wey Matthew P Lera Medaya L Torres Mary Ellen Heavner Janani Iyer Siddhita D Mhatre Sharmila Bhattacharya Shubha Govind",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "While fruit flies ( Drosophila melanogaster ) and humans exhibit immune system dysfunction in space, studies examining their immune systems’ interactions with natural parasites in space are lacking. D..."
   },
   {
@@ -1438,6 +1628,7 @@ export const papers: Paper[] = [
     "authors": "Sakuya Yamanouchi Jordan Rhone Jian-Hua Mao Keigi Fujiwara Premkumar B Saganti Akihisa Takahashi Megumi Hada",
     "year": 2020,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "During space travel, humans are continuously exposed to two major environmental stresses, microgravity (μ G ) and space radiation. One of the fundamental questions is whether the two stressors are int..."
   },
   {
@@ -1445,6 +1636,7 @@ export const papers: Paper[] = [
     "authors": "Corey Nislow Anna Y Lee Patricia L Allen Guri Giaever Andrew Smith Marinella Gebbia Louis S Stodieck Jeffrey S Hammond Holly H Birdsall Timothy G Hammond",
     "year": 2015,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Spaceflight is a unique environment with profound effects on biological systems including tissue redistribution and musculoskeletal stresses. However, the more subtle biological effects of spaceflight..."
   },
   {
@@ -1452,6 +1644,7 @@ export const papers: Paper[] = [
     "authors": "Timothy G Hammond Patricia L Allen Margaret A Gunter Jennifer Chiang Guri Giaever Corey Nislow Holly H Birdsall",
     "year": 2017,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Baker’s yeast ( Saccharomyces cerevisiae ) has broad genetic homology to human cells. Although typically grown as 1-2mm diameter colonies under certain conditions yeast can form very large (10 + mm in..."
   },
   {
@@ -1459,6 +1652,7 @@ export const papers: Paper[] = [
     "authors": "Timothy G Hammond Patricia L Allen Holly H Birdsall",
     "year": 2018,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Understanding genome wide, tissue-specific, and spaceflight-induced changes in gene expression is critical to develop effective countermeasures. Transcriptome analysis has been performed on diverse ti..."
   },
   {
@@ -1480,6 +1674,7 @@ export const papers: Paper[] = [
     "authors": "Kipyo Kim Beomgyun Jeong Yun-Mi Lee Hyung-Eun Son Ji-Young Ryu Seokwoo Park Jong Cheol Jeong Ho Jun Chin Sejoong Kim",
     "year": 2022,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Increased viscosity of concentrated contrast media (CM) in the renal tubules can perturb renal hemodynamics and have a detrimental effect on tubular epithelial cells. However, the effects of viscosity..."
   },
   {
@@ -1494,6 +1689,7 @@ export const papers: Paper[] = [
     "authors": "Jeannie F Bailey Stephanie L Miller Kristine Khieu Conor W O’Neill Robert M Healey Dezba G Coughlin Jojo V Sayson Douglas G Chang Alan R Hargens Jeffrey C Lotz",
     "year": 2017,
     "keywords": [],
+    "citations": 60,
     "abstractSnippet": "**BACKGROUND CONTEXT:**\nProlonged microgravity exposure is associated with localized low back pain and an elevated risk of post-flight disc herniation. Although the mechanisms by which microgravity im..."
   },
   {
@@ -1501,6 +1697,7 @@ export const papers: Paper[] = [
     "authors": "Bing Zhang Esther Cory Roshmi Bhattacharya Robert Sah Alan R Hargens",
     "year": 2013,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "Bone remodeling may occur in spaceflight as a response to skeletal unloading and head-ward fluid shifts. While unloading causes significant loss of bone mass and density in legs of animals exposed to ..."
   },
   {
@@ -1508,6 +1705,7 @@ export const papers: Paper[] = [
     "authors": "Stephen J Shymon Burt Yaszay Jerry R Dwek James A Proudfoot Michael Donohue Alan R Hargens",
     "year": 2014,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "**Study Design**\nThis study is a repeated measures design to measure the lumbar spine’s response to common backpack loads in children with idiopathic low back pain (ILBP) using upright MRI.\n**Objectiv..."
   },
   {
@@ -1515,6 +1713,7 @@ export const papers: Paper[] = [
     "authors": "Britta Berg-Johansen Ellen C Liebenberg Alfred Li Brandon R Macias Alan R Hargens Jeffrey C Lotz",
     "year": 2015,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "Intervertebral disc herniation rates are quadrupled in astronauts following spaceflight. While bending motions are main contributors to herniation, the effects of microgravity on the bending propertie..."
   },
   {
@@ -1529,6 +1728,7 @@ export const papers: Paper[] = [
     "authors": "Camille F Abshire Kanchanjunga Prasai Israel Soto Runhua Shi Monica Concha Melody Baddoo Erik K Flemington Don G Ennis Rona S Scott Lynn Harrison",
     "year": 2016,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "Waterborne pathogenic mycobacteria can form biofilms, and certain species can cause hard-to-treat human lung infections. Astronaut health could therefore be compromised if the spacecraft environment o..."
   },
   {
@@ -1536,6 +1736,7 @@ export const papers: Paper[] = [
     "authors": "Susan P John Karl H Hasenstein",
     "year": 2011,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Gravitropism describes curvature of plants in response to gravity or differential acceleration and clinorotation is commonly used to compensate unilateral effect of gravity. We report on experiments t..."
   },
   {
@@ -1543,6 +1744,7 @@ export const papers: Paper[] = [
     "authors": "Tripti Gour Anukriti Sharma Ratan Lal Monika Heikrujam Anshul Gupta Lokesh Kumar Agarwal Siva PK Chetri Rajesh Kumar Kuldeep Sharma",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The significant horticultural crop, cauliflower ( Brassica oleracea L. var . botrytis ) is vulnerable to the excessive salt concentration in the soil, which contributes to its scaled-down growth and p..."
   },
   {
@@ -1550,6 +1752,7 @@ export const papers: Paper[] = [
     "authors": "Susan P John Karl H Hasenstein",
     "year": 2020,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Although heat and desiccation stresses often coincide, the response to heat especially in desiccation tolerant plants is rarely studied. We subjected hydrated Pleopeltis polypodioides fronds to temper..."
   },
   {
@@ -1557,6 +1760,7 @@ export const papers: Paper[] = [
     "authors": "Chitra Ajala Karl H Hasenstein",
     "year": 2022,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Unlike typical negative gravitropic curvature, young hypocotyls of Brassica rapa and other dicots exhibit positive gravitropism. This positive curvature occurs at the base of the hypocotyl and is foll..."
   },
   {
@@ -1564,6 +1768,7 @@ export const papers: Paper[] = [
     "authors": "K H Hasenstein M R Park S P John C Ajala",
     "year": 2022,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Directing plant growth in weightlessness requires understanding the processes that establish plant orientation and how to manipulate them. Both gravi- and phototropism determine directional growth and..."
   },
   {
@@ -1571,6 +1776,7 @@ export const papers: Paper[] = [
     "authors": "Elizabeth L Kordyum Olga A Artemenko Karl H Hasenstein",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "The necessity to include plants as a component of a Bioregenerative Life Support System leads to investigations to optimize plant growth facilities as well as a better understanding of the plant cell ..."
   },
   {
@@ -1578,6 +1784,7 @@ export const papers: Paper[] = [
     "authors": "Grigory Maksaev Elizabeth S Haswell",
     "year": 2012,
     "keywords": [],
+    "citations": 69,
     "abstractSnippet": "Like many other organisms, plants are capable of sensing and responding to mechanical stimuli such as touch, osmotic pressure, and gravity. One mechanism for the perception of force is the activation ..."
   },
   {
@@ -1585,6 +1792,7 @@ export const papers: Paper[] = [
     "authors": "Rose Z Hill Benjamin U Hoffman Takeshi Morita Stephanie M Campos Ellen A Lumpkin Rachel B Brem Diana M Bautista",
     "year": 2018,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Somatosensory neurons mediate responses to diverse mechanical stimuli, from innocuous touch to noxious pain. While recent studies have identified distinct populations of A mechanonociceptors (AMs) tha..."
   },
   {
@@ -1592,6 +1800,7 @@ export const papers: Paper[] = [
     "authors": "Grigory Maksaev Elizabeth S Haswell",
     "year": 2015,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The oocytes of the African clawed frog ( Xenopus laevis ) comprise one of the most widely used membrane protein expression systems. While frequently used for studies of transporters and ion channels, ..."
   },
   {
@@ -1599,6 +1808,7 @@ export const papers: Paper[] = [
     "authors": "Elizabeth S Haswell Paul E Verslues",
     "year": 2015,
     "keywords": [],
+    "citations": 45,
     "abstractSnippet": ""
   },
   {
@@ -1606,6 +1816,7 @@ export const papers: Paper[] = [
     "authors": "Margaret E Wilson Matthew Mixdorf R Howard Berg Elizabeth S Haswell",
     "year": 2016,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "The balance between proliferation and differentiation in the plant shoot apical meristem is controlled by regulatory loops involving the phytohormone cytokinin and stem cell identity genes. Concurrent..."
   },
   {
@@ -1613,6 +1824,7 @@ export const papers: Paper[] = [
     "authors": "David R Sultemeier Kristel R Choy Felix E Schweizer Larry F Hoffman",
     "year": 2017,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "Spaceflight imposes a radically different sensory environment from that in which the inner ear utricle normally operates. We investigated synaptic modifications in utricles from mice flown aboard a sp..."
   },
   {
@@ -1620,6 +1832,7 @@ export const papers: Paper[] = [
     "authors": "Carlos Luna Alvin G Yew Adam H Hsieh",
     "year": 2015,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "**Aims:**\nTo determine the short-term effects of simulated microgravity on mesenchymal stem cell behaviors—as a function of clinorotation speed—using time-lapse microscopy.\n**Background:**\nGround-base..."
   },
   {
@@ -1627,6 +1840,7 @@ export const papers: Paper[] = [
     "authors": "Millie Hughes-Fulford Chai-Fei Li",
     "year": 2011,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "**Introduction**\nThe difficulty in re-growing and mineralizing new bone after severe fracture can result in loss of ambulation or limb. Here we describe the sequential roles of FGF-2 in inducing gene ..."
   },
   {
@@ -1634,6 +1848,7 @@ export const papers: Paper[] = [
     "authors": "June M Chan Vivian Weinberg Mark J Magbanua Eduardo Sosa Jeffry Simko Katsuto Shinohara Scot Federman Mike Mattie Millie Hughes-Fulford Christopher Haqq Peter R Carroll",
     "year": 2010,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "**Background**\nNutritional factors are associated with reduced risk of prostate cancer progression, yet mechanisms remain unclear. We examined the effects of lycopene and fish oil supplements versus p..."
   },
   {
@@ -1641,6 +1856,7 @@ export const papers: Paper[] = [
     "authors": "Millie Hughes-Fulford",
     "year": 2011,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": ""
   },
   {
@@ -1648,6 +1864,7 @@ export const papers: Paper[] = [
     "authors": "Ming-Yan Wang Meng-Xu Yi Xing-Yu Mo Shan-Jie Wei Yu Qiao Zheng Zhang Zhao-Liang Su Hong-Yan Lu",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Bronchopulmonary dysplasia (BPD) is a severe lung disease in preterm infants, the abnormal proliferate and differentiate ability of type II epithelial cells (AEC II) is the key to the pathological bas..."
   },
   {
@@ -1655,6 +1872,7 @@ export const papers: Paper[] = [
     "authors": "S Marlene Grenon Marion Jeanne Jesus Aguado-Zuniga Michael S Conte Millie Hughes-Fulford",
     "year": 2013,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Mechanical forces including gravity affect endothelial cell (ECs) function, and have been implicated in vascular disease as well as physiologic changes associated with low gravity environments. The go..."
   },
   {
@@ -1662,6 +1880,7 @@ export const papers: Paper[] = [
     "authors": "Joel L Ramirez Warren J Gasper Sukaynah A Khetani Greg J Zahner Nancy K Hills Pete T Mitchell Brian E Sansbury Michael S Conte Matthew Spite S Marlene Grenon",
     "year": 2019,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": "**Background:**\nN-3 polyunsaturated fatty acid (PUFA) supplementation has been associated with reduced mortality and inflammation in patients with cardiovascular disease. There are limited data on the..."
   },
   {
@@ -1669,6 +1888,7 @@ export const papers: Paper[] = [
     "authors": "Tammy T Chang Millie Hughes-Fulford",
     "year": 2013,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": "Three-dimensional (3D) culture of hepatocytes leads to improved and prolonged synthetic and metabolic functions, but the underlying molecular mechanisms are unknown. In order to investigate the role o..."
   },
   {
@@ -1676,6 +1896,7 @@ export const papers: Paper[] = [
     "authors": "Millie Hughes-Fulford Tammy T Chang Emily M Martinez Chai-Fei Li",
     "year": 2015,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Altered immune function has been demonstrated in astronauts during spaceflights dating back to Apollo and Skylab; this could be a major barrier to long-term space exploration. We tested the hypothesis..."
   },
   {
@@ -1683,6 +1904,7 @@ export const papers: Paper[] = [
     "authors": "Tammy T Chang Sandra M Spurlock Tara Lynne T Candelario S Marlene Grenon Millie Hughes-Fulford",
     "year": 2015,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "The health risks of a dysregulated immune response during spaceflight are important to understand as plans emerge for humans to embark on long-term space travel to Mars. In this first-of-its-kind stud..."
   },
   {
@@ -1690,6 +1912,7 @@ export const papers: Paper[] = [
     "authors": "Donald E Ingber",
     "year": 2010,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "This article is based on a lecture I presented as the recipient of the 2009 Pritzker Distinguished Lecturer Award at the Biomedical Engineering Society annual meeting in October 2009. Here, I review m..."
   },
   {
@@ -1697,6 +1920,7 @@ export const papers: Paper[] = [
     "authors": "Aram Avila-Herrera James Thissen Camilla Urbaniak Nicholas A Be David J Smith Fathi Karouia Satish Mehta Kasthuri Venkateswaran Crystal Jaing",
     "year": 2020,
     "keywords": [],
+    "citations": 48,
     "abstractSnippet": "The International Space Station (ISS) is a complex built environment physically isolated from Earth. Assessing the interplay between the microbial community of the ISS and its crew is important for pr..."
   },
   {
@@ -1704,6 +1928,7 @@ export const papers: Paper[] = [
     "authors": "Crystal Jaing James Thissen Michael Morrison Michael B Dillon Samantha M Waters Garrett T Graham Nicholas A Be Patrick Nicoll Sonali Verma Tristan Caro David J Smith",
     "year": 2020,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "To explore how airborne microbial patterns change with height above the Earth’s surface, we flew NASA’s C-20A aircraft on two consecutive days in June 2018 along identical flight paths over the US Sie..."
   },
   {
@@ -1711,6 +1936,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson Camilla Urbaniak John R Bateh Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Jos Houbraken Christopher E Mason Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "As part of the Microbial Tracking-2 study, 94 fungal strains were isolated from surfaces on the International Space Station, and whole-genome sequences were assembled. Characterization of these draft ..."
   },
   {
@@ -1718,6 +1944,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Michael D Morrison James B Thissen Fathi Karouia David J Smith Satish Mehta Crystal Jaing Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Background**\nThe International Space Station (ISS) is a unique and complex built environment with the ISS surface microbiome originating from crew and cargo or from life support recirculation in an ..."
   },
   {
@@ -1725,6 +1952,7 @@ export const papers: Paper[] = [
     "authors": "Vidya Manian Jairo Orozco-Sandoval Victor Diaz-Martinez Heeralal Janwa Carlos Agrinsoni",
     "year": 2022,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Skeletal muscle atrophy is a common condition in aging, diabetes, and in long duration spaceflights due to microgravity. This article investigates multi-modal gene disease and disease drug networks vi..."
   },
   {
@@ -1732,6 +1960,7 @@ export const papers: Paper[] = [
     "authors": "Nailil Husna Tatsuya Aiba Shin-Ichiro Fujita Yoshika Saito Dai Shiba Takashi Kudo Satoru Takahashi Satoshi Furukawa Masafumi Muratani",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "A detailed understanding of how spaceflight affects human health is essential for long-term space exploration. Liquid biopsies allow for minimally-invasive multi-omics assessments that can resolve the..."
   },
   {
@@ -1739,6 +1968,7 @@ export const papers: Paper[] = [
     "authors": "Shikha Gupta Sarah L Manske Stefan Judex",
     "year": 2012,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "A single exposure to hindlimb unloading leads to changes in body mass, body composition and bone, but the consequences of multiple exposures are not yet understood. Within a 18wk period, adult C57BL/6..."
   },
   {
@@ -1746,6 +1976,7 @@ export const papers: Paper[] = [
     "authors": "Ian J Wallace Shikha Gupta Jeyantt Sankaran Brigitte Demes Stefan Judex",
     "year": 2015,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Anthropologists frequently use the shaft bending strength index to infer the physical activity levels of humans living in the past from their lower limb bone remains. This index is typically calculate..."
   },
   {
@@ -1753,6 +1984,7 @@ export const papers: Paper[] = [
     "authors": "Ian J Wallace Gabriel M Pagnotti Jasper Rubin-Sigler Matthew Naeher Lynn E Copes Stefan Judex Clinton T Rubin Brigitte Demes",
     "year": 2015,
     "keywords": [],
+    "citations": 31,
     "abstractSnippet": "Force magnitudes have been suggested to drive the structural response of bone to exercise. As importantly, the degree to which any given bone can adapt to functional challenges may be enabled, or cons..."
   },
   {
@@ -1760,6 +1992,7 @@ export const papers: Paper[] = [
     "authors": "Suphannee Pongkitwitoon Gunes Uzer Janet Rubin Stefan Judex",
     "year": 2016,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Mesenchymal stem cells (MSC) responding to mechanical cues generated by physical activity is critical for skeletal development and remodeling. Here, we utilized low intensity vibrations (LIV) as a phy..."
   },
   {
@@ -1767,6 +2000,7 @@ export const papers: Paper[] = [
     "authors": "S Judex W Zhang LR Donahue E Ozcivici",
     "year": 2016,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Little is known about interactions between muscle and bone during the removal and application of mechanical signals. Here, we applied 3wk of hindlimb unloading followed by 3wk of reambulation to a gen..."
   },
   {
@@ -1774,6 +2008,7 @@ export const papers: Paper[] = [
     "authors": "Pamela Cabahug-Zuckerman Dorra Frikha-Benayed Robert J Majeska Alyssa Tuthill Shoshana Yakar Stefan Judex Mitchell B Schaffler",
     "year": 2016,
     "keywords": [],
+    "citations": 96,
     "abstractSnippet": "Osteocyte apoptosis is essential to activate bone remodeling in response to fatigue microdamage and estrogen withdrawal, such that apoptosis inhibition in vivo prevents the onset of osteoclastic resor..."
   },
   {
@@ -1781,6 +2016,7 @@ export const papers: Paper[] = [
     "authors": "Cassandra M Juran Justina Zvirblyte Eduardo AC Almeida",
     "year": 2022,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The forces generated by gravity have shaped life on Earth and impact gene expression and morphogenesis during early development. Conversely, disuse on Earth or during spaceflight, reduces normal mecha..."
   },
   {
@@ -1788,6 +2024,7 @@ export const papers: Paper[] = [
     "authors": "Emily E Rosowski Nicholas Raffa Benjamin P Knox Netta Golenberg Nancy P Keller Anna Huttenlocher",
     "year": 2018,
     "keywords": [],
+    "citations": 80,
     "abstractSnippet": "In immunocompromised individuals, Aspergillus fumigatus causes invasive fungal disease that is often difficult to treat. Exactly how immune mechanisms control A . fumigatus in immunocompetent individu..."
   },
   {
@@ -1795,6 +2032,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Blachowicz Nicholas Raffa Jin Woo Bok Tsokyi Choera Benjamin Knox Fang Yun Lim Anna Huttenlocher Clay C C Wang Kasthuri Venkateswaran Nancy P Keller",
     "year": 2020,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Fungal spores contain secondary metabolites that can protect them from a multitude of abiotic and biotic stresses. Conidia (asexual spores) of the human pathogen Aspergillus fumigatus synthesize sever..."
   },
   {
@@ -1802,6 +2040,7 @@ export const papers: Paper[] = [
     "authors": "Kurt Kleinhesselink Corinna Conway David Sholer Irvin Huang Deborah A Kimbrell",
     "year": 2011,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "A major category of mutant hematopoietic phenotypes in Drosophila is melanotic tumors or nodules, which consist of abnormal and overproliferated blood cells, similar to granulomas. Our analyses of the..."
   },
   {
@@ -1809,6 +2048,7 @@ export const papers: Paper[] = [
     "authors": "Joshua P Vandenbrink Raul Herranz F Javier Medina Richard E Edelmann John Z Kiss",
     "year": 2016,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Main conclusion Blue-light positive phototropism in roots is masked by gravity and revealed in conditions of microgravity. In addition, the magnitude of red-light positive phototropic curvature is cor..."
   },
   {
@@ -1816,6 +2056,7 @@ export const papers: Paper[] = [
     "authors": "Aránzazu Manzano Eugénie Carnero-Diaz Raúl Herranz F Javier Medina",
     "year": 2022,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Discovering the adaptation mechanisms of plants to the space environment is essential for supporting human space exploration. Transcriptomic analyses allow the identification of adaptation response pa..."
   },
   {
@@ -1823,6 +2064,7 @@ export const papers: Paper[] = [
     "authors": "Joshua P Vandenbrink Raul Herranz F Javier Medina Richard E Edelmann John Z Kiss",
     "year": 2016,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Main conclusion Blue-light positive phototropism in roots is masked by gravity and revealed in conditions of microgravity. In addition, the magnitude of red-light positive phototropic curvature is cor..."
   },
   {
@@ -1830,6 +2072,7 @@ export const papers: Paper[] = [
     "authors": "Joshua P Vandenbrink John Z Kiss Raul Herranz F Javier Medina",
     "year": 2014,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "Tropisms are growth-mediated plant movements that help plants to respond to changes in environmental stimuli. The availability of water and light, as well as the presence of a constant gravity vector,..."
   },
   {
@@ -1837,6 +2080,7 @@ export const papers: Paper[] = [
     "authors": "Joshua P Vandenbrink Raul Herranz F Javier Medina Richard E Edelmann John Z Kiss",
     "year": 2016,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Main conclusion Blue-light positive phototropism in roots is masked by gravity and revealed in conditions of microgravity. In addition, the magnitude of red-light positive phototropic curvature is cor..."
   },
   {
@@ -1844,6 +2088,7 @@ export const papers: Paper[] = [
     "authors": "Christina M Johnson Aswati Subramanian Sivakumar Pattathil Melanie J Correll John Z Kiss",
     "year": 2017,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "**PREMISE OF THE STUDY**\nPlants will play an important role in the future of space exploration as part of bioregenerative life support. Thus, it is important to understand the effects of microgravity ..."
   },
   {
@@ -1851,6 +2096,7 @@ export const papers: Paper[] = [
     "authors": "Raúl Herranz Joshua P Vandenbrink Alicia Villacampa Aránzazu Manzano William L Poehlman Frank Alex Feltus John Z Kiss Francisco Javier Medina",
     "year": 2019,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Introduction: Traveling to nearby extraterrestrial objects having a reduced gravity level (partial gravity) compared to Earth’s gravity is becoming a realistic objective for space agencies. The use of..."
   },
   {
@@ -1858,6 +2104,7 @@ export const papers: Paper[] = [
     "authors": "John Z Kiss Chris Wolverton Sarah E Wyatt Karl H Hasenstein Jack JWA van Loon",
     "year": 2019,
     "keywords": [],
+    "citations": 48,
     "abstractSnippet": "Life on Earth has evolved under the influence of gravity. This force has played an important role in shaping development and morphology from the molecular level to the whole organism. Although aquatic..."
   },
   {
@@ -1865,6 +2112,7 @@ export const papers: Paper[] = [
     "authors": "Aránzazu Manzano Alicia Villacampa Julio Sáez-Vásquez John Z Kiss F Javier Medina Raúl Herranz",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Understanding plant adaptive responses to the space environment is a requisite for enabling space farming. Spaceflight produces deleterious effects on plant cells, particularly affecting ribosome biog..."
   },
   {
@@ -1872,6 +2120,7 @@ export const papers: Paper[] = [
     "authors": "Leone Ermes Romano Jack J W A van Loon Luigi Gennaro Izzo Maurizio Iovane Giovanna Aronne",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Understanding the response of plants to varied gravitational conditions is vital for developing effective food production in space bioregenerative life support systems. This study examines the impact ..."
   },
   {
@@ -1879,6 +2128,7 @@ export const papers: Paper[] = [
     "authors": "Francisco-Javier Medina Aránzazu Manzano Raúl Herranz John Z Kiss",
     "year": 2022,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Understanding how plants respond and adapt to extraterrestrial conditions is essential for space exploration initiatives. Deleterious effects of the space environment on plant development have been re..."
   },
   {
@@ -1886,6 +2136,7 @@ export const papers: Paper[] = [
     "authors": "John M Lawler Mary Kunst Jeff M Hord Yang Lee Kumar Joshi Rachel E Botchlett Angelo Ramirez Daniel A Martinez",
     "year": 2014,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Reduced mechanical loading during bedrest, spaceflight, and casting, causes rapid morphological changes in skeletal muscle: fiber atrophy and reduction of slow-twitch fibers. An emerging signaling eve..."
   },
   {
@@ -1893,6 +2144,7 @@ export const papers: Paper[] = [
     "authors": "Hyo-Bum Kwak Yang Lee Jong-Hee Kim Holly Van Remmen Arlan G Richardson John M Lawler",
     "year": 2014,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Contractility of the heart is impaired with advancing age via mechanical remodeling, as myocytes are lost through apoptosis and collagenous fibers accumulate. Exercise training confers protection agai..."
   },
   {
@@ -1900,6 +2152,7 @@ export const papers: Paper[] = [
     "authors": "Jong-Hee Kim Yang Lee Hyo-Bum Kwak John M Lawler",
     "year": 2015,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Apoptosis plays an important role in atrophy and sarcopenia in skeletal muscle. Recent evidence suggests that insufficient heat shock proteins (HSPs) may contribute to apoptosis and muscle wasting. In..."
   },
   {
@@ -1907,6 +2160,7 @@ export const papers: Paper[] = [
     "authors": "Jeffrey M Hord Rachel Botchlett John M Lawler",
     "year": 2016,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Age-related loss of skeletal muscle mass and function, referred to as sarcopenia, is mitigated by lifelong calorie restriction as well as exercise. In aged skeletal muscle fibers there is compromised ..."
   },
   {
@@ -1914,6 +2168,7 @@ export const papers: Paper[] = [
     "authors": "Lauren T Wesolowski Jessica L Simons Pier L Semanchik Mariam A Othman Joo-Hyun Kim John M Lawler Khaled Y Kamal Sarah H White-Springer",
     "year": 2023,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Mechanical unloading during microgravity causes skeletal muscle atrophy and impairs mitochondrial energetics. The elevated production of reactive oxygen species (ROS) by mitochondria and Nox2, coupled..."
   },
   {
@@ -1921,6 +2176,7 @@ export const papers: Paper[] = [
     "authors": "Khaled Y Kamal Mariam Atef Othman Joo-Hyun Kim John M Lawler",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Skeletal muscles overcome terrestrial, gravitational loading by producing tensile forces that produce movement through joint rotation. Conversely, the microgravity of spaceflight reduces tensile loads..."
   },
   {
@@ -1928,6 +2184,7 @@ export const papers: Paper[] = [
     "authors": "Hang Ngoc Nguyen G Marie Sharp Sarah Stahl-Rommel Yo-Ann Velez Justiniano Christian L Castro Mayra Nelman-Gonzalez Aubrie O’Rourke Michael D Lee Jill Williamson Chelsea McCool Brian Crucian Kenneth W Clark Miten Jain Sarah L Castro-Wallace",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Urine, humidity condensate, and other sources of non-potable water are processed onboard the International Space Station (ISS) by the Water Recovery System (WRS) yielding potable water. While some mea..."
   },
   {
@@ -1935,6 +2192,7 @@ export const papers: Paper[] = [
     "authors": "Rocky An Jessica Audrey Lee",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "We present CAMDLES (CFD-DEM Artificial Microgravity Developments for Living Ecosystem Simulation), an extension of CFDEM ® Coupling to model biological flows, growth, and mass transfer in artificial m..."
   },
   {
@@ -1942,6 +2200,7 @@ export const papers: Paper[] = [
     "authors": "Oscar Monje Jeffrey T Richards John A Carver Dinah I Dimapilis Howard G Levine Nicole F Dufour Bryan G Onate",
     "year": 2020,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The Advanced Plant Habitat (APH) is the largest research plant growth facility deployed on the International Space Station (ISS). APH is a fully enclosed, closed-loop plant life support system with an..."
   },
   {
@@ -1949,6 +2208,7 @@ export const papers: Paper[] = [
     "authors": "Kye-Won Kim Clyde A Smith Michael D Daily John R Cort Laurence B Davin Norman G Lewis",
     "year": 2014,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Control over phenoxy radical-radical coupling reactions in vivo in vascular plants was enigmatic until our discovery of dirigent proteins (DPs, from the Latin dirigere , to guide or align). The first ..."
   },
   {
@@ -1956,6 +2216,7 @@ export const papers: Paper[] = [
     "authors": "Ricarda Höhner Joaquim V Marques Tetsuro Ito Yoshiaki Amakura Alan D Budgeon, Jr Karl Weitz Kim K Hixson Laurence B Davin Helmut Kirchhoff Norman G Lewis",
     "year": 2018,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Modulation of arogenate dehydratase in Arabidopsis causes changes in secondary metabolism, transient overaccumulation of starch, and lower photosynthetic electron transport rates.\nArogenate dehydratas..."
   },
   {
@@ -1963,6 +2224,7 @@ export const papers: Paper[] = [
     "authors": "Kim K Hixson Joaquim V Marques Jason P Wendler Jason E McDermott Karl K Weitz Therese R Clauss Matthew E Monroe Ronald J Moore Joseph Brown Mary S Lipton Callum J Bell Ljiljana Paša-Tolić Laurence B Davin Norman G Lewis",
     "year": 2021,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Multiple Arabidopsis arogenate dehydratase ( ADT ) knock-out (KO) mutants, with phenotypes having variable lignin levels (up to circa 70% reduction), were studied to investigate how differential reduc..."
   },
   {
@@ -1970,6 +2232,7 @@ export const papers: Paper[] = [
     "authors": "Bertrand P Tseng Erich Giedzinski Atefeh Izadi Tatiana Suarez Mary L Lan Katherine K Tran Munjal M Acharya Gregory A Nelson Jacob Raber Vipan K Parihar Charles L Limoli",
     "year": 2014,
     "keywords": [],
+    "citations": 65,
     "abstractSnippet": "Aims: Redox homeostasis is critical in regulating the fate and function of multipotent cells in the central nervous system (CNS). Here, we investigated whether low dose charged particle irradiation co..."
   },
   {
@@ -1977,6 +2240,7 @@ export const papers: Paper[] = [
     "authors": "Lorenzo Piemonti",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Beta cell replacement therapy for type 1 diabetes (T1D) is undergoing a transformative shift, driven by advances in stem cell biology, gene editing, and tissue engineering. While islet transplantation..."
   },
   {
@@ -1984,6 +2248,7 @@ export const papers: Paper[] = [
     "authors": "Vidya Manian Jairo Orozco Harshini Gangapuram Heeralal Janwa Carlos Agrinsoni",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "The transcriptomic datasets of the plant model organism Arabidopsis thaliana grown in the International Space Station provided by GeneLab have been mined to isolate the impact of spaceflight micrograv..."
   },
   {
@@ -1991,6 +2256,7 @@ export const papers: Paper[] = [
     "authors": "Vidya Manian Jairo Orozco-Sandoval Victor Diaz-Martinez",
     "year": 2021,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Ionizing radiation present in extraterrestrial environment is an important factor that affects plants grown in spaceflight. Pearson correlation-based gene regulatory network inferencing from transcrip..."
   },
   {
@@ -1998,6 +2264,7 @@ export const papers: Paper[] = [
     "authors": "Sarah E Latchney Phillip D Rivera Xiao W Mao Virginia L Ferguson Ted A Bateman Louis S Stodieck Gregory A Nelson Amelia J Eisch",
     "year": 2014,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Space missions necessitate physiological and psychological adaptations to environmental factors not present on Earth, some of which present significant risks for the central nervous system (CNS) of cr..."
   },
   {
@@ -2005,6 +2272,7 @@ export const papers: Paper[] = [
     "authors": "John W Seawright Yusra Samman Vijayalakshmi Sridharan Xiao Wen Mao Maohua Cao Preeti Singh Stepan Melnyk Igor Koturbash Gregory A Nelson Martin Hauer-Jensen Marjan Boerma",
     "year": 2017,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Purpose**\nSpace travel is associated with an exposure to low-dose rate ionizing radiation and the microgravity environment, both of which may lead to impairments in cardiac function. We used a mouse..."
   },
   {
@@ -2012,6 +2280,7 @@ export const papers: Paper[] = [
     "authors": "Xiao W Mao Nina C Nishiyama Stephanie D Byrum Seta Stanbouly Tamako Jones Alyson Drew Vijayalakshmi Sridharan Marjan Boerma Alan J Tackett David Zawieja Jeffrey S Willey Michael Delp Michael J Pecaut",
     "year": 2019,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "The health risks associated with spaceflight-induced ocular structural and functional damage has become a recent concern for NASA. The goal of the present study was to characterize the effects of spac..."
   },
   {
@@ -2019,6 +2288,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Amber M Paul Willian A da Silveira Candice GT Tahimic Sigrid S Reinsch Nathaniel Szewczyk Seta Stanbouly Charles Wang Jonathan M Galazka Xiao Wen Mao",
     "year": 2019,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "Spaceflight poses many challenges for humans. Ground-based analogs typically focus on single parameters of spaceflight and their associated acute effects. This study assesses the long-term transcripti..."
   },
   {
@@ -2026,6 +2296,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Willian Abraham da Silveira Seta Stanbouly Nina C Nishiyama Gina D Roque-Torres Michael J Pecaut David Carl Zawieja Charles Wang Jeffrey S Willey Michael D Delp Gary Hardiman Xiao Wen Mao",
     "year": 2019,
     "keywords": [],
+    "citations": 34,
     "abstractSnippet": "Extended spaceflight has been shown to adversely affect astronaut visual acuity. The purpose of this study was to determine whether spaceflight alters gene expression profiles and induces oxidative da..."
   },
   {
@@ -2033,6 +2304,7 @@ export const papers: Paper[] = [
     "authors": "Xiao-Wen Mao Seta Stanbouly Tamako Jones Gregory Nelson",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "There are serious concerns about possible late radiation damage to ocular tissue from prolonged space radiation exposure, and occupational and medical procedures. This study aimed to investigate the e..."
   },
   {
@@ -2040,6 +2312,7 @@ export const papers: Paper[] = [
     "authors": "Jacob M Holley Seta Stanbouly Michael J Pecaut Jeffrey S Willey Michael Delp Xiao Wen Mao",
     "year": 2022,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "It has been proposed that neuroinflammatory response plays an important role in the neurovascular remodeling in the brain after stress. The goal of the present study was to characterize changes in the..."
   },
   {
@@ -2047,6 +2320,7 @@ export const papers: Paper[] = [
     "authors": "Prachi Kothiyal Greg Eley Hari Ilangovan Katherine A Hoadley S Robin Elgart Xiao W Mao Parastou Eslami",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The space environment includes unique hazards like radiation and microgravity which can adversely affect biological systems. We assessed a multi-omics NASA GeneLab dataset where mice were hindlimb unl..."
   },
   {
@@ -2054,6 +2328,7 @@ export const papers: Paper[] = [
     "authors": "Xiaowen Mao Seta Stanbouly Jacob Holley Michael Pecaut James Crapo",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The goal of the present study was to characterize acute oxidative damage in ocular structure and retinal function after exposure to spaceflight, and to evaluate the efficacy of an antioxidant in reduc..."
   },
   {
@@ -2061,6 +2336,7 @@ export const papers: Paper[] = [
     "authors": "Bernhard M Weber Michael Panzirsch Benedikt Pleintinger Martin Stelzer Stella Arand Christian Schöttler Ralph Bayer Annette Hagengruber Uwe Proske",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Under conditions of weightlessness human position sense appears to deteriorate. This was tested, employing three methods of measurement: two-arm matching, one-arm pointing and one-arm repositioning, c..."
   },
   {
@@ -2068,6 +2344,7 @@ export const papers: Paper[] = [
     "authors": "Henry Cope Craig RG Willis Matthew J MacKay Lindsay A Rutter Li Shean Toh Philip M Williams Raúl Herranz Joseph Borg Daniela Bezdan Stefania Giacomello Masafumi Muratani Christopher E Mason Timothy Etheridge Nathaniel J Szewczyk",
     "year": 2022,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Widespread generation and analysis of omics data have revolutionized molecular medicine on Earth, yet its power to yield new mechanistic insights and improve occupational health during spaceflight is ..."
   },
   {
@@ -2075,6 +2352,7 @@ export const papers: Paper[] = [
     "authors": "Jiwoon Park Junbum Kim Tyler Lewy Charles M Rice Olivier Elemento André F Rendeiro Christopher E Mason",
     "year": 2022,
     "keywords": [],
+    "citations": 64,
     "abstractSnippet": "**Supplementary Information**\nThe online version contains supplementary material available at 10.1186/s13059-022-02824-6.\n## Spatial omics technologies\nMethods for molecular profiling of single cells ..."
   },
   {
@@ -2082,6 +2360,7 @@ export const papers: Paper[] = [
     "authors": "Patrick Leo Marcus de Melo Texeira Atul M Chander Nitin K Singh Anna C Simpson Andrey Yurkov Fathi Karouia Jason E Stajich Christopher E Mason Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "**Supplementary Information**\nThe online version contains supplementary material available at 10.1186/s43008-023-00119-4...."
   },
   {
@@ -2089,6 +2368,7 @@ export const papers: Paper[] = [
     "authors": "J Sebastian Garcia-Medina Karolina Sienkiewicz S Anand Narayanan Eliah G Overbey Kirill Grigorev Krista A Ryon Marissa Burke Jacqueline Proszynski Braden Tierney Caleb M Schmidt Nuria Mencia-Trinchant Remi Klotz Veronica Ortiz Jonathan Foox Christopher Chin Deena Najjar Irina Matei Irenaeus Chan Carlos Cruchaga Ashley Kleinman JangKeun Kim Alexander Lucaci Conor Loy Omary Mzava Iwijn De Vlaminck Anvita Singaraju Lynn E Taylor Julian C Schmidt Michael A Schmidt Kelly Blease Juan Moreno Andrew Boddicker Junhua Zhao Bryan Lajoie Andrew Altomare Semyon Kruglyak Shawn Levy Min Yu Duane C Hassane Susan M Bailey Kelly Bolton Jaime Mateus Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "**Background**\nThe Inspiration4 (I4) mission, the first all-civilian orbital flight mission, investigated the physiological effects of short-duration spaceflight through a multi-omic approach. Despite..."
   },
   {
@@ -2096,6 +2376,7 @@ export const papers: Paper[] = [
     "authors": "Christopher W Jones Eliah G Overbey Jerome Lacombe Adrian J Ecker Cem Meydan Krista Ryon Braden Tierney Namita Damle Matthew MacKay Evan E Afshin Jonathan Foox Jiwoon Park Theodore M Nelson Mir Suhail Mohamad Syed Gufran Ahmad Byhaqui Burhan Aslam Ummer Akbar Tali Liaqun Nisa Priya V Menon Chintan O Patel Sharib A Khan Doug J Ebert Aaron Everson Michael C Schubert Nabila N Ali Mallika S Sarma JangKeun Kim Nadia Houerbi Kirill Grigorev J Sebastian Garcia Medina Alexander J Summers Jian Gu John A Altin Ali Fattahi Mohammad I Hirzallah Jimmy H Wu Alexander C Stahn Afshin Beheshti Remi Klotz Veronica Ortiz Min Yu Laura Patras Irina Matei David Lyden Ari Melnick Neil Banerjee Sean Mullane Ashley S Kleinman Michael Loesche Anil S Menon Dorit B Donoviel Emmanuel Urquieta Jaime Mateus Ashot E Sargsyan Mark Shelhamer Frederic Zenhausern Eric M Bershad Mathias Basner Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Human spaceflight has historically been managed by government agencies, such as in the NASA Twins Study 1 , but new commercial spaceflight opportunities have opened spaceflight to a broader population..."
   },
   {
@@ -2103,6 +2384,7 @@ export const papers: Paper[] = [
     "authors": "Taghreed M Al-Turki David G Maranon Christopher B Nelson Aidan M Lewis Jared J Luxton Lynn E Taylor Noelia Altina Fei Wu Huixun Du JangKeun Kim Namita Damle Eliah Overbey Cem Meydan Kirill Grigorev Daniel A Winer David Furman Christopher E Mason Susan M Bailey",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Telomeres are repetitive nucleoprotein complexes at chromosomal termini essential for maintaining genome stability. Telomeric RNA, or TERRA, is a previously presumed long noncoding RNA of heterogeneou..."
   },
   {
@@ -2110,6 +2392,7 @@ export const papers: Paper[] = [
     "authors": "Jiwoon Park Eliah G Overbey S Anand Narayanan JangKeun Kim Braden T Tierney Namita Damle Deena Najjar Krista A Ryon Jacqueline Proszynski Ashley Kleinman Jeremy Wain Hirschberg Matthew MacKay Evan E Afshin Richard Granstein Justin Gurvitch Briana M Hudson Aric Rininger Sean Mullane Sarah E Church Cem Meydan George Church Afshin Beheshti Jaime Mateus Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Spaceflight can change metabolic, immunological, and biological homeostasis and cause skin rashes and irritation, yet the molecular basis remains unclear. To investigate the impact of short-duration s..."
   },
   {
@@ -2117,6 +2400,7 @@ export const papers: Paper[] = [
     "authors": "Braden T Tierney JangKeun Kim Eliah G Overbey Krista A Ryon Jonathan Foox Maria A Sierra Chandrima Bhattacharya Namita Damle Deena Najjar Jiwoon Park J Sebastian Garcia Medina Nadia Houerbi Cem Meydan Jeremy Wain Hirschberg Jake Qiu Ashley S Kleinman Gabriel A Al-Ghalith Matthew MacKay Evan E Afshin Raja Dhir Joseph Borg Christine Gatt Nicholas Brereton Benjamin P Readhead Semir Beyaz Kasthuri J Venkateswaran Kelly Wiseman Juan Moreno Andrew M Boddicker Junhua Zhao Bryan R Lajoie Ryan T Scott Andrew Altomare Semyon Kruglyak Shawn Levy George M Church Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Maintenance of astronaut health during spaceflight will require monitoring and potentially modulating their microbiomes. However, documenting microbial shifts during spaceflight has been difficult due..."
   },
   {
@@ -2124,6 +2408,7 @@ export const papers: Paper[] = [
     "authors": "Josef Borg Conor Loy JangKeun Kim Alfred Buhagiar Christopher Chin Namita Damle Iwijn De Vlaminck Alex Felice Tammy Liu Irina Matei Cem Meydan Masafumi Muratani Omary Mzava Eliah Overbey Krista A Ryon Scott M Smith Braden T Tierney Guy Trudel Sara R Zwart Afshin Beheshti Christopher E Mason Joseph Borg",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "It is now widely recognised that the environment in space activates a diverse set of genes involved in regulating fundamental cellular pathways. This includes the activation of genes associated with b..."
   },
   {
@@ -2131,6 +2416,7 @@ export const papers: Paper[] = [
     "authors": "JangKeun Kim Braden T Tierney Eliah G Overbey Ezequiel Dantas Matias Fuentealba Jiwoon Park S Anand Narayanan Fei Wu Deena Najjar Christopher R Chin Cem Meydan Conor Loy Begum Mathyk Remi Klotz Veronica Ortiz Khiem Nguyen Krista A Ryon Namita Damle Nadia Houerbi Laura I Patras Nathan Schanzer Gwyneth A Hutchinson Jonathan Foox Chandrima Bhattacharya Matthew Mackay Evan E Afshin Jeremy Wain Hirschberg Ashley S Kleinman Julian C Schmidt Caleb M Schmidt Michael A Schmidt Afshin Beheshti Irina Matei David Lyden Sean Mullane Amran Asadi Joan S Lenz Omary Mzava Min Yu Saravanan Ganesan Iwijn De Vlaminck Ari M Melnick Darko Barisic Daniel A Winer Sara R Zwart Brian E Crucian Scott M Smith Jaime Mateus David Furman Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Spaceflight induces an immune response in astronauts. To better characterize this effect, we generated single-cell, multi-ome, cell-free RNA (cfRNA), biochemical, and hematology data for the SpaceX In..."
   },
   {
@@ -2138,6 +2424,7 @@ export const papers: Paper[] = [
     "authors": "Fei Wu Huixun Du Eliah Overbey JangKeun Kim Priya Makhijani Nicolas Martin Chad A Lerner Khiem Nguyen Jordan Baechle Taylor R Valentino Matias Fuentealba Juliet M Bartleson Heather Halaweh Shawn Winer Cem Meydan Francine Garrett-Bakelman Nazish Sayed Simon Melov Masafumi Muratani Akos A Gerencser Herbert G Kasler Afshin Beheshti Christopher E Mason David Furman Daniel A Winer",
     "year": 2024,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Microgravity is associated with immunological dysfunction, though the mechanisms are poorly understood. Here, using single-cell analysis of human peripheral blood mononuclear cells (PBMCs) exposed to ..."
   },
   {
@@ -2145,6 +2432,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey JangKeun Kim Braden T Tierney Jiwoon Park Nadia Houerbi Alexander G Lucaci Sebastian Garcia Medina Namita Damle Deena Najjar Kirill Grigorev Evan E Afshin Krista A Ryon Karolina Sienkiewicz Laura Patras Remi Klotz Veronica Ortiz Matthew MacKay Annalise Schweickart Christopher R Chin Maria A Sierra Matias F Valenzuela Ezequiel Dantas Theodore M Nelson Egle Cekanaviciute Gabriel Deards Jonathan Foox S Anand Narayanan Caleb M Schmidt Michael A Schmidt Julian C Schmidt Sean Mullane Seth Stravers Tigchelaar Steven Levitte Craig Westover Chandrima Bhattacharya Serena Lucotti Jeremy Wain Hirschberg Jacqueline Proszynski Marissa Burke Ashley S Kleinman Daniel J Butler Conor Loy Omary Mzava Joan Lenz Doru Paul Christopher Mozsary Lauren M Sanders Lynn E Taylor Chintan O Patel Sharib A Khan Mir Suhail Mohamad Syed Gufran Ahmad Byhaqui Burhan Aslam Aaron S Gajadhar Lucy Williamson Purvi Tandel Qiu Yang Jessica Chu Ryan W Benz Asim Siddiqui Daniel Hornburg Kelly Blease Juan Moreno Andrew Boddicker Junhua Zhao Bryan Lajoie Ryan T Scott Rachel R Gilbert San-huei Lai Polo Andrew Altomare Semyon Kruglyak Shawn Levy Ishara Ariyapala Joanne Beer Bingqing Zhang Briana M Hudson Aric Rininger Sarah E Church Afshin Beheshti George M Church Scott M Smith Brian E Crucian Sara R Zwart Irina Matei David C Lyden Francine Garrett-Bakelman Jan Krumsiek Qiuying Chen Dawson Miller Joe Shuga Stephen Williams Corey Nemec Guy Trudel Martin Pelchat Odette Laneuville Iwijn De Vlaminck Steven Gross Kelly L Bolton Susan M Bailey Richard Granstein",
     "year": 2024,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Spaceflight induces molecular, cellular and physiological shifts in astronauts and poses myriad biomedical challenges to the human body, which are becoming increasingly relevant as more humans venture..."
   },
   {
@@ -2152,6 +2440,7 @@ export const papers: Paper[] = [
     "authors": "Nadia Houerbi JangKeun Kim Eliah G Overbey Richa Batra Annalise Schweickart Laura Patras Serena Lucotti Krista A Ryon Deena Najjar Cem Meydan Namita Damle Christopher Chin S Anand Narayanan Joseph W Guarnieri Gabrielle Widjaja Afshin Beheshti Gabriel Tobias Fanny Vatter Jeremy Wain Hirschberg Ashley Kleinman Evan E Afshin Matthew MacKay Qiuying Chen Dawson Miller Aaron S Gajadhar Lucy Williamson Purvi Tandel Qiu Yang Jessica Chu Ryan Benz Asim Siddiqui Daniel Hornburg Steven Gross Bader Shirah Jan Krumsiek Jaime Mateus Xiao Mao Irina Matei Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "As spaceflight becomes more common with commercial crews, blood-based measures of crew health can guide both astronaut biomedicine and countermeasures. By profiling plasma proteins, metabolites, and e..."
   },
   {
@@ -2159,6 +2448,7 @@ export const papers: Paper[] = [
     "authors": "Lindsay A Rutter Henry Cope Matthew J MacKay Raúl Herranz Saswati Das Sergey A Ponomarev Sylvain V Costes Amber M Paul Richard Barker Deanne M Taylor Daniela Bezdan Nathaniel J Szewczyk Masafumi Muratani Christopher E Mason Stefania Giacomello",
     "year": 2024,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Future multi-year crewed planetary missions will motivate advances in aerospace nutrition and telehealth. On Earth, the Human Cell Atlas project aims to spatially map all cell types in the human body...."
   },
   {
@@ -2166,6 +2456,7 @@ export const papers: Paper[] = [
     "authors": "Henry Cope Jonas Elsborg Samuel Demharter J Tyson McDonald Chiara Wernecke Hari Parthasarathy Hriday Unadkat Mira Chatrathi Jennifer Claudio Sigrid Reinsch Pinar Avci Sara R Zwart Scott M Smith Martina Heer Masafumi Muratani Cem Meydan Eliah Overbey Jangkeun Kim Christopher R Chin Jiwoon Park Jonathan C Schisler Christopher E Mason Nathaniel J Szewczyk Craig R G Willis Amr Salam Afshin Beheshti",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "**Background**\nSpaceflight poses a unique set of challenges to humans and the hostile spaceflight environment can induce a wide range of increased health risks, including dermatological issues. The bi..."
   },
   {
@@ -2173,6 +2464,7 @@ export const papers: Paper[] = [
     "authors": "Keith Siew Kevin A Nestler Charlotte Nelson Viola D’Ambrosio Chutong Zhong Zhongwang Li Alessandra Grillo Elizabeth R Wan Vaksha Patel Eliah Overbey JangKeun Kim Sanghee Yun Michael B Vaughan Chris Cheshire Laura Cubitt Jessica Broni-Tabi Maneera Yousef Al-Jaber Valery Boyko Cem Meydan Peter Barker Shehbeel Arif Fatemeh Afsari Noah Allen Mohammed Al-Maadheed Selin Altinok Nourdine Bah Samuel Border Amanda L Brown Keith Burling Margareth Cheng-Campbell Lorianna M Colón Lovorka Degoricija Nichola Figg Rebecca Finch Jonathan Foox Pouya Faridi Alison French Samrawit Gebre Peter Gordon Nadia Houerbi Hossein Valipour Kahrood Frederico C Kiffer Aleksandra S Klosinska Angela Kubik Han-Chung Lee Yinghui Li Nicholas Lucarelli Anthony L Marullo Irina Matei Colleen M McCann Sayat Mimar Ahmed Naglah Jérôme Nicod Kevin M O’Shaughnessy Lorraine Christine De Oliveira Leah Oswalt Laura Ioana Patras San-huei Lai Polo María Rodríguez-Lopez Candice Roufosse Omid Sadeghi-Alavijeh Rebekah Sanchez-Hodge Anindya S Paul Ralf Bernd Schittenhelm Annalise Schweickart Ryan T Scott Terry Chin Choy Lim Kam Sian Willian A da Silveira Hubert Slawinski Daniel Snell Julio Sosa Amanda M Saravia-Butler Marshall Tabetah Erwin Tanuwidjaya Simon Walker-Samuel Xiaoping Yang Yasmin Haijian Zhang Jasminka Godovac-Zimmermann Pinaki Sarder Lauren M Sanders Sylvain V Costes Robert A A Campbell Fathi Karouia Vidya Mohamed-Alis Samuel Rodriques Steven Lynham Joel Ricky Steele Sergio Baranzini Hossein Fazelinia Zhongquan Dai Akira Uruno Dai Shiba Masayuki Yamamoto Eduardo ACAlmeida Elizabeth Blaber Jonathan C Schisler Amelia J Eisch Masafumi Muratani Sara R Zwart",
     "year": 2024,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Missions into Deep Space are planned this decade. Yet the health consequences of exposure to microgravity and galactic cosmic radiation (GCR) over years-long missions on indispensable visceral organs ..."
   },
   {
@@ -2180,6 +2472,7 @@ export const papers: Paper[] = [
     "authors": "Begum Aydogan Mathyk Marshall Tabetah Rashid Karim Victoria Zaksas JangKeun Kim R I Anu Masafumi Muratani Alexia Tasoula Ruth Subhash Singh Yen-Kai Chen Eliah Overbey Jiwoon Park Henry Cope Hossein Fazelinia Davide Povero Joseph Borg Remi V Klotz Min Yu Steven L Young Christopher E Mason Nathaniel Szewczyk Riley M St Clair Fathi Karouia Afshin Beheshti",
     "year": 2024,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Organismal adaptations to spaceflight have been characterized at the molecular level in model organisms, including Drosophila and C. elegans . Here, we extend molecular work to energy metabolism and s..."
   },
   {
@@ -2187,6 +2480,7 @@ export const papers: Paper[] = [
     "authors": "Lindsay A Rutter Matthew J MacKay Henry Cope Nathaniel J Szewczyk JangKeun Kim Eliah Overbey Braden T Tierney Masafumi Muratani Ben Lamm Daniela Bezdan Amber M Paul Michael A Schmidt George M Church Stefania Giacomello Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Common and rare alleles are now being annotated across millions of human genomes, and omics technologies are increasingly being used to develop health and treatment recommendations. However, these all..."
   },
   {
@@ -2201,6 +2495,7 @@ export const papers: Paper[] = [
     "authors": "Tatiana S Aniskina Kirill A Sudarikov Margarita A Levinskikh Alexander A Gulevich Ekaterina N Baranova",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Planning long-term space flights necessarily includes issues of providing food for the crew. One of the areas of research is the development of technologies for independent production of food by the c..."
   },
   {
@@ -2208,6 +2503,7 @@ export const papers: Paper[] = [
     "authors": "Christina L M Khodadad Mary E Hummerick LaShelle E Spencer Anirudha R Dixit Jeffrey T Richards Matthew W Romeyn Trent M Smith Raymond M Wheeler Gioia D Massa",
     "year": 2020,
     "keywords": [],
+    "citations": 33,
     "abstractSnippet": "The ability to grow safe, fresh food to supplement packaged foods of astronauts in space has been an important goal for NASA. Food crops grown in space experience different environmental conditions th..."
   },
   {
@@ -2215,6 +2511,7 @@ export const papers: Paper[] = [
     "authors": "Allison K Strohm Laura M Vaughn Patrick H Masson",
     "year": 2014,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Highlight\nHow the polyamine cadaverine alters plant development is poorly understood. Here it is shown that natural variation in ORGANIC CATION TRANSPORTER 1 affects root length sensitivity to exogeno..."
   },
   {
@@ -2229,6 +2526,7 @@ export const papers: Paper[] = [
     "authors": "Han-Qing Wang Xing-Yu Zhao Zhong Tang Xin-Yuan Huang Peng Wang Wenhua Zhang Yunhui Zhang Sheng Luan Fang-Jie Zhao",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Root gravitropism relies on gravity perception by the root cap and requires tightly regulated phytohormone signaling. Here, we isolate a rice mutant that displays root coiling in hydroponics but norma..."
   },
   {
@@ -2236,6 +2534,7 @@ export const papers: Paper[] = [
     "authors": "Nicole M Gibbs Shih‐Heng Su Samuel Lopez‐Nieves Stéphane Mann Claude Alban Hiroshi A Maeda Patrick H Masson",
     "year": 2021,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Cadaverine, a polyamine, has been linked to modification of root growth architecture and response to environmental stresses in plants. However, the molecular mechanisms that govern the regulation of r..."
   },
   {
@@ -2243,6 +2542,7 @@ export const papers: Paper[] = [
     "authors": "Shih-Heng Su Alexander Moen Rien M Groskopf Katherine L Baldwin Brian Vesperman Patrick H Masson",
     "year": 2023,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Clinostats are instruments that continuously rotate biological specimens along an axis, thereby averaging their orientation relative to gravity over time. Our previous experiments indicated that low-s..."
   },
   {
@@ -2250,6 +2550,7 @@ export const papers: Paper[] = [
     "authors": "Michael R Benoit Carolyn G Conant Cristian Ionescu-Zanetti Michael Schwartz A Matin",
     "year": 2010,
     "keywords": [],
+    "citations": 81,
     "abstractSnippet": "Control of biofilms requires rapid methods to identify compounds effective against them and to isolate resistance-compromised mutants for identifying genes involved in enhanced biofilm resistance. Whi..."
   },
   {
@@ -2257,6 +2558,7 @@ export const papers: Paper[] = [
     "authors": "Jing-Hung Wang Rachna Singh Michael Benoit Mimi Keyhan Matthew Sylvester Michael Hsieh Anuradha Thathireddy Yi-Ju Hsieh A C Matin",
     "year": 2014,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Stationary-phase bacteria are important in disease. The σ s -regulated general stress response helps them become resistant to disinfectants, but the role of σ s in bacterial antibiotic resistance has ..."
   },
   {
@@ -2264,6 +2566,7 @@ export const papers: Paper[] = [
     "authors": "Mackenzie L Hagan Vanshika Balayan Meghan E McGee-Lawrence",
     "year": 2021,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Mammalian cells employ an array of biological mechanisms to detect and respond to mechanical loading in their environment. One such mechanism is the formation of plasma membrane disruptions (PMD), whi..."
   },
   {
@@ -2271,6 +2574,7 @@ export const papers: Paper[] = [
     "authors": "Arthur R Hand Didem Dagdeviren Natasha A Larson Christopher Haxhi Maija I Mednieks",
     "year": 2019,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "**Objective:**\nThis study was conducted to determine if the morphology and biochemistry of the mouse submandibular gland is affected by microgravity and the spaceflight environment.\n**Design:**\nTissue..."
   },
   {
@@ -2278,6 +2582,7 @@ export const papers: Paper[] = [
     "authors": "Arthur R Hand Didem Dagdeviren Natasha A Larson Christopher Haxhi Maija I Mednieks",
     "year": 2019,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "**Objective:**\nThis study was conducted to determine if the morphology and biochemistry of the mouse submandibular gland is affected by microgravity and the spaceflight environment.\n**Design:**\nTissue..."
   },
   {
@@ -2285,6 +2590,7 @@ export const papers: Paper[] = [
     "authors": "Didem Dagdeviren John Beallias Izaz Khan Maija I Mednieks Arthur R Hand",
     "year": 2018,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "The ultrastructure and immunohistochemistry of secretory proteins of sublingual glands were studied in mice flown on the US space shuttles Discovery (Space Transportation System [STS]-131) and Atlanti..."
   },
   {
@@ -2292,6 +2598,7 @@ export const papers: Paper[] = [
     "authors": "Takehito Ouchi Kyosuke Kono Ryouichi Satou Ryuya Kurashima Koji Yamaguchi Maki Kimura Yoshiyuki Shibukawa",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Introduction: Space is a unique environment characterized by isolation from community life and exposure to circadian misalignment, microgravity, and space radiation. These multiple differences from th..."
   },
   {
@@ -2299,6 +2606,7 @@ export const papers: Paper[] = [
     "authors": "Satish K Mehta David C Bloom Ianik Plante Raymond Stowe Alan H Feiveson Ashlie Renner Adit Dhummakupt Dhruv Markan Ye Zhang Honglu Wu Blaire Scoles Jeffrey I Cohen Brian Crucian Duane L Pierson",
     "year": 2018,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Among the many stressors astronauts are exposed to during spaceflight, cosmic radiation may lead to various serious health effects. Specifically, space radiation may contribute to decreased immunity, ..."
   },
   {
@@ -2306,6 +2614,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Hernan Lorenzi James Thissen Crystal Jaing Brian Crucian Clarence Sams Duane Pierson Kasthuri Venkateswaran Satish Mehta",
     "year": 2020,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "**Background**\nSpaceflight impacts astronauts in many ways but little is known on how spaceflight affects the salivary microbiome and the consequences of these changes on astronaut health, such as vir..."
   },
   {
@@ -2313,6 +2622,7 @@ export const papers: Paper[] = [
     "authors": "Nelson BC Serre Daša Wernerová Pruthvi Vittal Shiv Mani Dubey Eva Medvecká Adriana Jelínková Jan Petrášek Guido Grossmann Matyáš Fendrych",
     "year": 2023,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "Plant roots navigate in the soil environment following the gravity vector. Cell divisions in the meristem and rapid cell growth in the elongation zone propel the root tips through the soil. Actively e..."
   },
   {
@@ -2320,6 +2630,7 @@ export const papers: Paper[] = [
     "authors": "Elisia D Tichy Foteini Mourkioti",
     "year": 2021,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Measurements of telomere length in skeletal muscle stem cells (MuSCs), a rare cell population within muscles, provide insights into cellular dysfunction in diseased conditions. Here, we describe a pro..."
   },
   {
@@ -2327,6 +2638,7 @@ export const papers: Paper[] = [
     "authors": "Elisia D Tichy Nuoying Ma David Sidibe Emanuele Loro Jacob Kocan Delia Z Chen Tejvir S Khurana Paul Hasty Foteini Mourkioti",
     "year": 2021,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "During the repeated cycles of damage and repair in many muscle disorders, including Duchenne muscular dystrophy (DMD), the muscle stem cell (MuSC) pool becomes less efficient at responding to and repa..."
   },
   {
@@ -2334,6 +2646,7 @@ export const papers: Paper[] = [
     "authors": "Nuoying Ma Delia Chen Ji-Hyung Lee Paola Kuri Edward Blake Hernandez Jacob Kocan Hamd Mahmood Elisia D Tichy Panteleimon Rompolas Foteini Mourkioti",
     "year": 2022,
     "keywords": [],
+    "citations": 61,
     "abstractSnippet": "Muscle stem cells (MuSCs) are essential for tissue homeostasis and regeneration, but the potential contribution of MuSC morphology to in vivo function remains unknown. Here, we demonstrate that quiesc..."
   },
   {
@@ -2341,6 +2654,7 @@ export const papers: Paper[] = [
     "authors": "Elisia D Tichy Ji-Hyung Lee Grant Li Katrina N Estep F Brad Johnson Foteini Mourkioti",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Astronauts are exposed to harsh conditions, including cosmic radiation and microgravity. Spaceflight elongates human telomeres in peripheral blood, which shorten upon return to Earth and approach base..."
   },
   {
@@ -2348,6 +2662,7 @@ export const papers: Paper[] = [
     "authors": "Justin M Watkins Paul J Hechler Gloria K Muday",
     "year": 2014,
     "keywords": [],
+    "citations": 85,
     "abstractSnippet": "In the epidermis of Arabidopsis leaves, flavonols specifically accumulate in\nguard cells with enhanced synthesis in the presence of ethylene, where they lower\nthe levels of reactive oxygen species and..."
   },
   {
@@ -2355,6 +2670,7 @@ export const papers: Paper[] = [
     "authors": "Suzanne Gerttula Matthew Zinkgraf Gloria K Muday Daniel R Lewis Farid M Ibatullin Harry Brumer Foster Hart Shawn D Mansfield Vladimir Filkov Andrew Groover",
     "year": 2015,
     "keywords": [],
+    "citations": 52,
     "abstractSnippet": "Fundamental mechanisms associated with gravitropism in woody stems of Populus involve relocalization of the PIN3 auxin transporter and interacting roles for auxin, gibberellic acid, and the ARBORKNOX2..."
   },
   {
@@ -2362,6 +2678,7 @@ export const papers: Paper[] = [
     "authors": "Xiaohui Li Peipei Zhu Yen-Ju Chen Lei Huang Diwen Wang David T Newton Chuan-Chih Hsu Guang Lin W Andy Tao Christopher J Staiger Chunhua Zhang",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "To sustain normal growth and allow rapid responses to environmental cues, plants alter the plasma membrane protein composition under different conditions presumably by regulation of delivery, stabilit..."
   },
   {
@@ -2369,6 +2686,7 @@ export const papers: Paper[] = [
     "authors": "Carole L Gibson Jonathan W Isley Tanya G Falbel Cassie T Mattox Daniel R Lewis Kasee E Metcalf Gloria K Muday",
     "year": 2020,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Auxin is transported in plants with distinct polarity, defined by transport proteins of the PIN-formed (PIN) family. Components of the complex trafficking machinery responsible for polar PIN protein l..."
   },
   {
@@ -2376,6 +2694,7 @@ export const papers: Paper[] = [
     "authors": "David A Jamison, Jr S Anand Narayanan Nídia S Trovão Joseph W Guarnieri Michael J Topper Pedro M Moraes-Vieira Viktorija Zaksas Keshav K Singh Eve Syrkin Wurtele Afshin Beheshti",
     "year": 2022,
     "keywords": [],
+    "citations": 47,
     "abstractSnippet": "COVID-19, the disease caused by SARS-CoV-2, has claimed approximately 5 million lives and 257 million cases reported globally. This virus and disease have significantly affected people worldwide, whet..."
   },
   {
@@ -2383,6 +2702,7 @@ export const papers: Paper[] = [
     "authors": "Srujana Neelam Brian Richardson Richard Barker Ceasar Udave Simon Gilroy Mark J Cameron Howard G Levine Ye Zhang",
     "year": 2020,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "Microgravity is known to affect the organization of the cytoskeleton, cell and nuclear morphology and to elicit differential expression of genes associated with the cytoskeleton, focal adhesions and t..."
   },
   {
@@ -2390,6 +2710,7 @@ export const papers: Paper[] = [
     "authors": "Wayne L Nicholson Kirill Krivushin David Gilichinsky Andrew C Schuerger",
     "year": 2012,
     "keywords": [],
+    "citations": 31,
     "abstractSnippet": "The ability of terrestrial microorganisms to grow in the near-surface environment of Mars is of importance to the search for life and protection of that planet from forward contamination by human and ..."
   },
   {
@@ -2397,6 +2718,7 @@ export const papers: Paper[] = [
     "authors": "Michael T Leonard Nedka Panayotova William G Farmerie Eric W Triplett Wayne L Nicholson",
     "year": 2013,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "We report the complete genome sequence of Carnobacterium gilichinskyi strain WN1359, previously isolated from Siberian permafrost and capable of growth under cold (0°C), anoxic, CO 2 -dominated, low-p..."
   },
   {
@@ -2404,6 +2726,7 @@ export const papers: Paper[] = [
     "authors": "Samantha M Waters José A Robles-Martínez Wayne L Nicholson",
     "year": 2014,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Studies of how microorganisms respond to pressure have been limited mostly to the extreme high pressures of the deep sea (i.e., the piezosphere). In contrast, despite the fact that the growth of most ..."
   },
   {
@@ -2411,6 +2734,7 @@ export const papers: Paper[] = [
     "authors": "Ralf Moeller Marina Raguse Günther Reitz Ryuichi Okayasu Zuofeng Li Stuart Klein Peter Setlow Wayne L Nicholson",
     "year": 2014,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "The roles of various core components, including α/β/γ-type small acid-soluble spore proteins (SASP), dipicolinic acid (DPA), core water content, and DNA repair by apurinic/apyrimidinic (AP) endonuclea..."
   },
   {
@@ -2418,6 +2742,7 @@ export const papers: Paper[] = [
     "authors": "Patricia Fajardo-Cavazos Wayne L Nicholson",
     "year": 2016,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Bacteria of the genus Staphylococcus are persistent inhabitants of human spaceflight habitats and represent potential opportunistic pathogens. The effect of the human spaceflight environment on the gr..."
   },
   {
@@ -2425,6 +2750,7 @@ export const papers: Paper[] = [
     "authors": "Enrique Hurtado-Bautista Africa Islas-Robles Gabriel Moreno-Hagelsieb Gabriela Olmedo-Alvarez",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Simple Summary\nAs global temperatures rise due to climate change, understanding how bacteria respond to heat is essential. Bacteria are critical to ecosystems, helping recycle nutrients, break down or..."
   },
   {
@@ -2432,6 +2758,7 @@ export const papers: Paper[] = [
     "authors": "Michael D Morrison Patricia Fajardo-Cavazos Wayne L Nicholson",
     "year": 2017,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Past results have suggested that bacterial antibiotic susceptibility is altered during space flight. To test this notion, Bacillus subtilis cells were cultivated in matched hardware, medium, and envir..."
   },
   {
@@ -2439,6 +2766,7 @@ export const papers: Paper[] = [
     "authors": "Patricia Fajardo-Cavazos Joshua D Leehan Wayne L Nicholson",
     "year": 2018,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "The effect of Bacillus subtilis exposure to the human spaceflight environment on growth, mutagenic frequency, and spectrum of mutations to rifampicin resistance (Rif R ) was investigated. B. subtilis ..."
   },
   {
@@ -2446,6 +2774,7 @@ export const papers: Paper[] = [
     "authors": "Patricia Fajardo-Cavazos Wayne L Nicholson",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Our understanding of the mechanisms of microgravity perception and response in prokaryotes (Bacteria and Archaea) lag behind those which have been elucidated in eukaryotic organisms. In this hypothesi..."
   },
   {
@@ -2453,6 +2782,7 @@ export const papers: Paper[] = [
     "authors": "Joss D Leehan Wayne L Nicholson",
     "year": 2022,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "RNA polymerase (RNAP) is a highly conserved macromolecular machine that contributes to the flow of genetic information from genotype to phenotype. In Bacillus subtilis , mutations in the rpoB gene enc..."
   },
   {
@@ -2460,6 +2790,7 @@ export const papers: Paper[] = [
     "authors": "Andrea L Radtke James W Wilson Shameema Sarker Cheryl A Nickerson",
     "year": 2010,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "The prevailing paradigm of Salmonella enteropathogenesis based on monolayers asserts that Salmonella pathogenicity island-1 Type Three Secretion System (SPI-1 T3SS) is required for bacterial invasion ..."
   },
   {
@@ -2467,6 +2798,7 @@ export const papers: Paper[] = [
     "authors": "Robert Jackson Jason Maarsingh Melissa M Herbst-Kralovetz Koenraad Van Doorslaer",
     "year": 2020,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "Human papillomavirus (HPV) infection occurs in differentiating epithelial tissues, and cancers caused by the high-risk types (e.g., HPV16 and HPV18) typically occur at oropharyngeal and anogenital ana..."
   },
   {
@@ -2474,6 +2806,7 @@ export const papers: Paper[] = [
     "authors": "Sarah L Castro Mayra Nelman-Gonzalez Cheryl A Nickerson C Mark Ott",
     "year": 2011,
     "keywords": [],
+    "citations": 71,
     "abstractSnippet": "The opportunistic pathogen Staphylococcus aureus encounters a wide variety of fluid shear levels within the human host, and they may play a key role in dictating whether this organism adopts a commens..."
   },
   {
@@ -2481,6 +2814,7 @@ export const papers: Paper[] = [
     "authors": "Matthew E Jennings Laura N Quick Anjali Soni Richard R Davis Kathleen Crosby C Mark Ott Cheryl A Nickerson James W Wilson",
     "year": 2011,
     "keywords": [],
+    "citations": 14,
     "abstractSnippet": "Salmonella enterica serovar Typhimurium possesses a stimulon of genes that are differentially regulated in response to conditions of low fluid shear force that increase bacterial virulence and alter o..."
   },
   {
@@ -2488,6 +2822,7 @@ export const papers: Paper[] = [
     "authors": "Cheryl A Nickerson C Mark Ott Sarah L Castro Veronica M Garcia Thomas C Molina Jeffrey T Briggler Amber L Pitt Joseph J Tavano J Kelly Byram Jennifer Barrila Max A Nickerson",
     "year": 2011,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Investigation into the causes underlying the rapid, global amphibian decline provides critical insight into the effects of changing ecosystems. Hypothesized and confirmed links between amphibian decli..."
   },
   {
@@ -2495,6 +2830,7 @@ export const papers: Paper[] = [
     "authors": "Aurélie Crabbé Michael J Schurr Pieter Monsieurs Lisa Morici Jill Schurr James W Wilson C Mark Ott George Tsaprailis Duane L Pierson Heidi Stefanyshyn-Piper Cheryl A Nickerson",
     "year": 2010,
     "keywords": [],
+    "citations": 79,
     "abstractSnippet": "Assessing bacterial behavior in microgravity is important for risk assessment and prevention of infectious diseases during spaceflight missions. Furthermore, this research field allows the unveiling o..."
   },
   {
@@ -2502,6 +2838,7 @@ export const papers: Paper[] = [
     "authors": "Melha Mellata Jacob T Maddux Timothy Nam Nicholas Thomson Heidi Hauser Mark P Stevens Suman Mukhopadhyay Shameema Sarker Aurélie Crabbé Cheryl A Nickerson Javier Santander Roy Curtiss, III",
     "year": 2012,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Extra-intestinal pathogenic E. coli (ExPEC), including avian pathogenic E. coli (APEC), pose a considerable threat to both human and animal health, with illness causing substantial economic loss. APEC..."
   },
   {
@@ -2509,6 +2846,7 @@ export const papers: Paper[] = [
     "authors": "Melissa M Herbst-Kralovetz Andrea L Radtke Margarita K Lay Brooke E Hjelm Alice N Bolick Shameema S Sarker Robert L Atmar David H Kingsley Charles J Arntzen Mary K Estes Cheryl A Nickerson",
     "year": 2013,
     "keywords": [],
+    "citations": 48,
     "abstractSnippet": "TOC summary: The 3-dimensional intestinal model is not sufficient as a virus replication system for developing vaccines or drugs to control human norovirus infections.\nNoroviruses (NoVs) are a leading..."
   },
   {
@@ -2516,6 +2854,7 @@ export const papers: Paper[] = [
     "authors": "Anjali Soni Laura O’Sullivan Laura N Quick C Mark Ott Cheryl A Nickerson James W Wilson",
     "year": 2014,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "Low fluid shear force, including that encountered in microgravity models, induces bacterial responses, but the range of bacteria capable of responding to this signal remains poorly characterized. We s..."
   },
   {
@@ -2523,6 +2862,7 @@ export const papers: Paper[] = [
     "authors": "Aurélie Crabbé Maria A Ledesma Cheryl A Nickerson",
     "year": 2014,
     "keywords": [],
+    "citations": 35,
     "abstractSnippet": "Why is a healthy person protected from Pseudomonas aeruginosa infections, while individuals with cystic fibrosis or damaged epithelium are particularly susceptible to this opportunistic pathogen? In o..."
   },
   {
@@ -2530,6 +2870,7 @@ export const papers: Paper[] = [
     "authors": "Jodi D Stookey Prasanna KR Allu Dorothee Chabas David Pearce Florian Lang",
     "year": 2020,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "To address urgent need for strategies to limit mortality from coronavirus disease 2019 (COVID-19), this review describes experimental, clinical and epidemiological evidence that suggests that chronic ..."
   },
   {
@@ -2537,6 +2878,7 @@ export const papers: Paper[] = [
     "authors": "Aurélie Crabbé Yulong Liu Shameema F Sarker Nicholas R Bonenfant Jennifer Barrila Zachary D Borg James J Lee Daniel J Weiss Cheryl A Nickerson",
     "year": 2015,
     "keywords": [],
+    "citations": 28,
     "abstractSnippet": "Strategies are needed to improve repopulation of decellularized lung scaffolds with stromal and functional epithelial cells. We demonstrate that decellularized mouse lungs recellularized in a dynamic ..."
   },
   {
@@ -2544,6 +2886,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Barrila Jiseon Yang Aurélie Crabbé Shameema F Sarker Yulong Liu C Mark Ott Mayra A Nelman-Gonzalez Simon J Clemett Seth D Nydam Rebecca J Forsyth Richard R Davis Brian E Crucian Heather Quiriarte Kenneth L Roland Karen Brenneman Clarence Sams Christine Loscher Cheryl A Nickerson",
     "year": 2017,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "Three-dimensional models of human intestinal epithelium mimic the differentiated form and function of parental tissues often not exhibited by two-dimensional monolayers and respond to Salmonella in ke..."
   },
   {
@@ -2551,6 +2894,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Barrila Aurélie Crabbé Jiseon Yang Karla Franco Seth D Nydam Rebecca J Forsyth Richard R Davis Sandhya Gangaraju C Mark Ott Carolyn B Coyne Mina J Bissell Cheryl A Nickerson",
     "year": 2018,
     "keywords": [],
+    "citations": 88,
     "abstractSnippet": "Tissues and organs provide the structural and biochemical landscapes upon which microbial pathogens and commensals function to regulate health and disease. While flat two-dimensional (2-D) monolayers ..."
   },
   {
@@ -2558,6 +2902,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Barrila Shameema F Sarker Nicole Hansmeier Shanshan Yang Kristina Buss Natalia Briones Jin Park Richard R Davis Rebecca J Forsyth C Mark Ott Kevin Sato Cristine Kosnik Anthony Yang Cheryl Shimoda Nicole Rayl Diana Ly Aaron Landenberger Stephanie D Wilson Naoko Yamazaki Jason Steel Camila Montano Rolf U Halden Tom Cannon Sarah L Castro-Wallace Cheryl A Nickerson",
     "year": 2021,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "Spaceflight uniquely alters the physiology of both human cells and microbial pathogens, stimulating cellular and molecular changes directly relevant to infectious disease. However, the influence of th..."
   },
   {
@@ -2572,6 +2917,7 @@ export const papers: Paper[] = [
     "authors": "Aurélie Crabbé Sheila M Nielsen-Preiss Christine M Woolley Jennifer Barrila Kent Buchanan James McCracken Diane O Inglis Stephen C Searles Mayra A Nelman-Gonzalez C Mark Ott James W Wilson Duane L Pierson Heidemarie M Stefanyshyn-Piper Linda E Hyman Cheryl A Nickerson",
     "year": 2013,
     "keywords": [],
+    "citations": 53,
     "abstractSnippet": "This study presents the first global transcriptional profiling and phenotypic characterization of the major human opportunistic fungal pathogen, Candida albicans , grown in spaceflight conditions. Mic..."
   },
   {
@@ -2579,6 +2925,7 @@ export const papers: Paper[] = [
     "authors": "Sheila Nielsen Kenna White Kyle Preiss Dakota Peart Kathryn Gianoulias Rachel Juel James Sutton James McKinney Jaclyn Bender Gabrielle Pinc Kela Bergren Wendy Gans Jessica Kelley Millard McQuaid",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "This report was designed to compare spaceflight-induced cellular and physiological adaptations of Candida albicans cultured in microgravity on the International Space Station across several payloads. ..."
   },
   {
@@ -2586,6 +2933,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Saswati Das Henry Cope Pedro Madrigal Zaneta Andrusivova Solène Frapard Rebecca Klotz Daniela Bezdan Anjali Gupta Ryan T Scott Jiwoon Park Dawn Chirko Jonathan M Galazka Sylvain V Costes Christopher E Mason Raul Herranz Nathaniel J Szewczyk Joseph Borg Stefania Giacomello",
     "year": 2022,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Single-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) have experienced rapid development in recent years. The findings of spaceflight-based scRNA-seq and SRT investigatio..."
   },
   {
@@ -2593,6 +2941,7 @@ export const papers: Paper[] = [
     "authors": "Kirill Grigorev Theodore M Nelson Eliah G Overbey Nadia Houerbi JangKeun Kim Deena Najjar Namita Damle Evan E Afshin Krista A Ryon Jean Thierry-Mieg Danielle Thierry-Mieg Ari M Melnick Jaime Mateus Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "The advent of civilian spaceflight challenges scientists to precisely describe the effects of spaceflight on human physiology, particularly at the molecular and cellular level. Newer, nanopore-based s..."
   },
   {
@@ -2600,6 +2949,7 @@ export const papers: Paper[] = [
     "authors": "Eliah G Overbey Krista Ryon JangKeun Kim Braden T Tierney Remi Klotz Veronica Ortiz Sean Mullane Julian C Schmidt Matthew MacKay Namita Damle Deena Najjar Irina Matei Laura Patras J Sebastian Garcia Medina Ashley S Kleinman Jeremy Wain Hirschberg Jacqueline Proszynski S Anand Narayanan Caleb M Schmidt Evan E Afshin Lucinda Innes Mateo Mejia Saldarriaga Michael A Schmidt Richard D Granstein Bader Shirah Min Yu David Lyden Jaime Mateus Christopher E Mason",
     "year": 2024,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "The SpaceX Inspiration4 mission provided a unique opportunity to study the impact of spaceflight on the human body. Biospecimen samples were collected from four crew members longitudinally before (Lau..."
   },
   {
@@ -2607,6 +2957,7 @@ export const papers: Paper[] = [
     "authors": "Roy Lycke Archana Parashar Santosh Pandey",
     "year": 2013,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "The discovery of new drugs is often propelled by the increasing resistance of parasites to existing drugs and the availability of better technology platforms. The area of microfluidics has provided de..."
   },
   {
@@ -2614,6 +2965,7 @@ export const papers: Paper[] = [
     "authors": "Jenifer N Saldanha Archana Parashar Santosh Pandey Jo Anne Powell-Coffman",
     "year": 2013,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Environmental toxicants influence development, behavior, and ultimately survival. The nematode Caenorhabditis elegans has proven to be an exceptionally powerful model for toxicological studies. Here, ..."
   },
   {
@@ -2621,6 +2973,7 @@ export const papers: Paper[] = [
     "authors": "Anne M Visscher Anna-Lisa Paul Matias Kirst Charles L Guy Andrew C Schuerger Robert J Ferl",
     "year": 2010,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "**Background**\nMartian regolith (unconsolidated surface material) is a potential medium for plant growth in bioregenerative life support systems during manned missions on Mars. However, hydrated magne..."
   },
   {
@@ -2628,6 +2981,7 @@ export const papers: Paper[] = [
     "authors": "John D Mayfield Anna-Lisa Paul Robert J Ferl",
     "year": 2012,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "The 14-3-3 proteins specifically bind a number of client proteins to influence important pathways, including flowering timing via the photosensory system. For instance, 14-3-3 proteins influence the p..."
   },
   {
@@ -2635,6 +2989,7 @@ export const papers: Paper[] = [
     "authors": "Anna-Lisa Paul Fiona C Denison Eric R Schultz Agata K Zupanska Robert J Ferl",
     "year": 2012,
     "keywords": [],
+    "citations": 61,
     "abstractSnippet": "The 14-3-3 proteins have emerged as major phosphoprotein interaction proteins and thereby constitute a key node in the Arabidopsis Interactome Map, a node through which a large number of important sig..."
   },
   {
@@ -2649,6 +3004,7 @@ export const papers: Paper[] = [
     "authors": "Gbolaga O Olanrewaju Natasha J Haveman Michael J Naldrett Anna-Lisa Paul Robert J Ferl Sarah E Wyatt",
     "year": 2023,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Spaceflight presents a unique environment with complex stressors, including microgravity and radiation, that can influence plant physiology at molecular levels. Combining transcriptomics and proteomic..."
   },
   {
@@ -2656,6 +3012,7 @@ export const papers: Paper[] = [
     "authors": "Jillian Romsdahl Adriana Blachowicz Abby J Chiang Nitin Singh Jason E Stajich Markus Kalkum Kasthuri Venkateswaran Clay C C Wang",
     "year": 2018,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "A thorough understanding of how fungi respond and adapt to the various stimuli encountered during spaceflight presents many economic benefits and is imperative for the health of crew. As A. niger is a..."
   },
   {
@@ -2670,6 +3027,7 @@ export const papers: Paper[] = [
     "authors": "Eric R Schultz Karen L Kelley Anna-Lisa Paul Robert J Ferl",
     "year": 2013,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "• Premise of the study: In spaceflight experiments, tissues for morphologic study are fixed in 3% glutaraldehyde, while tissues for molecular study are fixed in RNA later ; thus, an experiment contain..."
   },
   {
@@ -2677,6 +3035,7 @@ export const papers: Paper[] = [
     "authors": "Agata K Zupanska Eric R Schultz JiQiang Yao Natasha J Sng Mingqi Zhou Jordan B Callaham Robert J Ferl Anna-Lisa Paul",
     "year": 2017,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Scientific access to spaceflight and especially the International Space Station has revealed that physiological adaptation to spaceflight is accompanied or enabled by changes in gene expression that s..."
   },
   {
@@ -2684,6 +3043,7 @@ export const papers: Paper[] = [
     "authors": "Natasha J Sng Bryan Kolaczkowski Robert J Ferl Anna-Lisa Paul",
     "year": 2018,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "A feature of the physiological adaptation to spaceflight in Arabidopsis thaliana ( Arabidopsis ) is the induction of reactive oxygen species (ROS)-associated gene expression. The patterns of ROS-assoc..."
   },
   {
@@ -2691,6 +3051,7 @@ export const papers: Paper[] = [
     "authors": "Agata K Zupanska Collin LeFrois Robert J Ferl Anna-Lisa Paul",
     "year": 2019,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Heat Shock Factor A2 (HsfA2) is part of the Heat Shock Factor (HSF) network, and plays an essential role beyond heat shock in environmental stress responses and cellular homeostatic control. Arabidops..."
   },
   {
@@ -2698,6 +3059,7 @@ export const papers: Paper[] = [
     "authors": "Amber M Paul Siddhita D Mhatre Egle Cekanaviciute Ann-Sofie Schreurs Candice G T Tahimic Ruth K Globus Sulekha Anand Brian E Crucian Sharmila Bhattacharya",
     "year": 2020,
     "keywords": [],
+    "citations": 36,
     "abstractSnippet": "A comprehensive understanding of spaceflight factors involved in immune dysfunction and the evaluation of biomarkers to assess in-flight astronaut health are essential goals for NASA. An elevated neut..."
   },
   {
@@ -2705,6 +3067,7 @@ export const papers: Paper[] = [
     "authors": "Amber M Paul Margareth Cheng-Campbell Elizabeth A Blaber Sulekha Anand Sharmila Bhattacharya Sara R Zwart Brian E Crucian Scott M Smith Robert Meller Peter Grabham Afshin Beheshti",
     "year": 2020,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Spaceflight missions can cause immune system dysfunction in astronauts with little understanding of immune outcomes in deep space. This study assessed immune responses in mice following ground-based, ..."
   },
   {
@@ -2712,6 +3075,7 @@ export const papers: Paper[] = [
     "authors": "Amber M Paul Eliah G Overbey Willian A da Silveira Nathaniel Szewczyk Nina C Nishiyama Michael J Pecaut Sulekha Anand Jonathan M Galazka Xiao Wen Mao",
     "year": 2021,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Using a ground-based model to simulate spaceflight [21-days of single-housed, hindlimb unloading (HLU) combined with continuous low-dose gamma irradiation (LDR, total dose of 0.04 Gy)], an in-depth su..."
   },
   {
@@ -2719,6 +3083,7 @@ export const papers: Paper[] = [
     "authors": "Anna-Lisa Paul Natasha Haveman Brandon Califar Robert J Ferl",
     "year": 2021,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Background: Plants subjected to the novel environment of spaceflight show transcriptomic changes that resemble aspects of several terrestrial abiotic stress responses. Under investigation here is whet..."
   },
   {
@@ -2726,6 +3091,7 @@ export const papers: Paper[] = [
     "authors": "Anna-Lisa Paul Stephen M Elardo Robert Ferl",
     "year": 2022,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "The extent to which plants can enhance human life support on other worlds depends on the ability of plants to thrive in extraterrestrial environments using in-situ resources. Using samples from Apollo..."
   },
   {
@@ -2733,6 +3099,7 @@ export const papers: Paper[] = [
     "authors": "Siddhita D Mhatre Janani Iyer Juli Petereit Roberta M Dolling-Boreham Anastasia Tyryshkina Amber Paul Rachel Gilbert Matthew Jensen Rebekah J Woolsey Sulekha Anand Marianne B Sowa David R Quilici Sylvain V Costes Santhosh Girirajan Sharmila Bhattacharya",
     "year": 2022,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Spaceflight poses risks to the central nervous system (CNS), and understanding neurological responses is important for future missions. We report CNS changes in Drosophila aboard the International Spa..."
   },
   {
@@ -2740,6 +3107,7 @@ export const papers: Paper[] = [
     "authors": "Natasha J Haveman Mingqi Zhou Jordan Callaham Hunter F Strickland Donald Houze Susan Manning-Roach Gerard Newsham Anna-Lisa Paul Robert J Ferl",
     "year": 2022,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Suborbital spaceflights now enable human-tended research investigating short-term gravitational effects in biological systems, eliminating the need for complex automation. Here, we discuss a method ut..."
   },
   {
@@ -2747,6 +3115,7 @@ export const papers: Paper[] = [
     "authors": "Daila S Gridley Xiao Wen Mao Louis S Stodieck Virginia L Ferguson Ted A Bateman Maria Moldovan Christopher E Cunningham Tamako A Jones Jerry M Slater Michael J Pecaut",
     "year": 2013,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": ""
   },
   {
@@ -2754,6 +3123,7 @@ export const papers: Paper[] = [
     "authors": "Shen-An Hwang Brian Crucian Clarence Sams Jeffrey K Actor",
     "year": 2015,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Alterations in immune function have been documented during or post-spaceflight and in ground based models of microgravity. Identification of immune parameters that are dysregulated during spaceflight ..."
   },
   {
@@ -2761,6 +3131,7 @@ export const papers: Paper[] = [
     "authors": "Daila S Gridley Michael J Pecaut",
     "year": 2016,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "High-energy particle radiation could have a considerable impact on health during space missions. This study evaluated C57BL/6 mice on Day 40 after total-body 56 Fe 26+ irradiation at 0, 1, 2 and 3 gra..."
   },
   {
@@ -2768,6 +3139,7 @@ export const papers: Paper[] = [
     "authors": "Michael J Pecaut Xiao Wen Mao Denise L Bellinger Karen R Jonscher Louis S Stodieck Virginia L Ferguson Ted A Bateman Robert P Mohney Daila S Gridley",
     "year": 2017,
     "keywords": [],
+    "citations": 37,
     "abstractSnippet": "The Space Shuttle Atlantis launched on its final mission (STS-135) on July 8, 2011. After just under 13 days, the shuttle landed safely at Kennedy Space Center (KSC) for the last time. Female C57BL/6J..."
   },
   {
@@ -2775,6 +3147,7 @@ export const papers: Paper[] = [
     "authors": "Elizabeth A Blaber Michael J Pecaut Karen R Jonscher",
     "year": 2017,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Increased oxidative stress is an unavoidable consequence of exposure to the space environment. Our previous studies showed that mice exposed to space for 13.5 days had decreased glutathione levels, su..."
   },
   {
@@ -2782,6 +3155,7 @@ export const papers: Paper[] = [
     "authors": "Franco Cortese Dmitry Klokov Andreyan Osipov Jakub Stefaniak Alexey Moskalev Jane Schastnaya Charles Cantor Alexander Aliper Polina Mamoshina Igor Ushakov Alex Sapetsky Quentin Vanhaelen Irina Alchinova Mikhail Karganov Olga Kovalchuk Ruth Wilkins Andrey Shtemberg Marjan Moreels Sarah Baatout Evgeny Izumchenko João Pedro de Magalhães Artem V Artemov Sylvain V Costes Afshin Beheshti Xiao Wen Mao Michael J Pecaut Dmitry Kaminskiy Ivan V Ozerov Morten Scheibye-Knudsen Alex Zhavoronkov",
     "year": 2018,
     "keywords": [],
+    "citations": 33,
     "abstractSnippet": "While many efforts have been made to pave the way toward human space colonization, little consideration has been given to the methods of protecting spacefarers against harsh cosmic and local radioacti..."
   },
   {
@@ -2789,6 +3163,7 @@ export const papers: Paper[] = [
     "authors": "Xiao Wen Mao Lawrence B Sandberg Daila S Gridley E Clifford Herrmann Guangyu Zhang Ravi Raghavan Roman A Zubarev Bo Zhang Louis S Stodieck Virginia L Ferguson Ted A Bateman Michael J Pecaut",
     "year": 2018,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "There is evidence that spaceflight poses acute and late risks to the central nervous system. To explore possible mechanisms, the proteomic changes following spaceflight in mouse brain were characteriz..."
   },
   {
@@ -2796,6 +3171,7 @@ export const papers: Paper[] = [
     "authors": "Alicia L Veliz Lana Mamoun Lorelei Hughes Richard Vega Bailey Holmes Andrea Monteon Jillian Bray Michael J Pecaut Mary Kearns-Jonker",
     "year": 2023,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Efforts to understand the impact of spaceflight on the human body stem from growing interest in long-term space travel. Multiple organ systems are affected by microgravity and radiation, including the..."
   },
   {
@@ -2803,6 +3179,7 @@ export const papers: Paper[] = [
     "authors": "Isaac Kremsky Samir Ali Seta Stanbouly Jacob Holley Stephen Justinen Michael Pecaut James Crapo Xiaowen Mao",
     "year": 2023,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "The demands of deep space pose a health risk to the central nervous system that has long been a concern when sending humans to space. While little is known about how spaceflight affects transcription ..."
   },
   {
@@ -2817,6 +3194,7 @@ export const papers: Paper[] = [
     "authors": "Chiu-Yueh Hung Peter Aspesi Jr Melissa R Hunter Aaron W Lomax Imara Y Perera",
     "year": 2014,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "The phosphoinositide pathway and inositol-1,4,5-triphosphate (InsP 3 ) have been implicated in plant responses to many abiotic stresses; however, their role in response to biotic stress is not well ch..."
   },
   {
@@ -2824,6 +3202,7 @@ export const papers: Paper[] = [
     "authors": "James Sheppard Eric S Land Tiffany Aurora Toennisson Colleen J Doherty Imara Y Perera",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Although many reports characterize the transcriptional response of Arabidopsis seedlings to microgravity, few investigate the effect of partial or fractional gravity on gene expression. Understanding ..."
   },
   {
@@ -2831,6 +3210,7 @@ export const papers: Paper[] = [
     "authors": "Eric S Land James Sheppard Colleen J Doherty Imara Y Perera",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "**Introduction**\nUnderstanding how plants adapt to the space environment is essential, as plants will be a valuable component of long duration space missions. Several spaceflight experiments have focu..."
   },
   {
@@ -2838,6 +3218,7 @@ export const papers: Paper[] = [
     "authors": "San-Huei Lai Polo Amanda M Saravia-Butler Valery Boyko Marie T Dinh Yi-Chun Chen Homer Fogle Sigrid S Reinsch Shayoni Ray Kaushik Chakravarty Oana Marcu Rick B Chen Sylvain V Costes Jonathan M Galazka",
     "year": 2020,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "To understand the physiological changes that occur in response to spaceflight, mice are transported to the International Space Station (ISS) and housed for variable periods of time before euthanasia o..."
   },
   {
@@ -2845,6 +3226,7 @@ export const papers: Paper[] = [
     "authors": "Pavel M Balaban Aleksey Y Malyshev Victor N Ierusalimsky Nikolay Aseyev Tania A Korshunova Natasha I Bravarenko M S Lemak Matvey Roshchin Igor S Zakharov Yekaterina Popova Richard Boyle",
     "year": 2011,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "**Background**\nThe mollusk statocyst is a mechanosensing organ detecting the animal's orientation with respect to gravity. This system has clear similarities to its vertebrate counterparts: a weight-l..."
   },
   {
@@ -2852,6 +3234,7 @@ export const papers: Paper[] = [
     "authors": "Bradford M Kuhlman Jonathan H Diaz Trang Simon Kimberly D Reeves Stephen J Walker Anthony Atala Graça Almeida-Porada Christopher D Porada",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Natural killer (NK) cells are an important first-line of defense against malignant cells. Because of the potential for increased cancer risk from astronaut exposure to space radiation, we determined w..."
   },
   {
@@ -2866,6 +3249,7 @@ export const papers: Paper[] = [
     "authors": "Stefano Cinti Sima Singh Giovanni Covone Luca Tonietti Annarita Ricciardelli Angelina Cordone Roberta Iacono Arianna Mazzoli Marco Moracci Alessandra Rotundi Donato Giovannelli",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "The space race is entering a new era of exploration, in which the number of robotic and human missions to various places in our solar system is rapidly increasing. Despite the recent advances in propu..."
   },
   {
@@ -2873,6 +3257,7 @@ export const papers: Paper[] = [
     "authors": "Andrii P Gryganskyi Jacob Golan Anna Muszewska Alexander Idnurm Somayeh Dolatabadi Stephen J Mondo Vira B Kutovenko Volodymyr O Kutovenko Michael T Gajdeczka Iryna M Anishchenko Julia Pawlowska Ngoc Vinh Tran Ingo Ebersberger Kerstin Voigt Yan Wang Ying Chang Teresa E Pawlowska Joseph Heitman Rytas Vilgalys Gregory Bonito Gerald L Benny Matthew E Smith Nicole Reynolds Timothy Y James Igor V Grigoriev Joseph W Spatafora Jason E Stajich",
     "year": 2023,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "The first genome sequenced of a eukaryotic organism was for Saccharomyces cerevisiae , as reported in 1996, but it was more than 10 years before any of the zygomycete fungi, which are the early-diverg..."
   },
   {
@@ -2880,6 +3265,7 @@ export const papers: Paper[] = [
     "authors": "Zyrina Alura C Sanchez Vignesha Vijayananda Devin M Virassammy Liat Rosenfeld Anand K Ramasubramanian",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "The motion of cells orthogonal to the direction of main flow is of importance in natural and engineered systems. The lateral movement of red blood cells (RBCs) distal to sudden expansion is considered..."
   },
   {
@@ -2887,6 +3273,7 @@ export const papers: Paper[] = [
     "authors": "Thomas Cahill Henry Cope Joseph J Bass Eliah G Overbey Rachel Gilbert Willian Abraham da Silveira Amber M Paul Tejaswini Mishra Raúl Herranz Sigrid S Reinsch Sylvain V Costes Gary Hardiman Nathaniel J Szewczyk Candice G T Tahimic",
     "year": 2021,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "Bioinformatics approaches have proven useful in understanding biological responses to spaceflight. Spaceflight experiments remain resource intensive and rare. One outstanding issue is how to maximize ..."
   },
   {
@@ -2894,6 +3281,7 @@ export const papers: Paper[] = [
     "authors": "Silvia S Orsini April M Lewis Kelly C Rice",
     "year": 2017,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "Astronauts have been previously shown to exhibit decreased salivary lysozyme and increased dental calculus and gingival inflammation in response to space flight, host factors that could contribute to ..."
   },
   {
@@ -2901,6 +3289,7 @@ export const papers: Paper[] = [
     "authors": "Matthew R Hauserman Mariola J Ferraro Ronan K Carroll Kelly C Rice",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Staphylococcus aureus colonizes the nares of approximately 30% of humans, a risk factor for opportunistic infections. To gain insight into S. aureus virulence potential in the spaceflight environment,..."
   },
   {
@@ -2908,6 +3297,7 @@ export const papers: Paper[] = [
     "authors": "Carla Brillada Jiameng Zheng Falco Krüger Eliezer Rovira-Diaz Jana Christin Askani Karin Schumacher Marcela Rojas-Pierce",
     "year": 2018,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": ""
   },
   {
@@ -2915,6 +3305,7 @@ export const papers: Paper[] = [
     "authors": "Sang Won Han Jose M Alonso Marcela Rojas-Pierce",
     "year": 2015,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Vacuoles are dynamic compartments with constant fluctuations and transient structures such as trans-vacuolar strands and bulbs. Bulbs are highly dynamic spherical structures inside vacuoles that are f..."
   },
   {
@@ -2922,6 +3313,7 @@ export const papers: Paper[] = [
     "authors": "Carla Brillada Jiameng Zheng Falco Krüger Eliezer Rovira-Diaz Jana Christin Askani Karin Schumacher Marcela Rojas-Pierce",
     "year": 2018,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": ""
   },
   {
@@ -2929,6 +3321,7 @@ export const papers: Paper[] = [
     "authors": "Mengying Wang Katherine Danz Vanessa Ly Marcela Rojas-Pierce",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The spaceflight environment of the International Space Station poses a multitude of stresses on plant growth including reduced gravity. Plants exposed to microgravity and other conditions on the ISS d..."
   },
   {
@@ -2936,6 +3329,7 @@ export const papers: Paper[] = [
     "authors": "Theresa Casey Elzbieta I Zakrzewska Rhonda L Maple Laura Lintault Charles E Wade Lisa A Baer April E Ronca Karen Plaut",
     "year": 2012,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Altered gravity load induced by spaceflight (microgravity) and centrifugation (hypergravity) is associated with changes in circadian, metabolic, and reproductive systems. Exposure to 2-g hypergravity ..."
   },
   {
@@ -2943,6 +3337,7 @@ export const papers: Paper[] = [
     "authors": "Jennifer Blaze Arun Asok Kristyn Borrelli Christina Tulbert Justin Bollinger April E Ronca Tania L Roth",
     "year": 2017,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "DNA methylation (addition of methyl groups to cytosines) and changes in telomere length (TTAGGG repeats on the ends of chromosomes) are two molecular modifications that result from stress and could co..."
   },
   {
@@ -2950,6 +3345,7 @@ export const papers: Paper[] = [
     "authors": "Megan E Rosa-Caldwell Marie Mortreux Anna Wadhwa Ursula B Kaiser Dong-Min Sung Mary L Bouxsein Seward B Rutkove",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Skeletal muscle size and strength are important for overall health for astronauts. However, how male and female muscle may respond differently to micro- and partial-gravity environments is not fully u..."
   },
   {
@@ -2957,6 +3353,7 @@ export const papers: Paper[] = [
     "authors": "Megan E Rosa-Caldwell Marie Mortreux Anna Wadhwa Ursula B Kaiser Dong-Min Sung Mary L Bouxsein Seward B Rutkove",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Skeletal muscle size and strength are important for overall health for astronauts. However, how male and female muscle may respond differently to micro- and partial-gravity environments is not fully u..."
   },
   {
@@ -2964,6 +3361,7 @@ export const papers: Paper[] = [
     "authors": "Hak-Soo Lee Yoon Kim Giang Pham Ju Won Kim Ji-Hye Song Yew Lee Yong-Sic Hwang Stanley J Roux Soo-Hwan Kim",
     "year": 2015,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Highlight\nBrassinosteroids (BRs) lead to ectopic activation of quiescent centre division as well as modulation of the columella stem cells differentiation in Arabidopsis roots in a BR concentration- a..."
   },
   {
@@ -2971,6 +3369,7 @@ export const papers: Paper[] = [
     "authors": "Xu Wang Xiaolong Ma Hui Wang Bingjie Li Greg Clark Yi Guo Stan Roux Daye Sun Wenqiang Tang",
     "year": 2015,
     "keywords": [],
+    "citations": 34,
     "abstractSnippet": "To understand the early signaling steps in the response of plant cells to increased environmental temperature, 2-D difference gel electrophoresis was used to study the proteins in microsomes of Arabid..."
   },
   {
@@ -2978,6 +3377,7 @@ export const papers: Paper[] = [
     "authors": "Manas Kumar Tripathy Gayani Weeraratne Greg Clark Stanley J Roux",
     "year": 2016,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "A previous study has demonstrated that the treatment of Arabidopsis plants with chemical inhibitors of apyrase enzymes increases their sensitivity to herbicides. In this study, we found that the addit..."
   },
   {
@@ -2985,6 +3385,7 @@ export const papers: Paper[] = [
     "authors": "Jing Wang Jawon Song Greg Clark Stanley J Roux",
     "year": 2018,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "ANN1 and ANN2 regulate Arabidopsis primary root growth by facilitating post-phloem transport of sugar in root tips.\nAnnexins are a multigene family of calcium-dependent membrane-binding proteins that ..."
   },
   {
@@ -2992,6 +3393,7 @@ export const papers: Paper[] = [
     "authors": "Linda Rubinstein Frederico Kiffer Stephanie Puukila Moniece G Lowe Brie Goo Amalia Luthens Ann-Sofie Schreurs Samantha M Torres Sonette Steczina Candice G T Tahimic Antiño R Allen",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Microgravity (modeled by head-tilt bedrest and hind-limb unloading), experienced during prolonged spaceflight, results in neurological consequences, central nervous system (CNS) dysfunction, and poten..."
   },
   {
@@ -2999,6 +3401,7 @@ export const papers: Paper[] = [
     "authors": "Frank C Ko Jia Li Daniel J Brooks Seward B Rutkove Mary L Bouxsein",
     "year": 2018,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "In addition to muscle weakness, amyotrophic lateral sclerosis (ALS) is associated with an increased incidence of skeletal fractures. The SOD1 G93A mouse model recapitulates many features of human ALS...."
   },
   {
@@ -3006,6 +3409,7 @@ export const papers: Paper[] = [
     "authors": "Marie Mortreux Frank C Ko Daniela Riveros Mary L Bouxsein Seward B Rutkove",
     "year": 2019,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "In the near future, space agencies plan to send the first crews for extended stays on the Moon and Mars, where gravity is significantly reduced compared to Earth (0.16× g and 0.38× g , respectively). ..."
   },
   {
@@ -3020,6 +3424,7 @@ export const papers: Paper[] = [
     "authors": "Frank C Ko Marie Mortreux Daniela Riveros Janice A Nagy Seward B Rutkove Mary L Bouxsein",
     "year": 2020,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Reduced skeletal loading leads to marked bone loss. Animal models of hindlimb suspension are widely used to assess alterations in skeleton during the course of complete unloading. More recently, the e..."
   },
   {
@@ -3027,6 +3432,7 @@ export const papers: Paper[] = [
     "authors": "Marie Mortreux Megan E Rosa-Caldwell",
     "year": 2020,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "For decades, scientists have relied on animals to understand the risks and consequences of space travel. Animals remain key to study the physiological alterations during spaceflight and provide crucia..."
   },
   {
@@ -3034,6 +3440,7 @@ export const papers: Paper[] = [
     "authors": "Marie Mortreux Megan E Rosa‐Caldwell Ian D Stiehl Dong‐Min Sung Nicholas T Thomas Christopher S Fry Seward B Rutkove",
     "year": 2021,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Ground‐based animal models have been used extensively to understand the effects of microgravity on various physiological systems. Among them, hindlimb suspension (HLS), developed in 1979 in rats, rema..."
   },
   {
@@ -3048,6 +3455,7 @@ export const papers: Paper[] = [
     "authors": "İrem Çelen Jung H Doh Chandran R Sabanayagam",
     "year": 2018,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Background**\nLiquid cultures have been commonly used in space, toxicology, and pharmacology studies of Caenorhabditis elegans . However, the knowledge about transcriptomic alterations caused by liqu..."
   },
   {
@@ -3055,6 +3463,7 @@ export const papers: Paper[] = [
     "authors": "İrem Çelen Aroshan Jayasinghe Jung H Doh Chandran R Sabanayagam",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Given the growing interest in human exploration of space, it is crucial to identify the effects of space conditions on biological processes. Here, we analyze the transcriptomic response of Caenorhabdi..."
   },
   {
@@ -3062,6 +3471,7 @@ export const papers: Paper[] = [
     "authors": "Simon Ng Cayden Williamson Mark van Zee Dino Di Carlo Sergio R Santa Maria",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Studying microbes at the single-cell level in space can accelerate human space exploration both via the development of novel biotechnologies and via the understanding of cellular responses to space st..."
   },
   {
@@ -3069,6 +3479,7 @@ export const papers: Paper[] = [
     "authors": "Amanda Scott Craig RG Willis Masafumi Muratani Atsushi Higashitani Timothy Etheridge Nathaniel J Szewczyk Colleen S Deane",
     "year": 2023,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The application of omics to study Caenorhabditis elegans ( C. elegans ) in the context of spaceflight is increasing, illuminating the wide-ranging biological impacts of spaceflight on physiology. In t..."
   },
   {
@@ -3076,6 +3487,7 @@ export const papers: Paper[] = [
     "authors": "A-S Schreurs Y Shirazi-Fard M Shahnazari J S Alwood T A Truong C G T Tahimic C L Limoli N D Turner B Halloran R K Globus",
     "year": 2016,
     "keywords": [],
+    "citations": 32,
     "abstractSnippet": "Bone loss caused by ionizing radiation is a potential health concern for radiotherapy patients, radiation workers and astronauts. In animal studies, exposure to ionizing radiation increases oxidative ..."
   },
   {
@@ -3083,6 +3495,7 @@ export const papers: Paper[] = [
     "authors": "Sonette Steczina Candice G T Tahimic Megan Pendleton Ons M’Saad Moniece Lowe Joshua S Alwood Bernard P Halloran Ruth K Globus Ann-Sofie Schreurs",
     "year": 2020,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Spaceflight is a unique environment that includes at least two factors which can negatively impact skeletal health: microgravity and ionizing radiation. We have previously shown that a diet supplement..."
   },
   {
@@ -3090,6 +3503,7 @@ export const papers: Paper[] = [
     "authors": "Candice G T Tahimic Sonette Steczina Aimy Sebastian Nicholas R Hum Metadel Abegaz Masahiro Terada Maria Cimini David A Goukassian Ann-Sofie Schreurs Tana M Hoban-Higgins Charles A Fuller Gabriela G Loots Ruth K Globus Yasaman Shirazi-Fard",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Microgravity exposure induces a cephalad fluid shift and an overall reduction in physical activity levels which can lead to cardiovascular deconditioning in the absence of countermeasures. Future spac..."
   },
   {
@@ -3104,6 +3518,7 @@ export const papers: Paper[] = [
     "authors": "Martin Freitag Hansjörg Schwertz",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Platelets (PLTs) are anucleate and considered incapable of nuclear functions. Contrastingly, nuclear proteins were detected in human PLTs. For most of these proteins, it is unclear if nuclear or alter..."
   },
   {
@@ -3111,6 +3526,7 @@ export const papers: Paper[] = [
     "authors": "Eric L Moyer Paula M Dumars Gwo-Shing Sun Kara J Martin David G Heathcote Richard D Boyle Mike G Skidmore",
     "year": 2016,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "The National Aeronautics and Space Administration Animal Enclosure Module (AEM) was developed as a self-contained rodent habitat for shuttle flight missions that provides inhabitants with living space..."
   },
   {
@@ -3118,6 +3534,7 @@ export const papers: Paper[] = [
     "authors": "Megan Hupka Raj Kedia Rylee Schauer Brooke Shepard María Granados-Presa Mark Vande Hei Pamela Flores Luis Zea",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Fungi biofilms have been found growing on spacecraft surfaces such as windows, piping, cables, etc. The contamination of these surfaces with fungi, although undesirable, is highly difficult to avoid. ..."
   },
   {
@@ -3125,6 +3542,7 @@ export const papers: Paper[] = [
     "authors": "Kevin Li Riya Desai Ryan T Scott Joel Ricky Steele Meera Machado Samuel Demharter Adrienne Hoarfrost Jessica L Braun Val A Fajardo Lauren M Sanders Sylvain V Costes",
     "year": 2023,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The adverse effects of microgravity exposure on mammalian physiology during spaceflight necessitate a deep understanding of the underlying mechanisms to develop effective countermeasures. One such con..."
   },
   {
@@ -3132,6 +3550,7 @@ export const papers: Paper[] = [
     "authors": "Iris Irby Jared T Broddrick",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Evidence from the International Space Station suggests microbial populations are rapidly adapting to the spacecraft environment; however, the mechanism of this adaptation is not understood. Bacterioph..."
   },
   {
@@ -3139,6 +3558,7 @@ export const papers: Paper[] = [
     "authors": "Rocky An Virginia Katherine Blackwell Bijan Harandi Alicia C Gibbons Olivia Siu Iris Irby Amy Rees Nadjet Cornejal Kristina M Sattler Tao Sheng Nicholas C Syracuse David Loftus Sergio R Santa Maria Egle Cekanaviciute Sigrid S Reinsch Hami E Ray Amber M Paul",
     "year": 2024,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Spaceflight and terrestrial spaceflight analogs can alter immune phenotypes. Macrophages are important immune cells that bridge the innate and adaptive immune systems and participate in immunoregulato..."
   },
   {
@@ -3146,6 +3566,7 @@ export const papers: Paper[] = [
     "authors": "Marta Cortesão Katharina Siems Stella Koch Kristina Beblo-Vranesevic Elke Rabbow Thomas Berger Michael Lane Leandro James Prital Johnson Samantha M Waters Sonali D Verma David J Smith Ralf Moeller",
     "year": 2021,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Whether terrestrial life can withstand the martian environment is of paramount interest for planetary protection measures and space exploration. To understand microbial survival potential in Mars-like..."
   },
   {
@@ -3153,6 +3574,7 @@ export const papers: Paper[] = [
     "authors": "Blake W Stamps Caitlin L Bojanowski Carrie A Drake Heather S Nunn Pamela F Lloyd James G Floyd Katelyn A Emmerich Abby R Neal Wendy J Crookes-Goodson Bradley S Stevenson",
     "year": 2020,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Renewable fuels hold great promise for the future yet their susceptibility to biodegradation and subsequent corrosion represents a challenge that needs to be directly assessed. Biodiesel is a renewabl..."
   },
   {
@@ -3160,6 +3582,7 @@ export const papers: Paper[] = [
     "authors": "Blake W Stamps John R Spear",
     "year": 2020,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Here, we present 95 metagenome-assembled genomes (MAGs) that harbor antimicrobial resistance genes, isolated from samples obtained in a large advanced wastewater reclamation facility prior to microfil..."
   },
   {
@@ -3167,6 +3590,7 @@ export const papers: Paper[] = [
     "authors": "Friedemann Freund Viktor Stolc",
     "year": 2013,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "**Simple Summary**\nEarthquakes are invariably preceded by a period when stresses increase deep in the Earth. Animals appear to be able to sense impending seismic events. During build-up of stress, ele..."
   },
   {
@@ -3174,6 +3598,7 @@ export const papers: Paper[] = [
     "authors": "Avijit Pramanik Ye Gao Shamily Patibandla Dipanwita Mitra Martin G McCandless Lauren A Fassero Kalein Gates Ritesh Tandon Paresh Chandra Ray",
     "year": 2021,
     "keywords": [],
+    "citations": 54,
     "abstractSnippet": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the cause of the coronavirus disease that began in 2019 (COVID-19), has been responsible for 1.4 million deaths worldwide as of 13 Novembe..."
   },
   {
@@ -3181,6 +3606,7 @@ export const papers: Paper[] = [
     "authors": "Avijit Pramanik Poonam C Sharma Shamily Patibandla Ye Gao Vinod Ruppa-Kasani Jagruti Goli Animesh Kumar Abhirup Chatterjee Sudarson Sekhar Sinha John T Bates Michael A Bierdeman Ritesh Tandon Paresh Chandra Ray",
     "year": 2022,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The emergence of\ndouble mutation delta (B.1.617.2) variants has\ndropped vaccine effectiveness against SARS-CoV-2 infection. Although\nCOVID-19 is responsible for more than 5.4 M deaths till now, more\nt..."
   },
   {
@@ -3188,6 +3614,7 @@ export const papers: Paper[] = [
     "authors": "Hannah M Harris Katherine L Boyet Hao Liu Rohini Dwivedi Nicole M Ashpole Ritesh Tandon Gene L Bidwell, III Zhi Cheng Lauren A Fassero Christian S Yu Vitor H Pomin Dipanwita Mitra Kerri A Harrison Eric Dahl Bill J Gurley Arun Kumar Kotha Mahavir Bhupal Chougule Joshua S Sharp",
     "year": 2022,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "**Purpose**\nIntranasally administered unfractionated heparin (UFH) and other sulfated polysaccharides are potential prophylactics for COVID-19. The purpose of this research was to measure the safety a..."
   },
   {
@@ -3195,6 +3622,7 @@ export const papers: Paper[] = [
     "authors": "Rohini Dwivedi Poonam Sharma Marwa Farrag Seon Beom Kim Lauren A Fassero Ritesh Tandon Vitor H Pomin",
     "year": 2022,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "The Coronavirus disease pandemic has steered the global therapeutic research efforts toward the discovery of potential anti-severe acute respiratory syndrome coronavirus (SARS-CoV-2) molecules. The ro..."
   },
   {
@@ -3209,6 +3637,7 @@ export const papers: Paper[] = [
     "authors": "Satish K Mehta Douglass M Diak Sara Bustos-Lopez Mayra Nelman-Gonzalez Xi Chen Ianik Plante Stephen J Stray Ritesh Tandon Brian E Crucian",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Human exploration of the solar system will expose crew members to galactic cosmic radiation (GCR), with a potential for adverse health effects. GCR particles (protons and ions) move at nearly the spee..."
   },
   {
@@ -3216,6 +3645,7 @@ export const papers: Paper[] = [
     "authors": "Vijayalaxmi Gupta Lesya Holets-Bondar Katherine F Roby George Enders Joseph S Tash",
     "year": 2015,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Collection and processing of tissues to preserve space flight effects from animals after return to Earth is challenging. Specimens must be harvested with minimal time after landing to minimize postfli..."
   },
   {
@@ -3223,6 +3653,7 @@ export const papers: Paper[] = [
     "authors": "Begum Aydogan Mathyk Marshall Tabetah Rashid Karim Victoria Zaksas JangKeun Kim R I Anu Masafumi Muratani Alexia Tasoula Ruth Subhash Singh Yen-Kai Chen Eliah Overbey Jiwoon Park Henry Cope Hossein Fazelinia Davide Povero Joseph Borg Remi V Klotz Min Yu Steven L Young Christopher E Mason Nathaniel Szewczyk Riley M St Clair Fathi Karouia Afshin Beheshti",
     "year": 2024,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Organismal adaptations to spaceflight have been characterized at the molecular level in model organisms, including Drosophila and C. elegans . Here, we extend molecular work to energy metabolism and s..."
   },
   {
@@ -3230,6 +3661,7 @@ export const papers: Paper[] = [
     "authors": "Alix C Deymier Andrea G Schwartz Zhounghou Cai Tyrone L Daulton Jill D Pasteris Guy M Genin Stavros Thomopoulos",
     "year": 2018,
     "keywords": [],
+    "citations": 25,
     "abstractSnippet": "The musculoskeletal system is sensitive to its loading environment; this is of particular concern under conditions such as disuse, paralysis, and extended-duration space flight. Although structural an..."
   },
   {
@@ -3237,6 +3669,7 @@ export const papers: Paper[] = [
     "authors": "Alix C Deymier Andrea G Schwartz Chanteak Lim Brian Wingender Akhilesh Kotiya Hua Shen Matthew J Silva Stavros Thomopoulos",
     "year": 2019,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Despite a wealth of data on the effects of spaceflight on tendons and bones, little is known about its effects on the interfacial tissue between these two structures, the enthesis. Mice were sent to s..."
   },
   {
@@ -3244,6 +3677,7 @@ export const papers: Paper[] = [
     "authors": "Peng Jiang Stefan J Green George E Chlipala Fred W Turek Martha Hotz Vitaterna",
     "year": 2019,
     "keywords": [],
+    "citations": 47,
     "abstractSnippet": "**Background**\nSpace environment imposes a range of challenges to mammalian physiology and the gut microbiota, and interactions between the two are thought to be important in mammalian health in space..."
   },
   {
@@ -3251,6 +3685,7 @@ export const papers: Paper[] = [
     "authors": "Urszula T Iwaniec Russell T Turner",
     "year": 2012,
     "keywords": [],
+    "citations": 46,
     "abstractSnippet": "A reciprocal association between bone marrow fat and bone mass has been reported in ovariectomized rodents, suggesting that bone marrow adipogenesis has a negative effect on bone growth and turnover b..."
   },
   {
@@ -3258,6 +3693,7 @@ export const papers: Paper[] = [
     "authors": "Russell T Turner Urszula T Iwaniec Carmen P Wong Laurence B Lindenmaier Lindsay A Wagner Adam J Branscum Scott A Menn James Taylor Ye Zhang Honglu Wu Jean D Sibonga",
     "year": 2013,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "The present studies investigated the cellular mechanisms for the detrimental effects of high dose whole body γ-irradiation on bone. In addition, radioadaptation and bone marrow transplantation were as..."
   },
   {
@@ -3265,6 +3701,7 @@ export const papers: Paper[] = [
     "authors": "Russell T Turner Kenneth A Philbrick Carmen P Wong Dawn A Olson Adam J Branscum Urszula T Iwaniec",
     "year": 2014,
     "keywords": [],
+    "citations": 26,
     "abstractSnippet": "Leptin-deficient ob/ob mice are morbidly obese and exhibit low total bone mass and mild osteopetrosis. In order to disassociate the skeletal effects of leptin deficiency from those associated with mor..."
   },
   {
@@ -3272,6 +3709,7 @@ export const papers: Paper[] = [
     "authors": "Russell T Turner Michael Dube Adam J Branscum Carmen P Wong Dawn A Olson Xiaoying Zhong Mercedes F Kweh Iske V Larkin Thomas J Wronski Clifford J Rosen Satya P Kalra Urszula T Iwaniec",
     "year": 2015,
     "keywords": [],
+    "citations": 12,
     "abstractSnippet": "Excessive weight gain in adults is associated with a variety of negative health outcomes. Unfortunately, dieting, exercise, and pharmacological interventions have had limited long-term success in weig..."
   },
   {
@@ -3279,6 +3717,7 @@ export const papers: Paper[] = [
     "authors": "Laurence B Lindenmaier Kenneth A Philbrick Adam J Branscum Satya P Kalra Russell T Turner Urszula T Iwaniec",
     "year": 2016,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": "Low bone mass is often associated with elevated bone marrow adiposity. Since osteoblasts and adipocytes are derived from the same mesenchymal stem cell (MSC) progenitor, adipocyte formation may increa..."
   },
   {
@@ -3286,6 +3725,7 @@ export const papers: Paper[] = [
     "authors": "Urszula T Iwaniec Kenneth A Philbrick Carmen P Wong Jody L Gordon Arianna M Kahler-Quesada Dawn A Olson Adam J Branscum Jennifer L Sargent Victoria E DeMambro Clifford J Rosen Russell T Turner",
     "year": 2016,
     "keywords": [],
+    "citations": 49,
     "abstractSnippet": "**Purpose**\nFemale mice are often used as preclinical models for osteoporosis but, in contrast to humans, mice exhibit cancellous bone loss during growth. Mice are routinely housed at room temperature..."
   },
   {
@@ -3293,6 +3733,7 @@ export const papers: Paper[] = [
     "authors": "Jessica A Keune Kenneth A Philbrick Adam J Branscum Urszula T Iwaniec Russell T Turner",
     "year": 2016,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "There is often a reciprocal relationship between bone marrow adipocytes and osteoblasts, suggesting that marrow adipose tissue (MAT) antagonizes osteoblast differentiation. MAT is increased in rodents..."
   },
   {
@@ -3300,6 +3741,7 @@ export const papers: Paper[] = [
     "authors": "Lin-Yu Jin Chen Guo Shuai Xu Hai-Ying Liu Xin-Feng Li",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The absence of leptin results in contrasting growth pattern of appendicular and axial bone growth in ob/ob mice. Endochondral bone formation is an important procedure of growth plate determining the b..."
   },
   {
@@ -3307,6 +3749,7 @@ export const papers: Paper[] = [
     "authors": "Kenneth A Philbrick Stephen A Martin Amy R Colagiovanni Adam J Branscum Russell T Turner Urszula T Iwaniec",
     "year": 2017,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Impaired resorption of cartilage matrix deposited during endochondral ossification is a defining feature of juvenile osteopetrosis. Growing, leptin-deficient ob/ob mice exhibit a mild form of osteopet..."
   },
   {
@@ -3314,6 +3757,7 @@ export const papers: Paper[] = [
     "authors": "Kenneth A Philbrick Carmen P Wong Adam J Branscum Russell T Turner Urszula T Iwaniec",
     "year": 2017,
     "keywords": [],
+    "citations": 47,
     "abstractSnippet": "Leptin, the protein product of the ob gene, is essential for normal bone growth, maturation, and turnover. Peripheral actions of leptin occur at lower serum levels of the hormone than central actions ..."
   },
   {
@@ -3321,6 +3765,7 @@ export const papers: Paper[] = [
     "authors": "Jessica A Keune Carmen P Wong Adam J Branscum Urszula T Iwaniec Russell T Turner",
     "year": 2017,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Bone marrow adipose tissue (MAT) is negatively associated with bone mass. Since osteoblasts and adipocytes are derived from the same precursor cells, adipocyte differentiation may occur at the expense..."
   },
   {
@@ -3328,6 +3773,7 @@ export const papers: Paper[] = [
     "authors": "Jasmine Nour Annalisa Moregola Monika Svecla Lorenzo Da Dalt Rossella Bellini Olivier Neyrolles Gian Paolo Fadini Yoann Rombouts Mattia Albiero Fabrizia Bonacina Giuseppe Danilo Norata",
     "year": 2022,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The mannose receptor C-type 1 (Mrc1) is a C-type lectin receptor expressed on the immune cells and sinusoidal endothelial cells (ECs) of several tissues, including the bone marrow (BM). Parallel to sy..."
   },
   {
@@ -3335,6 +3781,7 @@ export const papers: Paper[] = [
     "authors": "Richard T Deyhle, Jr Carmen P Wong Stephen A Martin Melissa Q McDougall Dawn A Olson Adam J Branscum Scott A Menn Urszula T Iwaniec David M Hamby Russell T Turner",
     "year": 2019,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Total-body irradiation (TBI) followed by transfer of bone marrow cells from donors is routinely performed in immunology research and can be used to manipulate differentiation and/or function of bone c..."
   },
   {
@@ -3342,6 +3789,7 @@ export const papers: Paper[] = [
     "authors": "Jessica A Keune Adam J Branscum Carmen P Wong Urszula T Iwaniec Russell T Turner",
     "year": 2019,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Based on body weight, morbidly obese leptin-deficient ob/ob mice have less bone than expected, suggesting that leptin plays a role in the skeletal response to weight bearing. To evaluate this possibil..."
   },
   {
@@ -3349,6 +3797,7 @@ export const papers: Paper[] = [
     "authors": "Stephen A Martin Kenneth A Philbrick Carmen P Wong Dawn A Olson Adam J Branscum Donald B Jump Charles K Marik Jonathan M DenHerder Jennifer L Sargent Russell T Turner Urszula T Iwaniec",
     "year": 2019,
     "keywords": [],
+    "citations": 23,
     "abstractSnippet": "Mice are a commonly used model to investigate aging-related bone loss but, in contrast to humans, mice exhibit cancellous bone loss prior to skeletal maturity. The mechanisms mediating premature bone ..."
   },
   {
@@ -3356,6 +3805,7 @@ export const papers: Paper[] = [
     "authors": "Amanda Gamboa Adam J Branscum Dawn A Olson Lara H Sattgast Urszula T Iwaniec Russell T Turner",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Mechanical loading of the skeleton during normal weight bearing plays an important role in bone accrual and turnover balance. We recently evaluated bone microarchitecture in the femoral head in 5.6-we..."
   },
   {
@@ -3363,6 +3813,7 @@ export const papers: Paper[] = [
     "authors": "Carmen P Wong Urszula T Iwaniec Russell T Turner",
     "year": 2021,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Sixteen-week-old female C57BL/6J mice were sacrificed aboard the International Space Station after 37 days of flight (RR-1 mission) and frozen carcasses returned to Earth. RNA was isolated from inters..."
   },
   {
@@ -3370,6 +3821,7 @@ export const papers: Paper[] = [
     "authors": "Russell T Turner Kira L Nesser Kenneth A Philbrick Carmen P Wong Dawn A Olson Adam J Branscum Urszula T Iwaniec",
     "year": 2022,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Bone marrow adipose tissue (BMAT) levels are higher in distal femur metaphysis of female mice housed at thermoneutral (32°C) than in mice housed at 22°C, as are abdominal white adipose tissue (WAT) ma..."
   },
   {
@@ -3377,6 +3829,7 @@ export const papers: Paper[] = [
     "authors": "Lara H Sattgast Carmen P Wong Adam J Branscum Dawn A Olson Allan M Aguirre-Burk Urszula T Iwaniec Russell T Turner",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "Mice are typically housed at temperatures well below their thermoneutral zone. When individually housed at room temperature (~22 °C) mice experience cold stress which results in cancellous bone loss a..."
   },
   {
@@ -3391,6 +3844,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Tristan Grams Christopher E Mason Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Bacteria are able to adapt and survive in harsh and changing environments through many mechanisms, with one of them being horizontal gene transfer (HGT). This process is one of the leading culprits in..."
   },
   {
@@ -3398,6 +3852,7 @@ export const papers: Paper[] = [
     "authors": "Donatella Tesei Anna Jewczynko Anne M Lynch Camilla Urbaniak",
     "year": 2022,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "During space missions, astronauts are faced with a variety of challenges that are unique to spaceflight and that have been known to cause physiological changes in humans over a period of time. Several..."
   },
   {
@@ -3405,6 +3860,7 @@ export const papers: Paper[] = [
     "authors": "Rosa Santomartino Nils J H Averesch Marufa Bhuiyan Charles S Cockell Jesse Colangelo Yosephine Gumulya Benjamin Lehner Ivanna Lopez-Ayala Sean McMahon Anurup Mohanty Sergio R Santa Maria Camilla Urbaniak Rik Volger Jiseon Yang Luis Zea",
     "year": 2023,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "Finding sustainable approaches to achieve independence from terrestrial resources is of pivotal importance for the future of space exploration. This is relevant not only to establish viable space expl..."
   },
   {
@@ -3412,6 +3868,7 @@ export const papers: Paper[] = [
     "authors": "Alejandro Bilbao Amar K Patel Mizanur Rahman Siva A Vanapalli Jerzy Blawzdziewicz",
     "year": 2018,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": ""
   },
   {
@@ -3426,6 +3883,7 @@ export const papers: Paper[] = [
     "authors": "Mizanur Rahman Jennifer E Hewitt Frank Van-Bussel Hunter Edwards Jerzy Blawzdziewicz Nathaniel J Szewczyk Monica Driscoll Siva A Vanapalli",
     "year": 2018,
     "keywords": [],
+    "citations": 27,
     "abstractSnippet": "Muscle strength is a functional measure of quality of life in humans. Declines in muscle strength are manifested in diseases as well as during inactivity, aging, and space travel. With conserved muscl..."
   },
   {
@@ -3433,6 +3891,7 @@ export const papers: Paper[] = [
     "authors": "Ricardo Laranjeiro Girish Harinath Jennifer E Hewitt Jessica H Hartman Mary Anne Royal Joel N Meyer Siva A Vanapalli Monica Driscoll",
     "year": 2019,
     "keywords": [],
+    "citations": 41,
     "abstractSnippet": ""
   },
   {
@@ -3440,6 +3899,7 @@ export const papers: Paper[] = [
     "authors": "Amelia K Pollard Christopher J Gaffney Colleen S Deane Michele Balsamo Michael Cooke Rebecca A Ellwood Jennifer E Hewitt Beata E Mierzwa Alessandro Mariani Siva A Vanapalli Timothy Etheridge Nathaniel J Szewczyk",
     "year": 2020,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Biology experiments in space seek to increase our understanding of what happens to life beyond Earth and how we can safely send life beyond Earth. Spaceflight is associated with many (mal)adaptations ..."
   },
   {
@@ -3447,6 +3907,7 @@ export const papers: Paper[] = [
     "authors": "Shasika Jayarathne Latha Ramalingam Hunter Edwards Siva A Vanapalli Naima Moustaid-Moussa",
     "year": 2020,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Aging and healthspan are determined by both environmental and genetic factors. The insulin/insulin-like growth factor-1(IGF-1) pathway is a key mediator of aging in Caenorhabditis elegans and mammals...."
   },
   {
@@ -3454,6 +3915,7 @@ export const papers: Paper[] = [
     "authors": "Hiroshi Qadota Jasmine C Moody Leila Lesanpezeshki Taylor Moncrief Deborah Kitzler Purnima Devaki Bhat Siva A Vanapalli Andres F Oberhauser Guy M Benian",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "In C. elegans , unc-89 encodes a set of giant multi-domain proteins (up 8,081 residues) localized to the M-lines of muscle sarcomeres and required for normal sarcomere organization and whole-animal lo..."
   },
   {
@@ -3461,6 +3923,7 @@ export const papers: Paper[] = [
     "authors": "Mizanur Rahman Hunter Edwards Nikolajs Birze Rebecca Gabrilska Kendra P Rumbaugh Jerzy Blawzdziewicz Nathaniel J Szewczyk Monica Driscoll Siva A Vanapalli",
     "year": 2020,
     "keywords": [],
+    "citations": 33,
     "abstractSnippet": "In this study, we report a microfluidic device for the whole-life culture of the nematode Caenorhabditis elegans that allows the scoring of animal survival and health measures. This device referred to..."
   },
   {
@@ -3468,6 +3931,7 @@ export const papers: Paper[] = [
     "authors": "Ricardo Laranjeiro Girish Harinath Amelia K Pollard Christopher J Gaffney Colleen S Deane Siva A Vanapalli Timothy Etheridge Nathaniel J Szewczyk Monica Driscoll",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Extended space travel is a goal of government space agencies and private companies. However, spaceflight poses risks to human health, and the effects on the nervous system have to be better characteri..."
   },
   {
@@ -3475,6 +3939,7 @@ export const papers: Paper[] = [
     "authors": "Purushottam Soni Taslim Anupom Leila Lesanpezeshki Mizanur Rahman Jennifer E Hewitt Matthew Vellone Louis Stodieck Jerzy Blawzdziewicz Nathaniel J Szewczyk Siva A Vanapalli",
     "year": 2022,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "Caenorhabditis elegans is a low-cost genetic model that has been flown to the International Space Station to investigate the influence of microgravity on changes in the expression of genes involved in..."
   },
   {
@@ -3482,6 +3947,7 @@ export const papers: Paper[] = [
     "authors": "Taslim Anupom Siva A Vanapalli",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "The model organism Caenorhabditis elegans is used in a variety of applications ranging from fundamental biological studies, to drug screening, to disease modeling, and to space-biology investigations...."
   },
   {
@@ -3489,6 +3955,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Raluca Vintila Luke Slade Michael Cooke Craig R G Willis Roberta Torregrossa Mizanur Rahman Taslim Anupom Siva A Vanapalli Christopher J Gaffney Nima Gharahdaghi Csaba Szabo Nathaniel J Szewczyk Matthew Whiteman Timothy Etheridge",
     "year": 2023,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": ""
   },
   {
@@ -3496,6 +3963,7 @@ export const papers: Paper[] = [
     "authors": "Luke Slade Shelby E Bollen Joseph J Bass Bethan E Phillips Kenneth Smith Daniel J Wilkinson Nathaniel J Szewczyk Philip J Atherton Timothy Etheridge",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "**Background**\nAge‐related muscle decline (sarcopenia) associates with numerous health risk factors and poor quality of life. Drugs that counter sarcopenia without harmful side effects are lacking, an..."
   },
   {
@@ -3503,6 +3971,7 @@ export const papers: Paper[] = [
     "authors": "Purushottam Soni Hunter Edwards Taslim Anupom Mizanur Rahman Leila Lesanpezeshki Jerzy Blawzdziewicz Henry Cope Nima Gharahdaghi Daniel Scott Li Shean Toh Philip M Williams Timothy Etheridge Nathaniel Szewczyk Craig R G Willis Siva A Vanapalli",
     "year": 2023,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Background: Understanding and countering the well-established negative health consequences of spaceflight remains a primary challenge preventing safe deep space exploration. Targeted/personalized ther..."
   },
   {
@@ -3510,6 +3979,7 @@ export const papers: Paper[] = [
     "authors": "Georgios Marinos Inga K Hamerich Reena Debray Nancy Obeng Carola Petersen Jan Taubenheim Johannes Zimmermann Dana Blackburn Buck S Samuel Katja Dierking Andre Franke Matthias Laudes Silvio Waschina Hinrich Schulenburg Christoph Kaleta",
     "year": 2024,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "**IMPORTANCE**\nWhile various mechanisms through which the microbiome influences disease processes in the host have been identified, there are still only few approaches that allow for targeted manipula..."
   },
   {
@@ -3517,6 +3987,7 @@ export const papers: Paper[] = [
     "authors": "Nadia B Haghani Robert H Lampe Buck S Samuel Sreekanth H Chalasani Molly A Matty",
     "year": 2024,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "**IMPORTANCE**\nThe genetic model organism C. elegans has recently emerged as a tool for understanding host–microbiome interactions. Nearly all of these studies either focus on pathogenic or gut-reside..."
   },
   {
@@ -3531,6 +4002,7 @@ export const papers: Paper[] = [
     "authors": "Parag Vaishampayan Alexander J Probst Myron T La Duc Emilee Bargoma James N Benardini Gary L Andersen Kasthuri Venkateswaran",
     "year": 2012,
     "keywords": [],
+    "citations": 74,
     "abstractSnippet": "The advent of phylogenetic DNA microarrays and high-throughput pyrosequencing technologies has dramatically increased the resolution and accuracy of detection of distinct microbial lineages in mixed m..."
   },
   {
@@ -3538,6 +4010,7 @@ export const papers: Paper[] = [
     "authors": "Min Xie Chen-Yu Tsai Zachary L McAdams Myo Oo Mark Hansen Maureen Dougher Alexander Sansano Anderson Watson Katherine LoMauro Rosleine Antilus-Sainte Aaron Ericsson Véronique Dartois Martin Gengenbacher",
     "year": 2023,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Mouse models are critical tools in tuberculosis (TB) research. Recent studies have demonstrated that the wild mouse gut microbiota promotes host fitness and improves disease resistance. Here we examin..."
   },
   {
@@ -3545,6 +4018,7 @@ export const papers: Paper[] = [
     "authors": "Aleksandra Checinska Alexander J Probst Parag Vaishampayan James R White Deepika Kumar Victor G Stepanov George E Fox Henrik R Nilsson Duane L Pierson Jay Perry Kasthuri Venkateswaran",
     "year": 2015,
     "keywords": [],
+    "citations": 104,
     "abstractSnippet": "**Background**\nThe International Space Station (ISS) is a unique built environment due to the effects of microgravity, space radiation, elevated carbon dioxide levels, and especially continuous human ..."
   },
   {
@@ -3552,6 +4026,7 @@ export const papers: Paper[] = [
     "authors": "Nitin Kumar Singh Adriana Blachowicz Aleksandra Checinska Clay Wang Kasthuri Venkateswaran",
     "year": 2016,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Draft genome sequences of Aspergillus fumigatus strains (ISSFT-021 and IF1SW-F4), opportunistic pathogens isolated from the International Space Station (ISS), were assembled to facilitate investigatio..."
   },
   {
@@ -3559,6 +4034,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Blachowicz Abby J Chiang Jillian Romsdahl Markus Kalkum Clay C C Wang Kasthuri Venkateswaran",
     "year": 2019,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "The on-going Microbial Observatory Experiments on the International Space Station (ISS) revealed the presence of various microorganisms that may be affected by the distinct environment of the ISS. The..."
   },
   {
@@ -3566,6 +4042,7 @@ export const papers: Paper[] = [
     "authors": "Aleksandra Checinska Sielaff Nitin K Singh Jonathan E Allen James Thissen Crystal Jaing Kasthuri Venkateswaran",
     "year": 2016,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "The draft genome sequences of 20 biosafety level 2 (BSL-2) opportunistic pathogens isolated from the environmental surfaces of the International Space Station (ISS) were presented. These genomic seque..."
   },
   {
@@ -3573,6 +4050,7 @@ export const papers: Paper[] = [
     "authors": "Nitin K Singh Adriana Blachowicz Jillian Romsdahl Clay Wang Tamas Torok Kasthuri Venkateswaran",
     "year": 2017,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "The whole-genome sequences of eight fungal strains that were selected for exposure to microgravity at the International Space Station are presented here. These baseline sequences will help to understa..."
   },
   {
@@ -3580,6 +4058,7 @@ export const papers: Paper[] = [
     "authors": "A Blachowicz T Mayer M Bashir T R Pieber P De León K Venkateswaran",
     "year": 2017,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "**Background**\nAn inflatable lunar/Mars analog habitat (ILMAH), simulated closed system isolated by HEPA filtration, mimics International Space Station (ISS) conditions and future human habitation on ..."
   },
   {
@@ -3587,6 +4066,7 @@ export const papers: Paper[] = [
     "authors": "Nicholas A Be Aram Avila-Herrera Jonathan E Allen Nitin Singh Aleksandra Checinska Sielaff Crystal Jaing Kasthuri Venkateswaran",
     "year": 2017,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": ""
   },
   {
@@ -3594,6 +4074,7 @@ export const papers: Paper[] = [
     "authors": "Jiseon Yang Jennifer Barrila C Mark Ott Olivia King Rebekah Bruce Robert J C McLean Cheryl A Nickerson",
     "year": 2021,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "While sequencing technologies have revolutionized our knowledge of microbial diversity, little is known about the dynamic emergent phenotypes that arise within the context of mixed-species populations..."
   },
   {
@@ -3601,6 +4082,7 @@ export const papers: Paper[] = [
     "authors": "Kasthuri Venkateswaran Aleksandra Checinska Sielaff Shashikala Ratnayake Robert K Pope Thomas E Blank Victor G Stepanov George E Fox Sandra P van Tongeren Clinton Torres Jonathan Allen Crystal Jaing Duane Pierson Jay Perry Sergey Koren Adam Phillippy Joy Klubnik Todd J Treangen M J Rosovitz Nicholas H Bergman",
     "year": 2017,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "The draft genome sequences of six Bacillus strains, isolated from the International Space Station and belonging to the Bacillus anthracis - B. cereus - B. thuringiensis group, are presented here. Thes..."
   },
   {
@@ -3608,6 +4090,7 @@ export const papers: Paper[] = [
     "authors": "Arman Seuylemezian Parag Vaishampayan Kerry Cooper Kasthuri Venkateswaran",
     "year": 2018,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "We report here the draft genome sequences of four strains isolated from spacecraft-associated surfaces exhibiting increased resistance to stressors such as UV radiation and exposure to H 2 O 2 . The d..."
   },
   {
@@ -3615,6 +4098,7 @@ export const papers: Paper[] = [
     "authors": "Jeremiah J Minich Qiyun Zhu Stefan Janssen Ryan Hendrickson Amnon Amir Russ Vetter John Hyde Megan M Doty Kristina Stillwell James Benardini Jae H Kim Eric E Allen Kasthuri Venkateswaran Rob Knight",
     "year": 2018,
     "keywords": [],
+    "citations": 86,
     "abstractSnippet": "Various indoor, outdoor, and host-associated environments contain small quantities of microbial biomass and represent a niche that is often understudied because of technical constraints. Many studies ..."
   },
   {
@@ -3622,6 +4106,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Sanjeet Dadwal Karine Bagramyan Kasthuri Venkateswaran",
     "year": 2018,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Here, we present the draft whole-genome sequence of a clinical isolate of Fusarium fujikuroi cultured from a patient undergoing chemotherapy for refractory acute myeloid leukemia.\n## GENOME ANNOUNCEME..."
   },
   {
@@ -3629,6 +4114,7 @@ export const papers: Paper[] = [
     "authors": "Arman Seuylemezian Nitin K Singh Parag Vaishampayan Kasthuri Venkateswaran",
     "year": 2017,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "We report here the draft genome of Solibacillus kalamii ISSFR-015, isolated from a high-energy particulate arrestance filter aboard the International Space Station. The draft genome sequence of this s..."
   },
   {
@@ -3636,6 +4122,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Michael D Morrison James B Thissen Fathi Karouia David J Smith Satish Mehta Crystal Jaing Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Background**\nThe International Space Station (ISS) is a unique and complex built environment with the ISS surface microbiome originating from crew and cargo or from life support recirculation in an ..."
   },
   {
@@ -3643,6 +4130,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Gioia Massa Mary Hummerick Christina Khodadad Andrew Schuerger Kasthuri Venkateswaran",
     "year": 2018,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "Here, we present the whole-genome sequences of two Fusarium oxysporum isolates cultured from infected Zinnia hybrida plants that were grown onboard the International Space Station (ISS).\n## GENOME ANN..."
   },
   {
@@ -3650,6 +4138,7 @@ export const papers: Paper[] = [
     "authors": "Jillian Romsdahl Adriana Blachowicz Yi-Ming Chiang Kasthuri Venkateswaran Clay C C Wang",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Secondary metabolite (SM) production in Aspergillus niger JSC-093350089, isolated from the International Space Station (ISS), is reported, along with a comparison to the experimentally established str..."
   },
   {
@@ -3657,6 +4146,7 @@ export const papers: Paper[] = [
     "authors": "Nitin K Singh Daniela Bezdan Aleksandra Checinska Sielaff Kevin Wheeler Christopher E Mason Kasthuri Venkateswaran",
     "year": 2018,
     "keywords": [],
+    "citations": 51,
     "abstractSnippet": "**Background**\nThe antimicrobial resistance (AMR) phenotypic properties, multiple drug resistance (MDR) gene profiles, and genes related to potential virulence and pathogenic properties of five Entero..."
   },
   {
@@ -3664,6 +4154,7 @@ export const papers: Paper[] = [
     "authors": "Nitin Kumar Singh Jason M Wood Fathi Karouia Kasthuri Venkateswaran",
     "year": 2018,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": ""
   },
   {
@@ -3671,6 +4162,7 @@ export const papers: Paper[] = [
     "authors": "Jillian Romsdahl Adriana Blachowicz Abby J Chiang Yi-Ming Chiang Sawyer Masonjones Junko Yaegashi Stefanie Countryman Fathi Karouia Markus Kalkum Jason E Stajich Kasthuri Venkateswaran Clay CC Wang",
     "year": 2018,
     "keywords": [],
+    "citations": 15,
     "abstractSnippet": "The first global genomic, proteomic, and secondary metabolomic characterization of the filamentous fungus Aspergillus nidulans following growth onboard the International Space Station (ISS) is reporte..."
   },
   {
@@ -3678,6 +4170,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Blachowicz Abby J Chiang Jillian Romsdahl Markus Kalkum Clay C C Wang Kasthuri Venkateswaran",
     "year": 2019,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "The on-going Microbial Observatory Experiments on the International Space Station (ISS) revealed the presence of various microorganisms that may be affected by the distinct environment of the ISS. The..."
   },
   {
@@ -3685,6 +4178,7 @@ export const papers: Paper[] = [
     "authors": "Camilla Urbaniak Peter van Dam Alexander Zaborin Olga Zaborina Jack A Gilbert Tamas Torok Clay C C Wang Kasthuri Venkateswaran",
     "year": 2019,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "This is the first study to isolate and characterize F. oxysporum isolates from a built environment, as well as one that has been exposed to space. The characterization and analysis of these two genome..."
   },
   {
@@ -3692,6 +4186,7 @@ export const papers: Paper[] = [
     "authors": "Aleksandra Checinska Sielaff Camilla Urbaniak Ganesh Babu Malli Mohan Victor G Stepanov Quyen Tran Jason M Wood Jeremiah Minich Daniel McDonald Teresa Mayer Rob Knight Fathi Karouia George E Fox Kasthuri Venkateswaran",
     "year": 2019,
     "keywords": [],
+    "citations": 124,
     "abstractSnippet": "**Background**\nThe International Space Station (ISS) is a closed system inhabited by microorganisms originating from life support systems, cargo, and crew that are exposed to unique selective pressure..."
   },
   {
@@ -3699,6 +4194,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Blachowicz Abby J Chiang Andreas Elsaesser Markus Kalkum Pascale Ehrenfreund Jason E Stajich Tamas Torok Clay C C Wang Kasthuri Venkateswaran",
     "year": 2019,
     "keywords": [],
+    "citations": 30,
     "abstractSnippet": "Filamentous fungi have been associated with extreme habitats, including nuclear power plant accident sites and the International Space Station (ISS). Due to their immense adaptation and phenotypic pla..."
   },
   {
@@ -3706,6 +4202,7 @@ export const papers: Paper[] = [
     "authors": "Liu Cao Alexey Gurevich Kelsey L Alexander C Benjamin Naman Tiago Leão Evgenia Glukhov Tal Luzzatto-Knaan Fernando Vargas Robby Quinn Amina Bouslimani Louis Felix Nothias Nitin K Singh Jon G Sanders Rodolfo A S Benitez Luke R Thompson Md-Nafiz Hamid James T Morton Alla Mikheenko Alexander Shlemov Anton Korobeynikov Iddo Friedberg Rob Knight Kasthuri Venkateswaran William H Gerwick Lena Gerwick Pieter C Dorrestein Pavel A Pevzner Hosein Mohimani",
     "year": 2019,
     "keywords": [],
+    "citations": 38,
     "abstractSnippet": "Ribosomally synthesized and post-translationally modified peptides (RiPPs) are an important class of natural products that contain antibiotics and a variety of other bioactive compounds. The existing ..."
   },
   {
@@ -3713,6 +4210,7 @@ export const papers: Paper[] = [
     "authors": "Swati Bijlani Nitin K Singh Christopher E Mason Clay C C Wang Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The draft genome sequences of three Sphingomonas strains isolated from the International Space Station (ISS) were assembled. These genomic sequences will help in understanding the influence of microgr..."
   },
   {
@@ -3720,6 +4218,7 @@ export const papers: Paper[] = [
     "authors": "Swati Bijlani Nitin K Singh Christopher E Mason Clay C C Wang Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "The draft genome sequences of six eukaryotic microbial strains belonging to the class Tremellomycetes isolated from the International Space Station were assembled. Further characterization of these se..."
   },
   {
@@ -3727,6 +4226,7 @@ export const papers: Paper[] = [
     "authors": "Robert Daudu Ceth W Parker Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Christopher E Mason Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "The whole-genome sequences (WGS) of 28 isolates from the International Space Station were generated and identified as Rhodotorula mucilaginosa , a pigmented yeast that has been classified as an emergi..."
   },
   {
@@ -3734,6 +4234,7 @@ export const papers: Paper[] = [
     "authors": "Achintya R Bharadwaj Robert Daudu Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Fathi Karouia Christopher E Mason Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "The whole-genome sequences of 26 strains isolated from the International Space Station were generated, and the strains were identified as being members of the order Enterobacteriales. Characterization..."
   },
   {
@@ -3741,6 +4242,7 @@ export const papers: Paper[] = [
     "authors": "Achintya R Bharadwaj Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Fathi Karouia Christopher E Mason Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Nineteen strains from the order Lactobacillales were isolated from the International Space Station and commercial resupply vehicle, and whole-genome sequences (WGS) were generated. WGS would permit th..."
   },
   {
@@ -3748,6 +4250,7 @@ export const papers: Paper[] = [
     "authors": "Samuel A Solomon Achintya R Bharadwaj Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Christopher E Mason Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Isolated across four locations aboard the International Space Station (ISS), 10 bacterial strains were compared using whole-genome sequencing analysis and were phylogenetically identified as Klebsiell..."
   },
   {
@@ -3755,6 +4258,7 @@ export const papers: Paper[] = [
     "authors": "Robert Daudu Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O'Hara Christopher E Mason Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "The draft genome sequences of 29 bacterial isolates belonging to the family Bacillaceae were collected from the International Space Station, assembled, and identified. Further analysis of these sequen..."
   },
   {
@@ -3762,6 +4266,7 @@ export const papers: Paper[] = [
     "authors": "Snehit Mhatre Jason M Wood Aleksandra Checinska Sielaff Maximilian Mora Stefanie Duller Nitin Kumar Singh Fathi Karouia Christine Moissl-Eichinger Kasthuri Venkateswaran",
     "year": 2020,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "**Background**\nWith increasing numbers of interplanetary missions, there is a need to establish robust protocols to ensure the protection of extraterrestrial planets being visited from contamination b..."
   },
   {
@@ -3769,6 +4274,7 @@ export const papers: Paper[] = [
     "authors": "Swati Bijlani Nitin K Singh V V Ramprasad Eedara Appa Rao Podile Christopher E Mason Clay C C Wang Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 31,
     "abstractSnippet": "Four strains belonging to the family of Methylobacteriaceae were isolated from different locations on the International Space Station (ISS) across two consecutive flights. Of these, three were identif..."
   },
   {
@@ -3776,6 +4282,7 @@ export const papers: Paper[] = [
     "authors": "Adriana Blachowicz Nitin Kumar Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Christopher E Mason Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "The draft whole-genome sequences (WGS) of 30 fungal strains isolated from the International Space Station and belonging to the Penicillium and Aspergillus genera were assembled. The WGS will allow for..."
   },
   {
@@ -3790,6 +4297,7 @@ export const papers: Paper[] = [
     "authors": "Donatella Tesei Abby J Chiang Markus Kalkum Jason E Stajich Ganesh Babu Malli Mohan Katja Sterflinger Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "Black fungi are a group of melanotic microfungi characterized by remarkable polyextremotolerance. Due to a broad ecological plasticity and adaptations at the cellular level, it is predicted that they ..."
   },
   {
@@ -3797,6 +4305,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson Camilla Urbaniak Nitin K Singh Jason M Wood Marilyne Debieu Niamh B O’Hara Christopher E Mason Kasthuri Venkateswaran",
     "year": 2021,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Whole-genome sequences were generated from 96 bacterial strains of 14 species that were isolated from International Space Station surfaces during the Microbial Tracking 2 study. Continued characteriza..."
   },
   {
@@ -3804,6 +4313,7 @@ export const papers: Paper[] = [
     "authors": "Natasha J Haveman Christina L M Khodadad Anirudha R Dixit Artemis S Louyakis Gioia D Massa Kasthuri Venkateswaran Jamie S Foster",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "Healthy plants are vital for successful, long-duration missions in space, as they provide the crew with life support, food production, and psychological benefits. The microorganisms that associate wit..."
   },
   {
@@ -3818,6 +4328,7 @@ export const papers: Paper[] = [
     "authors": "Jonathan Lombardino Swati Bijlani Nitin K Singh Jason M Wood Richard Barker Simon Gilroy Clay C C Wang Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "In an ongoing microbial tracking investigation of the International Space Station (ISS), several Sphingomonas strains were isolated. Based on the 16S rRNA gene sequence, phylogenetic analysis identifi..."
   },
   {
@@ -3825,6 +4336,7 @@ export const papers: Paper[] = [
     "authors": "Swati Bijlani Ceth Parker Nitin K Singh Maria A Sierra Jonathan Foox Clay C C Wang Christopher E Mason Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "Multiple strains of a novel yeast belonging to genus Naganishia were isolated from environmental surfaces aboard the International Space Station (ISS). These strains exhibited a phenotype similar to T..."
   },
   {
@@ -3832,6 +4344,7 @@ export const papers: Paper[] = [
     "authors": "Rachita K Kumar Nitin Kumar Singh Sanjaay Balakrishnan Ceth W Parker Karthik Raman Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "**Background**\nRecent studies have provided insights into the persistence and succession of microbes aboard the International Space Station (ISS), notably the dominance of Klebsiella pneumoniae . Howe..."
   },
   {
@@ -3839,6 +4352,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson Takeo Suzuki Daniel R Miller Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "The use of film media involves considerably less preparation, waste, and incubator space than conventional agar-media-based assays and has proven in past studies to provide counts of cultivable microb..."
   },
   {
@@ -3846,6 +4360,7 @@ export const papers: Paper[] = [
     "authors": "Braden T Tierney Nitin K Singh Anna C Simpson Andrea M Hujer Robert A Bonomo Christopher E Mason Kasthuri Venkateswaran",
     "year": 2022,
     "keywords": [],
+    "citations": 18,
     "abstractSnippet": "**Background**\nMonitoring the adaptation of microorganisms to the extreme environment of the International Space Station (ISS) is crucial to understanding microbial evolution and infection prevention...."
   },
   {
@@ -3853,6 +4368,7 @@ export const papers: Paper[] = [
     "authors": "Nitin K Singh Jason M Wood Jose Patane Livia Maria Silva Moura Jonathan Lombardino João Carlos Setubal Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "**Background**\nSeveral investigations on the microbial diversity and functional properties of the International Space Station (ISS) environment were carried out to understand the influence of spacefli..."
   },
   {
@@ -3860,6 +4376,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson V V Ramprasad Eedara Nitin K Singh Namita Damle Ceth W Parker Fathi Karouia Christopher E Mason Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "A single strain from the family Paenibacillaceae was isolated from the wall behind the Waste Hygiene Compartment aboard the International Space Station (ISS) in April 2018, as part of the Microbial Tr..."
   },
   {
@@ -3867,6 +4384,7 @@ export const papers: Paper[] = [
     "authors": "Georgios Miliotis Francesca McDonagh Nitin Kumar Singh Louise O'Connor Alma Tuohy Dearbháile Morris Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 5,
     "abstractSnippet": "**IMPORTANCE**\nThe International Space Station (ISS) is a unique, hermetically sealed environment, subject to environmental pressures not encountered on Earth, including microgravity and radiation (co..."
   },
   {
@@ -3874,6 +4392,7 @@ export const papers: Paper[] = [
     "authors": "Anna C Simpson Pratyay Sengupta Flora Zhang Asif Hameed Ceth W Parker Nitin K Singh Georgios Miliotis Punchappady D Rekha Karthik Raman Christopher E Mason Kasthuri Venkateswaran",
     "year": 2023,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "With the advent of long-term human habitation in space and on the moon, understanding how the built environment microbiome of space habitats differs from Earth habitats, and how microbes survive, prol..."
   },
   {
@@ -3881,6 +4400,7 @@ export const papers: Paper[] = [
     "authors": "Pratyay Sengupta Shobhan Karthick Muthamilselvi Sivabalan Nitin Kumar Singh Karthik Raman Kasthuri Venkateswaran",
     "year": 2024,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "**Background**\nThe International Space Station (ISS) stands as a testament to human achievement in space exploration. Despite its highly controlled environment, characterised by microgravity, increase..."
   },
   {
@@ -3888,6 +4408,7 @@ export const papers: Paper[] = [
     "authors": "Lukasz M Szydlowski Alper A Bulbul Anna C Simpson Deniz E Kaya Nitin K Singh Ugur O Sezerman Paweł P Łabaj Tomasz Kosciolek Kasthuri Venkateswaran",
     "year": 2024,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "**Background**\nThe extreme environment of the International Space Station (ISS) puts selective pressure on microorganisms unintentionally introduced during its 20+ years of service as a low-orbit scie..."
   },
   {
@@ -3895,6 +4416,7 @@ export const papers: Paper[] = [
     "authors": "Chun-Jun Guo Wei-Wen Sun Kenneth S Bruno Berl R Oakley Nancy P Keller Clay C C Wang",
     "year": 2015,
     "keywords": [],
+    "citations": 11,
     "abstractSnippet": "We have demonstrated that spatial regulation of the same product from two distinct genes generates metabolite diversity.\nIn secondary metabolite biosynthesis, core synthetic genes such as polyketide s..."
   },
   {
@@ -3902,6 +4424,7 @@ export const papers: Paper[] = [
     "authors": "Jillian Romsdahl Clay C C Wang",
     "year": 2019,
     "keywords": [],
+    "citations": 44,
     "abstractSnippet": "This review covers advances made in genome mining SMs produced by Aspergillus nidulans , Aspergillus fumigatus , Aspergillus niger , and Aspergillus terreus in the past six years (2012–2018). Genetic ..."
   },
   {
@@ -3909,6 +4432,7 @@ export const papers: Paper[] = [
     "authors": "Michael Farris Emory R McTyre Catherine Okoukoni Greg Dugan Brendan J Johnson William Blackstock Michael T Munley J Daniel Bourland J Mark Cline Jeffrey S Willey",
     "year": 2018,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Stereotactic body radiation therapy (SBRT) is associated with an increased risk of vertebral compression fracture ( 1 – 5 ). While bone is typically considered radiation-resistant, fractures frequentl..."
   },
   {
@@ -3916,6 +4440,7 @@ export const papers: Paper[] = [
     "authors": "Andy T Kwok Joseph E Moore Samuel Rosas Bethany A Kerr Rachel N Andrews Callistus M Nguyen Jingyun Lee Cristina M Furdui Boyce E Collins Michael T Munley Jeffrey S Willey",
     "year": 2019,
     "keywords": [],
+    "citations": 17,
     "abstractSnippet": "Kwok, A. T., Moore, J. E., Rosas, S., Kerr, B. A., Andrews, R. N., Nguyen, C. M., Lee, J., Furdui, C. M., Collins, B. E., Munley, M. T. and Willey, J. S. Knee and Hip Joint Cartilage Damage from Combi..."
   },
   {
@@ -3923,6 +4448,7 @@ export const papers: Paper[] = [
     "authors": "Jeffrey S Willey Richard A Britten Elizabeth Blaber Candice GT Tahimic Jeffrey Chancellor Marie Mortreux Larry D Sanford Angela J Kubik Michael D Delp Xiao Wen Mao",
     "year": 2021,
     "keywords": [],
+    "citations": 19,
     "abstractSnippet": "Both microgravity and radiation exposure in the spaceflight environment have been identified as hazards to astronaut health and performance. Substantial study has been focused on understanding the bio..."
   },
   {
@@ -3930,6 +4456,7 @@ export const papers: Paper[] = [
     "authors": "Andy T Kwok Nequesha S Mohamed Johannes F Plate Raghunatha R Yammani Samuel Rosas Ted A Bateman Eric Livingston Joseph E Moore Bethany A Kerr Jingyun Lee Cristina M Furdui Li Tan Mary L Bouxsein Virginia L Ferguson Louis S Stodieck David C Zawieja Michael D Delp Xiao W Mao Jeffrey S Willey",
     "year": 2021,
     "keywords": [],
+    "citations": 21,
     "abstractSnippet": "Reduced knee weight-bearing from prescription or sedentary lifestyles are associated with cartilage degradation; effects on the meniscus are unclear. Rodents exposed to spaceflight or hind limb unload..."
   },
   {
@@ -3937,6 +4464,7 @@ export const papers: Paper[] = [
     "authors": "Jeffrey S Willey Serena Aunon-Chancellor Lauren A Miles Joseph E Moore Xiao W Mao Robert W Wallace Matthew C Foy",
     "year": 2022,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Alpha(α)Klotho, a soluble transmembrane protein, facilitates calcium-phosphorus homeostasis through feedback between bone and kidney and is a potential systemic biomarker for bone-kidney health during..."
   },
   {
@@ -3944,6 +4472,7 @@ export const papers: Paper[] = [
     "authors": "Cynthia L Browning John Pierce Wise, Sr",
     "year": 2017,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "Particulate hexavalent chromium (Cr(VI)) is a human lung carcinogen and a human health concern. The induction of structural chromosome instability is considered to be a driving mechanism of Cr(VI)-ind..."
   },
   {
@@ -3951,6 +4480,7 @@ export const papers: Paper[] = [
     "authors": "Ye Zhang Maria Moreno-Villanueva Stephanie Krieger Govindarajan T Ramesh Srujana Neelam Honglu Wu",
     "year": 2017,
     "keywords": [],
+    "citations": 24,
     "abstractSnippet": "In space, living organisms are exposed to multiple stress factors including microgravity and space radiation. For humans, these harmful environmental factors have been known to cause negative health i..."
   },
   {
@@ -3958,6 +4488,7 @@ export const papers: Paper[] = [
     "authors": "María Moreno-Villanueva Michael Wong Tao Lu Ye Zhang Honglu Wu",
     "year": 2017,
     "keywords": [],
+    "citations": 71,
     "abstractSnippet": "In space, multiple unique environmental factors, particularly microgravity and space radiation, pose constant threat to the DNA integrity of living organisms. Specifically, space radiation can cause d..."
   },
   {
@@ -3965,6 +4496,7 @@ export const papers: Paper[] = [
     "authors": "Maria Moreno-Villanueva Alan H Feiveson Stephanie Krieger AnneMarie Kay Brinda Gudrun von Scheven Alexander Bürkle Brian Crucian Honglu Wu",
     "year": 2018,
     "keywords": [],
+    "citations": 13,
     "abstractSnippet": "The implementation of rotating-wall vessels (RWVs) for studying the effect of lack of gravity has attracted attention, especially in the fields of stem cells, tissue regeneration, and cancer research...."
   },
   {
@@ -3972,6 +4504,7 @@ export const papers: Paper[] = [
     "authors": "Colin P S Kruse Proma Basu Darron R Luesse Sarah E Wyatt",
     "year": 2017,
     "keywords": [],
+    "citations": 29,
     "abstractSnippet": "Tissue preservation is a minimal requirement for the success of plant RNA and protein expression studies. The standard of snap-freezing in liquid nitrogen is not always practical or possible. RNAlater..."
   },
   {
@@ -3979,6 +4512,7 @@ export const papers: Paper[] = [
     "authors": "Colin P S Kruse Alexander D Meyers Proma Basu Sarahann Hutchinson Darron R Luesse Sarah E Wyatt",
     "year": 2020,
     "keywords": [],
+    "citations": 34,
     "abstractSnippet": "**Background**\nUnderstanding of gravity sensing and response is critical to long-term human habitation in space and can provide new advantages for terrestrial agriculture. To this end, the altered gen..."
   },
   {
@@ -3986,6 +4520,7 @@ export const papers: Paper[] = [
     "authors": "Allison P Koehle Stephanie L Brumwell Emily P Seto Anne M Lynch Camilla Urbaniak",
     "year": 2023,
     "keywords": [],
+    "citations": 22,
     "abstractSnippet": "With the construction of the International Space Station, humans have been continuously living and working in space for 22 years. Microbial studies in space and other extreme environments on Earth hav..."
   },
   {
@@ -3993,6 +4528,7 @@ export const papers: Paper[] = [
     "authors": "Rosa Santomartino Nils J H Averesch Marufa Bhuiyan Charles S Cockell Jesse Colangelo Yosephine Gumulya Benjamin Lehner Ivanna Lopez-Ayala Sean McMahon Anurup Mohanty Sergio R Santa Maria Camilla Urbaniak Rik Volger Jiseon Yang Luis Zea",
     "year": 2023,
     "keywords": [],
+    "citations": 20,
     "abstractSnippet": "Finding sustainable approaches to achieve independence from terrestrial resources is of pivotal importance for the future of space exploration. This is relevant not only to establish viable space expl..."
   },
   {
@@ -4000,6 +4536,7 @@ export const papers: Paper[] = [
     "authors": "Jiseon Yang Jennifer Barrila C Mark Ott Olivia King Rebekah Bruce Robert J C McLean Cheryl A Nickerson",
     "year": 2021,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "While sequencing technologies have revolutionized our knowledge of microbial diversity, little is known about the dynamic emergent phenotypes that arise within the context of mixed-species populations..."
   },
   {
@@ -4007,6 +4544,7 @@ export const papers: Paper[] = [
     "authors": "Anurag Sakharkar Jian Yang",
     "year": 2023,
     "keywords": [],
+    "citations": 4,
     "abstractSnippet": "Space exploration and extraterrestrial civilization have fascinated humankind since the earliest days of human history. It was only in the last century that humankind finally began taking significant ..."
   },
   {
@@ -4021,6 +4559,7 @@ export const papers: Paper[] = [
     "authors": "Anna K de Regt Yeshi Yin T Ryan Withers Xin Wang Tania A Baker Robert T Sauer Hongwei D Yu",
     "year": 2014,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "In P. aeruginosa , alginate overproduction, also known as mucoidy, is negatively regulated by the transmembrane protein MucA, which sequesters the alternative sigma factor AlgU. MucA is degraded via a..."
   },
   {
@@ -4028,6 +4567,7 @@ export const papers: Paper[] = [
     "authors": "Walter E Cromer Scott D Zawieja Karen M Doersch Hayden Stagg Felicia Hunter Binu Tharakan Ed Childs David C Zawieja",
     "year": 2018,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "It is theorized that toxic agents are transported from the hyperpermeable gut of burn victims through the lymph, to the systemic circulation, causing global injury. We believe that immune cells respon..."
   },
   {
@@ -4035,6 +4575,7 @@ export const papers: Paper[] = [
     "authors": "Andreas Elsaesser David J Burr Paul Mabey Riccardo Giovanni Urso Daniela Billi Charles Cockell Hervé Cottin Adrienne Kish Natalie Leys Jack J W A van Loon Eva Mateo-Marti Christine Moissl-Eichinger Silvano Onofri Richard C Quinn Elke Rabbow Petra Rettberg Rosa de la Torre Noetzel Klaus Slenzka Antonio J Ricco Jean-Pierre de Vera Frances Westall",
     "year": 2023,
     "keywords": [],
+    "citations": 9,
     "abstractSnippet": "Space experiments are a technically challenging but a scientifically important part of astrobiology and astrochemistry research. The International Space Station (ISS) is an excellent example of a high..."
   },
   {
@@ -4042,6 +4583,7 @@ export const papers: Paper[] = [
     "authors": "Rosa Santomartino Luis Zea Charles S Cockell",
     "year": 2022,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "As we aim to expand human presence in space, we need to find viable approaches to achieve independence from terrestrial resources. Space biomining of the Moon, Mars and asteroids has been indicated as..."
   },
   {
@@ -4049,6 +4591,7 @@ export const papers: Paper[] = [
     "authors": "Rosa Santomartino Luis Zea Charles S Cockell",
     "year": 2022,
     "keywords": [],
+    "citations": 16,
     "abstractSnippet": "As we aim to expand human presence in space, we need to find viable approaches to achieve independence from terrestrial resources. Space biomining of the Moon, Mars and asteroids has been indicated as..."
   },
   {
@@ -4056,6 +4599,7 @@ export const papers: Paper[] = [
     "authors": "Lily A Allen Amir H Kalani Frederico Estante Aaron J Rosengren Louis Stodieck David Klaus Luis Zea",
     "year": 2022,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "Bacterial behavior has been studied under microgravity conditions, but very little is known about it under lunar and Martian gravitational regimes. An Earth-based approach was designed and implemented..."
   },
   {
@@ -4063,6 +4607,7 @@ export const papers: Paper[] = [
     "authors": "Pamela Flores Samantha A McBride Jonathan M Galazka Kripa K Varanasi Luis Zea",
     "year": 2023,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The undesirable, yet inevitable, presence of bacterial biofilms in spacecraft poses a risk to the proper functioning of systems and to astronauts’ health. To mitigate the risks that arise from them, i..."
   },
   {
@@ -4070,6 +4615,7 @@ export const papers: Paper[] = [
     "authors": "Junya Zhang Bárbara S F Müller Kevin N Tyre Hope L Hersh Fang Bai Ying Hu Marcio F R Resende, Jr Bala Rathinasabapathi A Mark Settles",
     "year": 2020,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "A biological life support system for spaceflight would capture carbon dioxide waste produced by living and working in space to generate useful organic compounds. Photosynthesis is the primary mechanis..."
   },
   {
@@ -4077,6 +4623,7 @@ export const papers: Paper[] = [
     "authors": "Mary E Hummerick Christina L M Khodadad Anirudha R Dixit Lashelle E Spencer Gretchen J Maldonado-Vasquez Jennifer L Gooden Cory J Spern Jason A Fischer Nicole Dufour Raymond M Wheeler Matthew W Romeyn Trent M Smith Gioia D Massa Ye Zhang",
     "year": 2021,
     "keywords": [],
+    "citations": 8,
     "abstractSnippet": "The establishment of steady-state continuous crop production during long-term deep space missions is critical for providing consistent nutritional and psychological benefits for the crew, potentially ..."
   },
   {
@@ -4084,6 +4631,7 @@ export const papers: Paper[] = [
     "authors": "Ye Zhang Jeffrey T Richards Alan H Feiveson Stephanie E Richards Srujana Neelam Thomas W Dreschel Ianik Plante Megumi Hada Honglu Wu Gioia D Massa Grace L Douglas Howard G Levine",
     "year": 2022,
     "keywords": [],
+    "citations": 6,
     "abstractSnippet": "One of the major concerns for long-term exploration missions beyond the Earth’s magnetosphere is consequences from exposures to solar particle event (SPE) protons and galactic cosmic rays (GCR). For l..."
   },
   {
@@ -4126,6 +4674,7 @@ export const papers: Paper[] = [
     "authors": "Alicia L Veliz Lorelei Hughes Delia Carrillo Michael J Pecaut Mary Kearns-Jonker",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "**Supplementary Information**\nThe online version contains supplementary material available at 10.1186/s12864-025-11426-y...."
   },
   {
@@ -4133,6 +4682,7 @@ export const papers: Paper[] = [
     "authors": "James A Casaletto Ryan T Scott Makenna Myrick Graham Mackintosh Hamed Chok Amanda Saravia-Butler Adrienne Hoarfrost Jonathan M Galazka Lauren M Sanders Sylvain V Costes",
     "year": 2025,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Spaceflight has several detrimental effects on human and rodent health. For example, liver dysfunction is a common phenotype observed in space-flown rodents, and this dysfunction is partially reflecte..."
   },
   {
@@ -4140,6 +4690,7 @@ export const papers: Paper[] = [
     "authors": "Ebrahim Elsangeedy Dina N Yamaleyeva Nicholas P Edenhoffer Allyson Deak Anna Soloshenko Jonathan Ray Xuming Sun Omar H Shaltout Nildris Cruz-Diaz Brian Westwood Daniel Kim-Shapiro Debra I Diz Shay Soker Victor M Pulgar April Ronca Jeffrey S Willey Liliya M Yamaleyeva",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Men and women have different cardiovascular responses to spaceflight; however, few studies have focused on direct comparisons between sexes. We investigated the mechanisms of aortic stiffening in soci..."
   },
   {
@@ -4147,6 +4698,7 @@ export const papers: Paper[] = [
     "authors": "Samrawit G Gebre Ryan T Scott Amanda M Saravia-Butler Danielle K Lopez Lauren M Sanders Sylvain V Costes",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Space biology and health data are critical for the success of deep space missions and sustainable human presence off-world. At the core of effectively managing biomedical risks is the commitment to op..."
   },
   {
@@ -4161,6 +4713,7 @@ export const papers: Paper[] = [
     "authors": "Satish K Mehta Douglass M Diak Sara Bustos-Lopez Mayra Nelman-Gonzalez Xi Chen Ianik Plante Stephen J Stray Ritesh Tandon Brian E Crucian",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Human exploration of the solar system will expose crew members to galactic cosmic radiation (GCR), with a potential for adverse health effects. GCR particles (protons and ions) move at nearly the spee..."
   },
   {
@@ -4182,6 +4735,7 @@ export const papers: Paper[] = [
     "authors": "Lukasz M Szydlowski Alper A Bulbul Anna C Simpson Deniz E Kaya Nitin K Singh Ugur O Sezerman Paweł P Łabaj Tomasz Kosciolek Kasthuri Venkateswaran",
     "year": 2024,
     "keywords": [],
+    "citations": 10,
     "abstractSnippet": "**Background**\nThe extreme environment of the International Space Station (ISS) puts selective pressure on microorganisms unintentionally introduced during its 20+ years of service as a low-orbit scie..."
   },
   {
@@ -4189,6 +4743,7 @@ export const papers: Paper[] = [
     "authors": "Lauren M Sanders Danielle K Lopez Alan E Wood Ryan T Scott Samrawit G Gebre Amanda M Saravia-Butler Sylvain V Costes",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "NASA’s space life sciences research programs established a decades-long legacy of enhancing our ability to safely explore the cosmos. From Skylab and the Space Shuttle Program to the NASA Balloon Prog..."
   },
   {
@@ -4196,6 +4751,7 @@ export const papers: Paper[] = [
     "authors": "Nicholas Nastasi Ashleigh Bope Marit E Meyer John M Horack Karen C Dannemiller",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "**Background**\nThe commercialization of space travel will soon lead to many more people living and working in unique built environments similar to the International Space Station, which is a specializ..."
   },
   {
@@ -4203,6 +4759,7 @@ export const papers: Paper[] = [
     "authors": "E Gonzalez M D Lee B T Tierney N Lipieta P Flores M Mishra L Beckett A Finkelstein A Mo P Walton F Karouia R Barker R J Jansen S J Green S Weging J Kelliher N K Singh D Bezdan J Galazska N J B Brereton",
     "year": 2024,
     "keywords": [],
+    "citations": 7,
     "abstractSnippet": "The ISS rodent habitat has provided crucial insights into the impact of spaceflight on mammals, inducing symptoms characteristic of liver disease, insulin resistance, osteopenia, and myopathy. Althoug..."
   },
   {
@@ -4210,6 +4767,7 @@ export const papers: Paper[] = [
     "authors": "Fay Ghani Abba C Zubair",
     "year": 2024,
     "keywords": [],
+    "citations": 3,
     "abstractSnippet": "Stem cell research performed in space has provided fundamental insights into stem cell properties and behavior in microgravity including cell proliferation, differentiation, and regeneration capabilit..."
   },
   {
@@ -4217,6 +4775,7 @@ export const papers: Paper[] = [
     "authors": "Bradford M Kuhlman Jonathan H Diaz Trang Simon Kimberly D Reeves Stephen J Walker Anthony Atala Graça Almeida-Porada Christopher D Porada",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Natural killer (NK) cells are an important first-line of defense against malignant cells. Because of the potential for increased cancer risk from astronaut exposure to space radiation, we determined w..."
   },
   {
@@ -4224,6 +4783,7 @@ export const papers: Paper[] = [
     "authors": "Candice G T Tahimic Sonette Steczina Aimy Sebastian Nicholas R Hum Metadel Abegaz Masahiro Terada Maria Cimini David A Goukassian Ann-Sofie Schreurs Tana M Hoban-Higgins Charles A Fuller Gabriela G Loots Ruth K Globus Yasaman Shirazi-Fard",
     "year": 2024,
     "keywords": [],
+    "citations": 2,
     "abstractSnippet": "Microgravity exposure induces a cephalad fluid shift and an overall reduction in physical activity levels which can lead to cardiovascular deconditioning in the absence of countermeasures. Future spac..."
   }
 ];

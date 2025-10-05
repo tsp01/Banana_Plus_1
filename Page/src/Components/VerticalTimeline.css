@@ -46,7 +46,7 @@
 
 /* === Timeline Label (Text beside the node) === */
 .timeline-label {
-  margin-left: 13em; /* Pushes the label away from the node (redundant with flex gap) */
+  margin-left: 52%; /* Pushes the label away from the node (redundant with flex gap) */
   white-space: nowrap; /* Prevents line breaks in long labels */
   font-size: 14px;
   color: #fff;

@@ -42,7 +42,7 @@ function rowToPaper(study: any, abstract: any): Paper {
     authors: study.authors || "Unknown Author",
     year,
     keywords: [],
-    citations: study.citations || undefined,
+    citations: study.citation_count || undefined,
     abstractSnippet: abstract?.abstract ? abstract.abstract.slice(0, 200) + "..." : "",
   };
 }
