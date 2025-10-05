@@ -129,7 +129,7 @@ function App() {
   });
 
   const timelineEvents: TimelineEvent[] = filteredPapers
-    .filter((paper) => timelineTitles.includes(paper.title))
+    .filter((paper) => timelineTitles().includes(paper.title))
     .map((paper, index) => ({
       ...paper,
       date: paper.year ? new Date(paper.year, 0, 1) : new Date(2023, index, 1),
