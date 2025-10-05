@@ -1,53 +1,68 @@
+/* ================================
+   Base HTML & Root Styles
+   ================================ */
 html, body, #root {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+  height: 100%;   /* Make the app fill the viewport vertically */
+  width: 100%;    /* Make the app fill the viewport horizontally */
+  margin: 0;      /* Remove default browser margin */
 }
 
+/* ================================
+   SplitPane Container
+   ================================ */
 .split-pane-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  display: flex;     /* Arrange children (panes + splitters) in a row */
+  width: 100%;       /* Full width of parent */
+  height: 100%;      /* Full height of parent */
+  overflow: hidden;  /* Prevent container overflow when resizing */
 }
 
+/* ================================
+   Individual Pane
+   ================================ */
 .pane {
-  height: 100%;
-  overflow-x: hidden;  /* clip horizontal overflow */
-  overflow-y: auto;    /* allow vertical scroll */
-  white-space: nowrap; /* prevent word wrap */
-  text-overflow: clip; /* clip overflowing text */
-  background-color: black;
-  padding: 10px;
-  box-sizing: border-box;
+  height: 100%;          /* Fill container height */
+  overflow-x: hidden;    /* Clip horizontal overflow */
+  overflow-y: auto;      /* Enable vertical scrolling if content overflows */
+  white-space: nowrap;   /* Prevent text from wrapping to new lines */
+  text-overflow: clip;   /* Clip overflowing text rather than showing ellipsis */
+  background-color: black; /* Default pane background */
+  padding: 10px;         /* Inner spacing for content */
+  box-sizing: border-box; /* Include padding in width calculations */
 }
 
+/* ================================
+   Splitter (Draggable Divider)
+   ================================ */
 .splitter {
-  width: 15px;
-  cursor: col-resize;
-  background-color: #ccc;
-  height: 100%;
-  flex-shrink: 0;
-  position: relative;
-  display: flex;
+  width: 15px;           /* Width of the draggable area */
+  cursor: col-resize;    /* Cursor indicates horizontal resizing */
+  background-color: #ccc; /* Light gray for visibility */
+  height: 100%;          /* Full height of container */
+  flex-shrink: 0;        /* Prevent shrinking when resizing */
+  position: relative;    /* Needed for absolute positioning of label */
+  display: flex;         /* Center the optional label */
   justify-content: center;
   align-items: center;
 }
 
+/* ================================
+   Splitter Label (Optional Text)
+   ================================ */
 .splitter-label {
-  writing-mode: horizontal-tb;  /* normal horizontal text */
-  font-size: 20px;              /* bigger font */
-  font-weight: bold;
-  color: #555;
-  pointer-events: none;
-  user-select: none;
+  writing-mode: horizontal-tb;  /* Keep text horizontal */
+  font-size: 20px;              /* Larger text for readability */
+  font-weight: bold;            /* Make the label prominent */
+  color: #555;                  /* Dark gray text color */
+  pointer-events: none;         /* Prevent label from interfering with dragging */
+  user-select: none;            /* Prevent text selection */
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-58%, -900%) rotate(-90deg);
-  white-space: nowrap;
-  background-color: #ccc; /* slightly opaque background */
-  padding: 2px 15px;
-  border-radius: 2px;
+  position: absolute;           /* Positioned relative to splitter */
+  top: 50%;                     /* Center vertically */
+  left: 50%;                    /* Center horizontally */
+  transform: translate(-60%, -900%) rotate(-90deg); /* Rotate vertically and adjust positioning */
+  white-space: nowrap;           /* Prevent line breaks */
+  background-color: #ccc;        /* Slightly opaque background for readability */
+  padding: 2px 15px;             /* Inner spacing for label */
+  border-radius: 2px;            /* Rounded corners for aesthetics */
 }

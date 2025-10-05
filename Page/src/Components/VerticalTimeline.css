@@ -1,0 +1,58 @@
+/* === Vertical Timeline Container === */
+.vertical-timeline-container {
+  position: relative; /* Needed for absolutely positioned child elements (points, line) */
+  width: 100%; /* Full width of parent container */
+  height: 100%; /* Fills parent height — can be adjusted or set dynamically in JS */
+  display: flex; /* Centers the timeline horizontally */
+  justify-content: center;
+  margin-top: 25px; /* Adds space from the top header */
+}
+
+/* === Central Timeline Line === */
+.vertical-timeline-container::before {
+  content: ''; /* Creates the vertical line */
+  position: absolute;
+  left: 50%; /* Centers the line horizontally */
+  transform: translateX(-50%);
+  top: 0; /* Start of the container */
+  bottom: 0; /* End of the container */
+  width: 4px; /* Thickness of the line */
+  background-color: #ccc; /* Light gray color for the line */
+}
+
+/* === Wrapper for Each Timeline Point + Label === */
+.timeline-point-wrapper {
+  position: absolute; /* Allows precise vertical placement along the timeline */
+  display: flex;
+  flex-direction: row; /* Keeps node and label side-by-side */
+  align-items: center;
+  gap: 100px; /* Space between the timeline point and its label */
+}
+
+/* === Timeline Point (Node) === */
+.timeline-point {
+  background-color: #4a90e2; /* Blue fill color */
+  border-radius: 50%; /* Makes it circular */
+  border: 2px solid #fff; /* White outline for visibility */
+  cursor: pointer; /* Shows it's interactive */
+  z-index: 2; /* Ensures the node appears above the line */
+}
+
+/* === Timeline Label (Text beside the node) === */
+.timeline-label {
+  margin-left: 13em; /* Pushes the label away from the node (redundant with flex gap) */
+  white-space: nowrap; /* Prevents line breaks in long labels */
+}
+
+/* === Hover Box (Appears on hover) === */
+.timeline-hover-box {
+  position: absolute;
+  left: 60%; /* Positions the hover box slightly to the right of the timeline line */
+  transform: translateX(0);
+  z-index: 10; /* Brings the hover box above all other elements */
+  width: 300px; /* Fixed width for consistency */
+  background: #fff; /* White background for contrast */
+  border: 1px solid #ccc; /* Light gray border for definition */
+  padding: 12px; /* Inner spacing for readability */
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15); /* Soft shadow for depth */
+}
