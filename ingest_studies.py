@@ -135,15 +135,13 @@ def get_citation_count(pmid: int, timeout: float, user_agent: str, sleep_secs: f
             url = "https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=" + str(pmid[0])
             status, html = fetch_html(url, timeout=timeout, user_agent=user_agent)
             if status == 429:
-                time.sleep(sleep_secs)
+                time.sleep(5)
                 continue
             elif status != 200:
                 print(f"Code: {status} for URL: {url}")
             else: # Status = 200
                 success = not success
             soup = soup_or_none(html)
-            if sleep_secs > 0:
-                time.sleep(sleep_secs)
             #a = soup.find_all(".results-amount .value")
             a = int(soup.find("div", {"class": "results-amount"}).contents[1].contents[1].contents[0])
             return a
@@ -196,8 +194,6 @@ def get_or_fetch_metadata(url: str, timeout: float, user_agent: str, sleep_secs:
         meta = extract_metadata_pmc(html, timeout, user_agent, sleep_secs)
         if status != 200:
             print(f"Code: {status} for URL: {url}")
-        if sleep_secs > 0:
-            time.sleep(sleep_secs)
         return meta
     except Exception as e:
         print("definitiely not my prblem" + str(e))

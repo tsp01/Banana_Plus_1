@@ -8,6 +8,7 @@ studies.db
 *.db
 *.pkl
 *.index
+tst.txt
 # Distribution / packaging
 .Python
 build/

@@ -52,10 +52,10 @@ const CenterPanel: React.FC<{
   allAuthors,
 }) => {
   const sendFiltersToServer = async () => {
-    const filters = { searchQuery, selectedKeyword, selectedAuthors };
+    const filters = { searchQuery };
     console.log('Sending filters:', filters);
     try {
-      const response = await fetch('http://localhost:8453/query', {
+      const response = await fetch('http://localhost:8453/search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(filters),
