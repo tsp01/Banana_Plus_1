@@ -26,6 +26,7 @@
   font-size: 17px;                 /* Slightly larger font for prominence */
   font-weight: bold;                /* Bold to emphasize title */
   color: #fff;
+   text-wrap: pretty;
 }
 
 /* ================================
@@ -34,10 +35,12 @@
 .paper-authors, .paper-keywords, .paper-year { 
     color: #ddd; 
     font-size: 14px; 
+   text-wrap: pretty;
 }
 
 .paper-abstract {
   margin: 2px 0;                   /* Minimal vertical spacing between elements */
   font-size: 14px;                 /* Slightly smaller than title for hierarchy */
   width:100%;
+   text-wrap: pretty;
 }
