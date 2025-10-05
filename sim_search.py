@@ -57,7 +57,7 @@ def load_faiss_index(index_path: str, dim: int):
 	return None
 
 
-def search(query: str, k: int = 10, threshold: float = 0.4, rebuild: bool = False) -> List[Dict[str, Any]]:
+def search(query: str, k: int = 10, threshold: float = 0.5, rebuild: bool = False) -> List[Dict[str, Any]]:
 	
 	rows = load_rows(DB_PATH)
 	if not rows:

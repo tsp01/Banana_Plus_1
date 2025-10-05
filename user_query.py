@@ -19,7 +19,7 @@ app.add_middleware(
 class SearchRequest(BaseModel):
     searchQuery: str
     k: Optional[int] = None
-    threshold: Optional[float] = 0.4
+    threshold: Optional[float] = 0.5
 
 
 @app.post("/search", response_model=List[str])
