@@ -104,7 +104,7 @@ def extract_sections(text: str) -> dict:
     sections[current_section] = []
 
     for line in text.splitlines():
-        stripped = line.strip()
+        stripped = re.sub(r"[-=]{3,}", "", line).strip()
         if not stripped:
             continue
 
@@ -118,14 +118,15 @@ def extract_sections(text: str) -> dict:
             current_section = matched_section
             if current_section not in sections:
                 sections[current_section] = []
+        elif current_section is None:
+            # Skip lines until we find a section
+            continue
         else:
             sections[current_section].append(stripped)
+            if current_section == "title":
+                current_section = None
 
-    # Join content and clean up
-    for sec, content in sections.items():
-        sections[sec] = re.sub(r"[-=]{3,}", "", "\n".join(content)).strip()
-
-    # Remove empty sections
-    sections = {k: v for k, v in sections.items() if v}
+    for sec in sections:
+        sections[sec] = "\n".join(sections[sec]).strip()
 
     return sections

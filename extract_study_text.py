@@ -293,4 +293,4 @@ if __name__ == "__main__":
     # Example: fetch a real PMC article by URL
     text = get_text("https://pmc.ncbi.nlm.nih.gov/articles/PMC4136787/", NCBI_EMAIL, NCBI_API_KEY)
     sections = extract_sections(text)
-    print("done")
+    print(sections["abstract"])
