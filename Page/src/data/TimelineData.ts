@@ -9,11 +9,40 @@
 // papers from the dataset (`papers`) should be converted into
 // `TimelineEvent` objects and visualized in the timeline view.
 
-// List of paper titles that should appear in the timeline
-export const timelineTitles = [
-  "HELP ME",                 // Example placeholder title — will match any paper titled "HELP ME"
-  "Paper 2: Machine Learning", // Example of a real paper title
-  "Paper 3: Example",          // Another sample paper title
-  "HELP ME2",                  // Placeholder for testing / mock data
-  "HELP ME3",                  // Additional placeholder entry
-];
+import * as React from 'react';
+
+const listeners = new Set<React.Dispatch<React.SetStateAction<string[]>>>();
+let titles: string[] = [];
+/**
+ * React hook — components call this to get live timeline titles.
+ * Any call to setTimelineTitles() will notify all subscribers.
+ */
+export function timelineTitles(): string[] {
+  const [state, setState] = React.useState<string[]>(titles);
+
+  React.useEffect(() => {
+    listeners.add(setState);
+    return () => {
+      listeners.delete(setState);
+    };
+  }, []);
+
+  return state;
+}
+
+/** Imperative setter — call this after you fetch from your DB. */
+export function setTimelineTitles(next: string[]) {
+  titles = next.slice(); // copy to avoid external mutation
+  for (const notify of listeners) notify(titles);
+}
+
+/**
+ * Optional helper: pass in your async DB function that returns string[] titles.
+ * Example usage shown below.
+ */
+export async function refreshTimelineTitlesFromDb(
+  getTitles: () => Promise<string[]>
+) {
+  const next = await getTitles();
+  setTimelineTitles(next);
+}
