@@ -196,8 +196,6 @@ def get_or_fetch_metadata(url: str, timeout: float, user_agent: str, sleep_secs:
         meta = extract_metadata_pmc(html, timeout, user_agent, sleep_secs)
         if status != 200:
             print(f"Code: {status} for URL: {url}")
-        if sleep_secs > 0:
-            time.sleep(sleep_secs)
         return meta
     except Exception as e:
         print("definitiely not my prblem" + str(e))
