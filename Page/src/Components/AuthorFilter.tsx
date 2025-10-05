@@ -1,28 +1,56 @@
+// ===============================
+// AuthorFilter.tsx
+// -------------------------------
+// Component for selecting one or more authors from a list.
+// Allows searching by typing, shows suggestions, and manages selected authors as removable tags.
+// ===============================
+
 import React, { useState } from 'react';
 
+/**
+ * Props for the AuthorFilter component
+ * @property authors - Full list of available authors for suggestions
+ * @property selectedAuthors - Array of currently selected authors
+ * @property onChange - Callback fired when selected authors change
+ */
 interface AuthorFilterProps {
   authors: string[];
   selectedAuthors: string[];
   onChange: (authors: string[]) => void;
 }
 
+/**
+ * AuthorFilter Component
+ * ---------------------
+ * Renders a multi-select input with autocomplete functionality for authors.
+ * Selected authors are displayed as removable tags.
+ *
+ * Usage:
+ * <AuthorFilter
+ *   authors={allAuthors}
+ *   selectedAuthors={selectedAuthors}
+ *   onChange={setSelectedAuthors}
+ * />
+ */
 const AuthorFilter: React.FC<AuthorFilterProps> = ({
   authors,
   selectedAuthors,
   onChange,
 }) => {
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState(''); // Local state for current input text
 
-  // Filter suggestions based on input and already selected authors
+  // Filter suggestions based on input text and exclude already selected authors
   const suggestions = authors.filter(
     (a) => a.toLowerCase().includes(input.toLowerCase()) && !selectedAuthors.includes(a)
   );
 
+  // Add an author to the selectedAuthors array
   const addAuthor = (author: string) => {
-    onChange([...selectedAuthors, author]);
-    setInput('');
+    onChange([...selectedAuthors, author]); // Notify parent
+    setInput('');                            // Clear input
   };
 
+  // Remove an author from the selectedAuthors array
   const removeAuthor = (author: string) => {
     onChange(selectedAuthors.filter((a) => a !== author));
   };
@@ -35,10 +63,10 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
           <div
             key={author}
             style={{
-              backgroundColor: '#1976d2', // dark blue background
-              color: 'white',            // white text
+              backgroundColor: '#1976d2', // Dark blue background
+              color: 'white',             // White text for contrast
               padding: '4px 8px',
-              borderRadius: '12px',
+              borderRadius: '12px',       // Rounded tag
               display: 'flex',
               alignItems: 'center',
               gap: '4px',
@@ -46,6 +74,7 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
             }}
           >
             {author}
+            {/* Remove button for each selected author */}
             <button
               type="button"
               onClick={() => removeAuthor(author)}
@@ -54,7 +83,7 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
                 background: 'transparent',
                 cursor: 'pointer',
                 fontWeight: 'bold',
-                color: 'white', // ensure × is visible
+                color: 'white', // Ensure × is visible
                 lineHeight: 1,
               }}
             >
@@ -64,12 +93,12 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
         ))}
       </div>
 
-      {/* Input box */}
+      {/* Input box for typing author names */}
       <input
         type="text"
         placeholder="Search authors..."
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
+        value={input}                    // Controlled input
+        onChange={(e) => setInput(e.target.value)} // Update local input state
         style={{
           width: '100%',
           padding: '8px',
@@ -82,16 +111,16 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
       {input && suggestions.length > 0 && (
         <ul
           style={{
-            position: 'absolute',
+            position: 'absolute',    // Positioned below input
             top: '100%',
             left: 0,
             right: 0,
             background: 'white',
             border: '1px solid #ccc',
-            maxHeight: '150px',
-            overflowY: 'auto',
-            zIndex: 10,
-            listStyle: 'none',
+            maxHeight: '150px',      // Limit dropdown height
+            overflowY: 'auto',       // Scroll if content exceeds height
+            zIndex: 10,              // Ensure it appears above other elements
+            listStyle: 'none',       // Remove bullets
             margin: 0,
             padding: 0,
           }}
@@ -99,7 +128,7 @@ const AuthorFilter: React.FC<AuthorFilterProps> = ({
           {suggestions.map((author) => (
             <li
               key={author}
-              onClick={() => addAuthor(author)}
+              onClick={() => addAuthor(author)} // Add author on click
               style={{
                 padding: '8px',
                 cursor: 'pointer',

@@ -1,13 +1,32 @@
+/* ===========================
+   Base Styling for Title Boxes
+   =========================== */
 .pane-title {
-  background-color: #007acc; /* default background, can override with additional classes */
-  color: #fff;
-  padding: 6px 12px;
-  font-weight: bold;
-  font-size: 14px;
-  border-bottom: 1px solid #ccc;
-  user-select: none;
+  background-color: #007acc; /* Default blue background (used if no specific class is provided) */
+  color: #fff;               /* White text for clear contrast on darker backgrounds */
+  padding: 6px 12px;         /* Horizontal and vertical spacing for balanced layout */
+  font-weight: bold;         /* Makes titles stand out visually */
+  font-size: 14px;           /* Compact but readable font size */
+  border-bottom: 1px solid #ccc; /* Subtle separator to distinguish title from panel content */
+  user-select: none;         /* Prevents accidental text selection when clicking or dragging */
 }
 
-.pane-title.navigation { background-color: #007acc; }
-.pane-title.main { background-color: #28a745; }
-.pane-title.sidebar { background-color: #ffc107; color: #000; }
+/* ===========================
+   Color Variants by Pane Type
+   =========================== */
+
+/* Navigation Pane: standard blue — same as default */
+.pane-title.navigation {
+  background-color: #007acc;
+}
+
+/* Main Pane: green — visually emphasizes primary content area */
+.pane-title.main {
+  background-color: #28a745;
+}
+
+/* Sidebar Pane: yellow — distinct and attention-catching, with dark text for contrast */
+.pane-title.sidebar {
+  background-color: #ffc107;
+  color: #000; /* Ensures high readability on a light background */
+}

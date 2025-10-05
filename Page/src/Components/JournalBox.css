@@ -1,22 +1,31 @@
+/* ================================
+   Container for a single paper
+   ================================ */
 .paper-box {
-  background-color: #3b3b3b;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 12px;
-  margin-top: 6px;
+  background-color: #3b3b3b;        /* Dark gray background for contrast */
+  border: 1px solid #ccc;           /* Light border for separation from other boxes */
+  border-radius: 4px;               /* Slightly rounded corners for aesthetics */
+  padding: 12px;                     /* Inner spacing around content */
+  margin-top: 6px;                   /* Vertical spacing between boxes */
   margin-bottom: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+/* ================================
+   Paper Title
+   ================================ */
 .paper-title {
-  margin: 0 0 6px 0;
-  font-size: 16px;
-  font-weight: bold;
+  margin: 0 0 6px 0;               /* Remove top margin, small bottom margin for spacing */
+  font-size: 16px;                 /* Slightly larger font for prominence */
+  font-weight: bold;                /* Bold to emphasize title */
 }
 
+/* ================================
+   Authors, Keywords, Abstract
+   ================================ */
 .paper-authors,
 .paper-keywords,
 .paper-abstract {
-  margin: 2px 0;
-  font-size: 14px;
+  margin: 2px 0;                   /* Minimal vertical spacing between elements */
+  font-size: 14px;                 /* Slightly smaller than title for hierarchy */
 }
