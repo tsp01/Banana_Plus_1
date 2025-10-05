@@ -132,6 +132,7 @@ def build(src_db_path: str = "studies.db", out_db_path: str = "studies_abstracts
                 "INSERT OR REPLACE INTO studies_abstracts (id, url, title, abstract, hash) VALUES (?, ?, ?, ?, ?);",
                 (sid, link, title, abstract, hash_val),
             )
+            print(f"Processed ID {sid}: '{title[:50]}'")
             inserted += 1
             if inserted % 50 == 0:
                 out.commit()
