@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
+// src/Components/VerticalTimeline.tsx
+import React, { useState, useEffect, useRef } from 'react';
 import JournalBox from './JournalBox';
 import type { PaperBoxProps } from './JournalBox';
 import './VerticalTimeline.css';
@@ -14,30 +15,34 @@ interface VerticalTimelineProps {
 
 const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
   const [hoveredEvent, setHoveredEvent] = useState<TimelineEvent | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
   const [topPositions, setTopPositions] = useState<number[]>([]);
+  const [containerHeight, setContainerHeight] = useState(400);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  if (events.length === 0) return null;
-
-  const sortedEvents = [...events].sort((a, b) => a.date.getTime() - b.date.getTime());
-  const firstDate = sortedEvents[0].date.getTime();
-  const lastDate = sortedEvents[sortedEvents.length - 1].date.getTime();
-  const totalRange = lastDate - firstDate || 1;
-
-  const MIN_SPACING = 40; // pixels
-  const BASE_HEIGHT = 400; // minimum container height
-  const EXTRA_HEIGHT_PER_NODE = 20; // extra per node if many
-
+  // Always run hooks first
   useEffect(() => {
-    if (!containerRef.current) return;
+    if (!events.length) {
+      setTopPositions([]);
+      setContainerHeight(400);
+      return;
+    }
 
-    // Compute ideal height (without changing ref inside the loop)
+    const sortedEvents = [...events].sort(
+      (a, b) => a.date.getTime() - b.date.getTime()
+    );
+    const firstDate = sortedEvents[0].date.getTime();
+    const lastDate = sortedEvents[sortedEvents.length - 1].date.getTime();
+    const totalRange = lastDate - firstDate || 1;
+
+    const MIN_SPACING = 40;
+    const BASE_HEIGHT = 400;
+    const EXTRA_HEIGHT_PER_NODE = 20;
+
     const idealHeight = Math.max(
       BASE_HEIGHT,
       sortedEvents.length * (MIN_SPACING + EXTRA_HEIGHT_PER_NODE)
     );
 
-    // Compute top positions dynamically
     let lastTop = -Infinity;
     const positions: number[] = [];
 
@@ -49,17 +54,28 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
     });
 
     setTopPositions(positions);
+    setContainerHeight(idealHeight);
+  }, [events]);
 
-    // Apply height **once**, outside of state update
-    containerRef.current.style.height = `${idealHeight}px`;
+  if (!events.length) return (
+    <div className="vertical-timeline-container empty" style={{ height: containerHeight }}>
+      No timeline events
+    </div>
+  );
 
-  }, [events]); // ✅ Only re-run when `events` change
+  const sortedEvents = [...events].sort(
+    (a, b) => a.date.getTime() - b.date.getTime()
+  );
 
   return (
-    <div className="vertical-timeline-container" ref={containerRef}>
+    <div
+      className="vertical-timeline-container"
+      ref={containerRef}
+      style={{ height: containerHeight }}
+    >
       {sortedEvents.map((event, index) => {
         const top = topPositions[index] ?? 0;
-        const nodeSize = 12 + (event.citations ?? 1) * 2;
+        const nodeSize = Math.min(12 + (event.citations ?? 1) * 2, 40);
 
         return (
           <div
@@ -74,12 +90,12 @@ const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) => {
               style={{
                 width: `${nodeSize}px`,
                 height: `${nodeSize}px`,
-                position: 'absolute',
-                left: '50%',
-                transform: 'translateX(-50%)',
               }}
             />
-            <div className="timeline-label">
+            <div
+              className="timeline-label"
+              style={{ marginTop: `${nodeSize / 2 + 4}px` }}
+            >
               {event.authors} ({event.date.getFullYear()})
             </div>
           </div>
