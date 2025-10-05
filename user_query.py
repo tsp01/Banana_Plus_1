@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 from sim_search import search
+# from summary import time_summary
 
 app = FastAPI()
 
@@ -21,6 +22,8 @@ class SearchRequest(BaseModel):
     k: Optional[int] = None
     threshold: Optional[float] = 0.5
 
+class SummaryRequest(BaseModel):
+    title_list: List[str]
 
 @app.post("/search", response_model=List[str])
 def do_search(req: SearchRequest):
@@ -30,6 +33,9 @@ def do_search(req: SearchRequest):
         return ["No results found."]
     return titles
 
+# @app.post("/summary")
+# def get_summary(req: SummaryRequest):
+#     result = time_summary(req.titles)
 
 if __name__ == "__main__":
     import uvicorn
