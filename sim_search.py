@@ -23,22 +23,22 @@ def load_rows(db_path: str = DB_PATH) -> List[Dict[str, Any]]:
 	return rows
 
 
-def ensure_embeddings(rows: List[Dict[str, Any]], model_name: str = MODEL_NAME, cache_path: str = EMBED_CACHE):
+def ensure_embeddings(rows, model_name: str = MODEL_NAME, cache_path: str = EMBED_CACHE):
+    if os.path.exists(cache_path):
+        with open(cache_path, "rb") as f:
+            data = pickle.load(f)
+        if len(data["rows"]) == len(rows):
+            return data["embeddings"], data["rows"]
 
-	if os.path.exists(cache_path):
-		with open(cache_path, "rb") as f:
-			data = pickle.load(f)
-		if len(data["rows"]) == len(rows):
-			return data["embeddings"], [r["id"] for r in data["rows"]], data["rows"]
+    model = SentenceTransformer(model_name)
+    texts = [((r.get("title") or "") + "\n" + (r.get("abstract") or "")).strip() for r in rows]
+    embeddings = model.encode(texts, show_progress_bar=True, convert_to_numpy=True)
 
-	model = SentenceTransformer(model_name)
-	texts = [((r.get("title") or "") + "\n" + (r.get("abstract") or "")).strip() for r in rows]
-	embeddings = model.encode(texts, show_progress_bar=True, convert_to_numpy=True)
+    with open(cache_path, "wb") as f:
+        pickle.dump({"rows": rows, "embeddings": embeddings}, f)
 
-	with open(cache_path, "wb") as f:
-		pickle.dump({"rows": rows, "embeddings": embeddings}, f)
+    return embeddings, rows
 
-	return embeddings, rows
 
 
 def build_faiss_index(embeddings: np.ndarray, index_path: str = INDEX_PATH):
